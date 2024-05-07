@@ -58,7 +58,8 @@ public class Define
     public enum AttackType
     {
         Meele,
-        Arange
+        Arange,
+        Both
     }
     public enum MovemnetType
     {

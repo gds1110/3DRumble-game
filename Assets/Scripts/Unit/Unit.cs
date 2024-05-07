@@ -12,7 +12,9 @@ public class Unit : MonoBehaviour
     public Define.MovemnetType _movementType;
     public Define.MovemnetType _targetMovementType;
     public Define.UnitElementalType _unitElementalType;
-    public string _name ;
+    public string _name;
+    public string DisplayName;
+
     public float _attackDelay; //time between attack
     public float _attackRange;
     public int _damage;
@@ -20,15 +22,13 @@ public class Unit : MonoBehaviour
     public float _life;
     public float _defense;
     public float _scanRange;
-
-
+    public bool _isSplitAttackAnim = false;
+    public float _attackTiming;
     public float _currentLife;
 
     public Define.WorldObject _worldObject;
 
     public UnitController _controller;
-
-    public Projectile _bullet;
 
     public void SetData()
     {
@@ -46,6 +46,8 @@ public class Unit : MonoBehaviour
         _movementType = unitData._movementType;
         _targetMovementType = unitData._targetMovementType;
         _unityType = unitData._UnitType;
+        _isSplitAttackAnim = unitData._isSplitAttackAnim;
+        _attackTiming = unitData._attackTiming;
         _controller = GetComponent<UnitController>();
     }
     private void Awake()

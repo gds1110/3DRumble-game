@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
   m_Name: BoneDragon
   m_EditorClassIdentifier: 
-  Name: "\uBCF8\uB4DC\uB798\uACE4"
+  Name: BoneDragon
+  DisplayName: "\uBCF8 \uB4DC\uB798\uACE4"
   FriendlyUnit: {fileID: 0}
   HostileUnit: {fileID: 0}
   UnitPortrait: {fileID: 0}
@@ -23,10 +24,11 @@ MonoBehaviour:
   _targetType: 2
   _UnitType: 0
   _elementalType: 2
-  _attackRatio: 1
+  _attackRatio: 4
   _attackRange: 20
   _speed: 5
   _scanRange: 20
   _damage: 2
   _life: 10
   _defense: 10
+  _isSplitAttackAnim: 0

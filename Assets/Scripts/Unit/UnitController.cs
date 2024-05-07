@@ -10,7 +10,8 @@ using static UnityEngine.UI.GridLayoutGroup;
 [AddComponentMenu("My Unit/Unit Controller")]
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(CapsuleCollider))]
-[RequireComponent(typeof(Attack))]
+[RequireComponent(typeof(NavMeshAgent))]
+//[RequireComponent(typeof(Attack))]
 
 public class UnitController : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class UnitController : MonoBehaviour
     private readonly int _moveHash = Animator.StringToHash("WALK");
     private readonly int _deadHash = Animator.StringToHash("DEAD");
     private readonly int _idleHash = Animator.StringToHash("IDLE");
+    private readonly int _attackTrigger = Animator.StringToHash("ATTACKTRIGGER");
+
 
     [SerializeField] private Define.State _state= Define.State.Idle;
     Animator _anim;
@@ -34,6 +37,9 @@ public class UnitController : MonoBehaviour
     public bool _isDelay = false;
     [SerializeField]
     public Transform _destPos;
+
+    public MeeleAttack _meeleAttack;
+    public ArangeAttack _arangeAttack;
     public Define.State State { 
         get { return _state; }
         set { _state = value; 
@@ -49,7 +55,7 @@ public class UnitController : MonoBehaviour
                     _anim.CrossFade(_idleHash, 0.1f);
                     break;
                 case Define.State.Attack:
-                    _anim.CrossFade(_attackHash, 0.1f,-1,0);
+                    //_anim.CrossFade(_attackHash, 0.1f,-1,0);
                     break;
             }
 
@@ -57,13 +63,36 @@ public class UnitController : MonoBehaviour
 
     }
 
-    private void Start()
+    private void Awake()
     {
+
         _anim = GetComponent<Animator>();
         _unit = GetComponent<Unit>();
+    }
 
-
-       // Managers.UI.MakeWorldSpaceUI<UI_HpBar>(transform);
+    private void Start()
+    {
+        if (_unit._attackType == Define.AttackType.Both)
+        {
+            _arangeAttack = Util.GetOrAddComponent<ArangeAttack>(gameObject);
+            _meeleAttack = Util.GetOrAddComponent<MeeleAttack>(gameObject);
+        }
+        if(_unit._attackType==Define.AttackType.Meele&& _meeleAttack==null)
+        {
+            _meeleAttack = Util.GetOrAddComponent<MeeleAttack>(gameObject);
+        }
+        if (_unit._attackType==Define.AttackType.Arange&& _arangeAttack == null)
+        {
+            _arangeAttack = Util.GetOrAddComponent<ArangeAttack>(gameObject);
+        }
+        if (_unit._movementType == Define.MovemnetType.Aerial)
+        {
+            GetComponent<NavMeshAgent>().baseOffset = 2;
+        }
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.constraints=RigidbodyConstraints.FreezePositionX| RigidbodyConstraints.FreezePositionZ;
+        rb.constraints |= RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        // Managers.UI.MakeWorldSpaceUI<UI_HpBar>(transform);
     }
     private void Update()
     {
@@ -94,13 +123,14 @@ public class UnitController : MonoBehaviour
     }
     void UpdateMoving()
     {
+        NavMeshAgent nav = gameObject.GetOrAddComponent<NavMeshAgent>();
+        nav.isStopped = false;
         FindTarget();
         if(_target!=null)
         {
             float distance = new Vector2(_target.transform.position.x - transform.position.x, _target.transform.position.z - transform.position.z).magnitude;
             if(distance<_unit._attackRange)
             {
-                NavMeshAgent nav = gameObject.GetOrAddComponent<NavMeshAgent>();
                 nav.SetDestination(transform.position);
                 State = Define.State.Attack;
                 return;
@@ -108,14 +138,12 @@ public class UnitController : MonoBehaviour
             else
             {
                 Debug.Log("사정거리 밖");
-                NavMeshAgent nav = gameObject.GetOrAddComponent<NavMeshAgent>();
                 nav.SetDestination(_target.transform.position);
                
             }
         }
         else
         {
-            NavMeshAgent nav = gameObject.GetOrAddComponent<NavMeshAgent>();
             nav.SetDestination(_destPos.position);
             nav.speed = _unit._speed;
         }
@@ -135,21 +163,52 @@ public class UnitController : MonoBehaviour
             float distance = new Vector2(_target.transform.position.x - transform.position.x, _target.transform.position.z - transform.position.z).magnitude;
             if (distance < _unit._attackRange)
             {
+                NavMeshAgent nav = gameObject.GetOrAddComponent<NavMeshAgent>();
+                nav.isStopped = true;
                 transform.LookAt(_target.transform);
-               // StartCoroutine(CoAttack());
+     
                if(_isDelay==false)
                 {
-                    _anim.Play(_attackHash);
+                    SplitAnimAttack();
+                    //_anim.Play(_attackHash);
+
+
+              
+                    _anim.SetTrigger(_attackTrigger);
+                   // StartCoroutine((CoAttack(_unit._attackTiming)));
+                    StartCoroutine(CoAttackDelay(_unit._attackDelay));
+                    Debug.Log("공격입력");
+                    //애니메이션 이벤트에서 공격실행
+       
                 }
             }
             else
             {
+                _target = null;
+                
                 State = Define.State.Moving;
             }
         }
       
     }
-
+    public void SplitAnimAttack()
+    {
+        if (_unit._targetMovementType == Define.MovemnetType.Both && _unit._isSplitAttackAnim)
+        {
+            Unit tempUnit = _target.GetComponent<Unit>();
+            if (tempUnit != null)
+            {
+                if (tempUnit._movementType == Define.MovemnetType.Ground)
+                {
+                    _anim.SetFloat("IsAir", 0);
+                }
+                else
+                {
+                    _anim.SetFloat("IsAir", 1);
+                }
+            }
+        }
+    }
     private void OnDrawGizmos()
     {
 
@@ -169,55 +228,46 @@ public class UnitController : MonoBehaviour
         {
             return;
         }
+
         switch (_unit._attackType)
         {
             case Define.AttackType.Meele:
-                UnitController unitController = _target.GetComponent<UnitController>();
-                if (unitController != null)
-                {
-                    //Poolable poolable = Managers.Pool.PopAutoPush(_hitEffect, transform);
-                    //poolable.transform.position = _target.transform.position;
-                    unitController.TakeDamage(_unit._damage, _unit._unitElementalType);
-                }
+                _meeleAttack.DoAttack(_target);
                 break;
             case Define.AttackType.Arange:
-                //Projectile projectile = Instantiate(_unit._bullet,_barrel);
-                Projectile projectile = Managers.Pool.Pop(_unit._bullet.gameObject,_barrel).GetComponent<Projectile>();
-
-                if (projectile)
+                _arangeAttack.DoAttack(_target);
+                break;
+            case Define.AttackType.Both:
+                float distance = new Vector2(_target.transform.position.x - transform.position.x, _target.transform.position.z - transform.position.z).magnitude;
+                if(distance<=2.5f)
                 {
-                    projectile.transform.position = _barrel.transform.position;
-                    projectile.SetProjectileInfo(_target.transform, _unit._damage, _unit);
+                    _meeleAttack.DoAttack(_target);
+                }
+                else
+                {
+                    _arangeAttack.DoAttack(_target);
                 }
                 break;
         }
 
-        StartCoroutine(AttackDelay(_unit._attackDelay));
+
     }
-    IEnumerator AttackDelay(float delay)
+    IEnumerator CoAttackDelay(float delay)
     {
         _isDelay = true;
         yield return new WaitForSeconds(delay);
         _isDelay = false;
     }
-    IEnumerator CoAttack()
+    IEnumerator CoAttack(float timing = 0.2f)
     {
-
-        switch (_unit._attackType)
-        {
-            case Define.AttackType.Meele:
-                yield return new WaitForSeconds(0.5f);
-                break;
-            case Define.AttackType.Arange:
-                yield return new WaitForSeconds(0.2f);
-                Projectile projectile = Instantiate(_unit._bullet, this.transform, true);
-                projectile.SetProjectileInfo(_target.transform, _unit._damage, _unit);
-                break;
-        }
+        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(timing);
+        AttackToTarget();
     }
 
     void FindTarget()
     {
+
         if(_target!=null)
         {
             return;
@@ -240,7 +290,7 @@ public class UnitController : MonoBehaviour
         }
     }
 
-    bool CheckCanAttackType(Unit target)
+    public bool CheckCanAttackType(Unit target)
     {
 
         if(_unit._targetMovementType!=target._movementType&&_unit._targetMovementType != Define.MovemnetType.Both) return false;
@@ -250,7 +300,34 @@ public class UnitController : MonoBehaviour
 
     public void TakeDamage(int damage,Define.UnitElementalType type)
     {
+        if(damage<0)
+        {
+            damage = 1;
+        }
+
         Debug.Log("HitDamage");
         int trueDamage = Mathf.RoundToInt(damage);
     }
+    public void TakeDamage(int damage, UnitController fromUnit)
+    {
+        if (damage < 0)
+        {
+            damage = 1;
+        }
+        if(_target==null)
+        {
+            if(CheckCanAttackType(fromUnit._unit))
+            {
+                _target = fromUnit.gameObject;
+            }
+        }
+        float eleDamage = ElementalCalculate.GetMultiplier(fromUnit._unit._unitElementalType, _unit._unitElementalType);
+        Debug.Log("HitDamage");
+        int trueDamage = Mathf.RoundToInt(damage*eleDamage);
+        if(trueDamage<0)
+        {
+            trueDamage = 1;
+        }
+    }
+
 }

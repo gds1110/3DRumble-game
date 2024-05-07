@@ -3,79 +3,68 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+
+[RequireComponent(typeof(Rigidbody))]
+
 public class Projectile : MonoBehaviour
 {
-    Transform _target;
-    int _damage;
-    Unit _owner;
-    Define.UnitElementalType _type;
-    Rigidbody _rb;
-    bool _isMeele=true;
-    bool _isFollow = false;
-    [SerializeField]
-    float _speed=20f; 
-    [SerializeField]
-    float _rotateSpeed=5f;
+    protected Transform _target;
+    protected int _damage;
+    public UnitController _owner;
+    protected Define.UnitElementalType _type;
+    protected Rigidbody _rb;
+    public bool _isSplash;
+    public int _splashNum;
 
     public bool _isShoot=false;
 
     public GameObject _hitEffect;
+
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
     }
 
-   public void SetProjectileInfo(Transform target,int damage,Unit byUnit,bool isFollow=true)
-    {
-        _target= target;
-        _damage= damage;
-        _owner = byUnit;
-        _type = byUnit._unitElementalType;
-        _isFollow= isFollow;
-        _isMeele = false;
-        _isShoot = true;
-    }
-    public void FixedUpdate()
-    {
-        if (_isFollow == false)
-            return;
-        if(_target == null) 
-            return;
-        if (_isShoot == false)
-            return;
-        Vector3 dir = (_target.position - transform.position).normalized;
-        Vector3 rotationAmount = Vector3.Cross(transform.forward, dir);
-        _rb.angularVelocity = rotationAmount * _rotateSpeed;   
-        _rb.velocity = transform.forward * _speed;   
-    }
 
-    private void OnTriggerEnter(Collider other)
+    public virtual void SetProjectileInfo(Transform target, int damage, UnitController byUnit, Attack byAttack, bool isFollow = true) { }
+   
+
+   public virtual void Clear()
     {
-        if (other.gameObject.transform == _target)
+        StopAllCoroutines();
+        _target = null;
+        _hitEffect = null;
+    }
+    public virtual void SplashDamage(Collider other)
+    {
+        int splashNum = 0;
+
+        Collider[] hitCols = Physics.OverlapSphere(gameObject.transform.position, 2.0f, 1 << 3);
+        for (int i = 0; i < hitCols.Length; i++)
         {
-            //Vector3 norm = Vector3.Normalize(gameObject.transform.position - other.transform.position);
-            //Managers.Effect.PlayEffect(_hitEffect, other.transform.position, norm);
-
-            Poolable poolable =  Managers.Pool.PopAutoPush(_hitEffect,_owner.transform);
-            poolable.transform.position = _target.position;
-
-            UnitController unit = _target.GetComponent<UnitController>();
-            unit.TakeDamage(_damage, _owner._unitElementalType);
-
-            if (_isMeele == false)
+            if (hitCols[i].gameObject == other.gameObject)
             {
-                Poolable thisPool = GetComponent<Poolable>();
-                if (thisPool != null)
+                continue;
+            }
+
+            UnitController targetUnit = hitCols[i].GetComponent<UnitController>();
+            if (targetUnit && _owner.CheckCanAttackType(targetUnit._unit))
+            {
+                targetUnit.TakeDamage((int)(_damage * 0.5f), _owner);
+                if (_hitEffect)
                 {
-                    Managers.Pool.Push(thisPool);
+                    Poolable poolable = Managers.Pool.PopAutoPush(_hitEffect, _owner.transform);
+                    poolable.transform.position = hitCols[i].transform.position;
                 }
-                else
+                splashNum++;
+                if (splashNum >= _splashNum)
                 {
-                    Destroy(gameObject);
+                    break;
                 }
             }
-        }
-    }
 
+        }
+
+    }
 }

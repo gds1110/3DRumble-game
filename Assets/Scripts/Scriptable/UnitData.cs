@@ -7,6 +7,7 @@ public class UnitData : ScriptableObject
 {
     [Header("Common")]
     public string Name;
+    public string DisplayName;
     public GameObject FriendlyUnit; // 快龋利牢
     public GameObject HostileUnit; // 利措利牢
     public Sprite UnitPortrait;
@@ -18,6 +19,7 @@ public class UnitData : ScriptableObject
     public Define.TargetType _targetType = Define.TargetType.Both;
     public Define.TargetType _UnitType = Define.TargetType.Unit;
     public Define.UnitElementalType _elementalType = Define.UnitElementalType.Normal;
+    [Header("UnitVariable")]
     public float _attackRatio=1f; //time between attack
     public float _attackRange = 1f;
     public float _speed = 5f;
@@ -25,4 +27,6 @@ public class UnitData : ScriptableObject
     public int _damage = 2;
     public int _life = 10;
     public int _defense = 10;
+    public bool _isSplitAttackAnim = false;
+    public float _attackTiming = 0.2f;
 }
