@@ -41,10 +41,12 @@ public class ArangeBullet : Projectile
             return;
         if (_isShoot == false)
             return;
-        Vector3 dir = (_target.position - transform.position).normalized;
-        Vector3 rotationAmount = Vector3.Cross(transform.forward, dir);
-        _rb.angularVelocity = rotationAmount * _rotateSpeed;
-        _rb.velocity = transform.forward * _speed;
+        //Vector3 dir = (_target.position - transform.position).normalized;
+        //Vector3 rotationAmount = Vector3.Cross(transform.forward, dir);
+        //_rb.angularVelocity = rotationAmount * _rotateSpeed;
+        //_rb.velocity = transform.forward * _speed;
+
+        transform.position = Vector3.Lerp(transform.position, _target.position, _speed*Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)

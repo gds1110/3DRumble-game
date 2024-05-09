@@ -10,7 +10,7 @@ public class UnitData : ScriptableObject
     public string DisplayName;
     public GameObject FriendlyUnit; // 快龋利牢
     public GameObject HostileUnit; // 利措利牢
-    public Sprite UnitPortrait;
+    public Texture2D UnitPortrait;
     public int cost;
     [Header("Unit")]
     public Define.AttackType _attackType = Define.AttackType.Meele;

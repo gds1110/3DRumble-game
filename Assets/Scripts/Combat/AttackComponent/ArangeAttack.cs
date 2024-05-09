@@ -18,6 +18,24 @@ public class ArangeAttack : Attack
             _Barrel.position = transform.position + gameObject.transform.forward * 1.5f + (transform.up * 1.5f); ;
             _Barrel.SetParent(transform);
         }
+        if(_bullet==null)
+        {
+            _bullet = Managers.Resource.Instantiate("Projectile/DefaultPR");
+        }
+        if(_hitEffect==null)
+        {
+            _hitEffect = Managers.Resource.Load<GameObject>("Prefabs/HitEffect/DefaultHE");
+        }
+
+        if(_bullet==null)
+        {
+            Debug.Log("NoBullet");
+        } 
+        if(_hitEffect == null)
+        {
+            Debug.Log("NoHiteffect");
+        }
+
     }
     public override void DoAttack(GameObject target)
     {

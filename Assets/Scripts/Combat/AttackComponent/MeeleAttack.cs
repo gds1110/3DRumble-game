@@ -18,6 +18,12 @@ public class MeeleAttack : Attack
             _hitEffect = Managers.Resource.Load<GameObject>("Prefabs/HitEffect/" + hitEffectName);
             Debug.Log(hitEffectName);
         }
+        if(_hitEffect==null)
+        {
+         
+            _hitEffect = Managers.Resource.Load<GameObject>("Prefabs/HitEffect/DefaultHE");
+          
+        }
         
     }
 

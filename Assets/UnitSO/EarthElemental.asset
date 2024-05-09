@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
+  m_Name: EarthElemental
+  m_EditorClassIdentifier: 
+  Name: EarthElemental
+  DisplayName: "\uB300\uC9C0\uC815\uB839"
+  FriendlyUnit: {fileID: 1627921743102541850, guid: 04f1b06f97844354fa4951676af319e1, type: 3}
+  HostileUnit: {fileID: 1627921743102541850, guid: 04f1b06f97844354fa4951676af319e1, type: 3}
+  UnitPortrait: {fileID: 2800000, guid: 32f0e84750690b14087575d473da5d61, type: 3}
+  cost: 5
+  _attackType: 0
+  _movementType: 0
+  _targetMovementType: 0
+  _targetType: 2
+  _UnitType: 0
+  _elementalType: 2
+  _attackRatio: 2
+  _attackRange: 5
+  _speed: 5
+  _scanRange: 10
+  _damage: 20
+  _life: 150
+  _defense: 30
+  _isSplitAttackAnim: 0
+  _attackTiming: 0.2

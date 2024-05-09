@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
+  m_Name: Imp
+  m_EditorClassIdentifier: 
+  Name: Imp
+  DisplayName: "\uC784\uD504"
+  FriendlyUnit: {fileID: 2809857456937018350, guid: c05a6c4a645488e4b843a42a41e85cbb, type: 3}
+  HostileUnit: {fileID: 2809857456937018350, guid: c05a6c4a645488e4b843a42a41e85cbb, type: 3}
+  UnitPortrait: {fileID: 2800000, guid: 618585d52dfa8b94f8f4eff0a25015a5, type: 3}
+  cost: 3
+  _attackType: 0
+  _movementType: 0
+  _targetMovementType: 0
+  _targetType: 0
+  _UnitType: 0
+  _elementalType: 4
+  _attackRatio: 1
+  _attackRange: 4
+  _speed: 25
+  _scanRange: 10
+  _damage: 10
+  _life: 50
+  _defense: 10
+  _isSplitAttackAnim: 1
+  _attackTiming: 0.2

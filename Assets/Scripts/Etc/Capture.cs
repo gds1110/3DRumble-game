@@ -32,13 +32,20 @@ public class Capture : MonoBehaviour
 
     public GameObject[] _objs;
     public int _nowCount;
+    public GameObject currentGo;
+    public Transform CapObjs;
     // Start is called before the first frame update
     void Start()
     {
         _cam = Camera.main;
-        SettingColor();
+        //SettingColor();
         SettingSize();
      
+    }
+    private void Update()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void Create()
@@ -59,9 +66,35 @@ public class Capture : MonoBehaviour
         RenderTexture.active = _rt;
         tex.ReadPixels(new Rect(0, 0, _rt.width, _rt.height), 0, 0);
         yield return null;
-
         var data = tex.EncodeToPNG();
-        string name = "Thumbnail";
+        string name;
+        if (currentGo!=null)
+        {
+
+            name = currentGo.name+"Thumbnail";
+        }
+        else
+        {
+
+             name = "Thumbnail";
+        }
+
+
+        Transform[] childTrans = CapObjs.GetComponentsInChildren<Transform>();
+
+        foreach(Transform t in childTrans)
+        {
+
+            if(t.gameObject.activeSelf&&t!=CapObjs)
+            {
+                
+                name = t.name + "Thumbnail";
+                Debug.Log(name);
+                break;
+            }
+
+        }
+
         string extention = ".png";
         string path = Application.persistentDataPath+ "/Thumbnail/";
 

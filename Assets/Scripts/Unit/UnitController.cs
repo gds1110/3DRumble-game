@@ -89,6 +89,8 @@ public class UnitController : MonoBehaviour
         {
             GetComponent<NavMeshAgent>().baseOffset = 2;
         }
+        CapsuleCollider cp = GetComponent<CapsuleCollider>();
+        cp.isTrigger = true;
         Rigidbody rb = GetComponent<Rigidbody>();
         rb.constraints=RigidbodyConstraints.FreezePositionX| RigidbodyConstraints.FreezePositionZ;
         rb.constraints |= RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;

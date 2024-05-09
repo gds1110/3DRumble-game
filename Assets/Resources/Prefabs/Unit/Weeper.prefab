@@ -1,0 +1,4955 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &65193219756504827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7535765474603581834}
+  m_Layer: 3
+  m_Name: WeeperHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7535765474603581834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65193219756504827}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.19943084, y: -0.000000022725414, z: 0.0000000046250284, w: 0.9799119}
+  m_LocalPosition: {x: -0, y: 0.000000076293944, z: 0.08561111}
+  m_LocalScale: {x: 0.99999994, y: 1.0000013, z: 0.99999934}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 802144848371622018}
+  - {fileID: 6074294096586149367}
+  - {fileID: 2289015181176912791}
+  - {fileID: 4903251065280104904}
+  - {fileID: 373323005342338031}
+  - {fileID: 58532380535453478}
+  - {fileID: 8358925572329673316}
+  - {fileID: 270421549233616985}
+  - {fileID: 3197349645724409266}
+  - {fileID: 4866788455386409216}
+  - {fileID: 1295185470280763396}
+  m_Father: {fileID: 3576168956599092369}
+  m_LocalEulerAnglesHint: {x: 10.151003, y: -0.8017635, z: 12.085758}
+--- !u!1 &100127716088618746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8333283996127354403}
+  m_Layer: 3
+  m_Name: WeeperRThigh1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8333283996127354403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100127716088618746}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.05176324, y: 0.9983009, z: 0.003439709, w: -0.026534725}
+  m_LocalPosition: {x: -0.14037824, y: -0.014635233, z: -0.06250389}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6172673425453452822}
+  m_Father: {fileID: 8441975567785900489}
+  m_LocalEulerAnglesHint: {x: 8.092139, y: -175.44539, z: -11.048473}
+--- !u!1 &159746979304341263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7053987346427104308}
+  m_Layer: 3
+  m_Name: WeeperRForearm3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7053987346427104308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159746979304341263}
+  serializedVersion: 2
+  m_LocalRotation: {x: 2.047532e-10, y: 0.0000000018550137, z: -0.047496583, w: 0.99887145}
+  m_LocalPosition: {x: -0, y: -0.000000019073486, z: 0.10382309}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5258475865436634167}
+  m_Father: {fileID: 1895757230188901325}
+  m_LocalEulerAnglesHint: {x: -0.0000066486064, y: 0.0000025574664, z: -4.982535}
+--- !u!1 &163796158071934389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3092437286571815810}
+  m_Layer: 3
+  m_Name: WeeperLFingerIndexL3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3092437286571815810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163796158071934389}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.21338946, y: -0.00000058666365, z: 0.00000021202744, w: 0.9769673}
+  m_LocalPosition: {x: 0.000000019073486, y: 0, z: 0.029011192}
+  m_LocalScale: {x: 1.0000043, y: 1.0000048, z: 0.9999919}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8292826250950422620}
+  m_LocalEulerAnglesHint: {x: 24.650171, y: -0.00006115324, z: 0.000004236228}
+--- !u!1 &300830565717198950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6847772101352903786}
+  m_Layer: 3
+  m_Name: RobeSkirt036
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6847772101352903786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300830565717198950}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.054251757, y: 0.046966467, z: 0.98607844, w: 0.15000057}
+  m_LocalPosition: {x: 0.040080465, y: -0.061385162, z: -0.6633794}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -26.753546, y: -10.0668335, z: 176.7888}
+--- !u!1 &315116751697851315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6108527311812073773}
+  m_Layer: 3
+  m_Name: WeeperRToe11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6108527311812073773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315116751697851315}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2822567, y: 0.03228269, z: -0.10850833, w: 0.95263577}
+  m_LocalPosition: {x: -0.000007762908, y: 0.00006622314, z: 0.20006433}
+  m_LocalScale: {x: 1, y: 0.9999995, z: 1.0000005}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8720734845891385034}
+  m_LocalEulerAnglesHint: {x: -34.118584, y: 8.571888, z: -15.75912}
+--- !u!1 &320495095023267121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1456125914945466720}
+  m_Layer: 3
+  m_Name: WeeperRFingerR3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1456125914945466720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320495095023267121}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.21964082, y: 0.0000005357286, z: -0.00000024089704, w: 0.9755808}
+  m_LocalPosition: {x: -0, y: 0, z: 0.026541328}
+  m_LocalScale: {x: 1, y: 1.0000038, z: 0.99999243}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2827706638655673372}
+  m_LocalEulerAnglesHint: {x: 25.375687, y: 0.000106643776, z: -0.000006057264}
+--- !u!1 &473651320207153246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2275611507571391301}
+  m_Layer: 3
+  m_Name: RobeSkirt065
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2275611507571391301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473651320207153246}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.4495182, y: -0.5821007, z: 0.33202156, w: 0.5906385}
+  m_LocalPosition: {x: -0.25753272, y: 0.11891712, z: -0.50191015}
+  m_LocalScale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 42.164402, y: -86.65853, z: -14.72589}
+--- !u!1 &528858395826815890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 493454658952958872}
+  - component: {fileID: 7768411001744023389}
+  m_Layer: 3
+  m_Name: Cawl_LP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &493454658952958872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528858395826815890}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3180436746403043868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &7768411001744023389
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528858395826815890}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f52e37ac5cc1e4eee85c91e7e6d5849c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4613422143053788166, guid: ee7a3e3e7834a4209b5deb0d953485f5, type: 3}
+  m_Bones:
+  - {fileID: 1863182138080966063}
+  - {fileID: 6176849023821103648}
+  - {fileID: 43958588208344171}
+  - {fileID: 1481235737865251432}
+  - {fileID: 8712183294847193298}
+  - {fileID: 5932514093316472762}
+  - {fileID: 1600041961421475196}
+  - {fileID: 2192942482294198221}
+  - {fileID: 1011129039475670124}
+  - {fileID: 9049862959422797227}
+  - {fileID: 4832912718401974374}
+  - {fileID: 6308483282629911688}
+  - {fileID: 1895757230188901325}
+  - {fileID: 3576168956599092369}
+  - {fileID: 7535765474603581834}
+  - {fileID: 3197349645724409266}
+  - {fileID: 3439940627015513550}
+  - {fileID: 8078680446254119192}
+  - {fileID: 802144848371622018}
+  - {fileID: 6074294096586149367}
+  - {fileID: 2289015181176912791}
+  - {fileID: 4866788455386409216}
+  - {fileID: 8358925572329673316}
+  - {fileID: 4903251065280104904}
+  - {fileID: 373323005342338031}
+  - {fileID: 58532380535453478}
+  - {fileID: 270421549233616985}
+  - {fileID: 1295185470280763396}
+  - {fileID: 5692122249513722261}
+  m_BlendShapeWeights:
+  - 0
+  - -0
+  - 0
+  m_RootBone: {fileID: 1863182138080966063}
+  m_AABB:
+    m_Center: {x: -0.001976341, y: 0.050976068, z: 0.53352183}
+    m_Extent: {x: 0.33274814, y: 0.34226203, z: 0.43131745}
+  m_DirtyAABB: 0
+--- !u!1 &567333696176900141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3846957197738055792}
+  m_Layer: 3
+  m_Name: WeeperRThumbR1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3846957197738055792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567333696176900141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17923497, y: -0.20424871, z: 0.0821984, w: 0.95885384}
+  m_LocalPosition: {x: -0.0282341, y: -0.028592223, z: 0.034155272}
+  m_LocalScale: {x: 1.0000013, y: 1.0000015, z: 0.9999931}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6461443015917090797}
+  m_Father: {fileID: 5258475865436634167}
+  m_LocalEulerAnglesHint: {x: 22.166222, y: -23.024855, z: 5.229969}
+--- !u!1 &634759605781640623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419706221632488382}
+  m_Layer: 3
+  m_Name: RobeSkirt047
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419706221632488382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634759605781640623}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.71303666, y: 0.12198221, z: 0.6899093, w: -0.02691218}
+  m_LocalPosition: {x: -0.13325387, y: -0.19992903, z: -0.5837891}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 30.335373, y: 89.68056, z: 158.97409}
+--- !u!1 &949233715831951768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6172673425453452822}
+  m_Layer: 3
+  m_Name: WeeperRThigh2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6172673425453452822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949233715831951768}
+  serializedVersion: 2
+  m_LocalRotation: {x: -3.6760664e-10, y: 0.0000000037362415, z: -0.026278172, w: 0.9996547}
+  m_LocalPosition: {x: -0, y: 0, z: 0.21815391}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3458704907017660190}
+  m_Father: {fileID: 8333283996127354403}
+  m_LocalEulerAnglesHint: {x: 0.0000014613257, y: -0.00000012498231, z: 0.7281677}
+--- !u!1 &957425236348480814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5663528669516754090}
+  m_Layer: 3
+  m_Name: RobeSkirt008
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5663528669516754090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957425236348480814}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.18631724, y: 0.6808949, z: -0.098045535, w: 0.7014664}
+  m_LocalPosition: {x: 0.1358183, y: 0.21570495, z: -0.52297723}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -52.857586, y: 94.389465, z: -2.8556044}
+--- !u!1 &975284683087821435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4832912718401974374}
+  m_Layer: 3
+  m_Name: WeeperRUpperarm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4832912718401974374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975284683087821435}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.049775794, w: 0.9987604}
+  m_LocalPosition: {x: -0.00000015258789, y: 0, z: 0.12071892}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6308483282629911688}
+  m_Father: {fileID: 9049862959422797227}
+  m_LocalEulerAnglesHint: {x: 0.0000050000504, y: -0.00000069110683, z: 5.708086}
+--- !u!1 &1043749201768185628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6461443015917090797}
+  m_Layer: 3
+  m_Name: WeeperRThumbR2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6461443015917090797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043749201768185628}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000011543859, y: 0.06805821, z: 0.000000059336255, w: 0.9976814}
+  m_LocalPosition: {x: -0, y: 0, z: 0.03765514}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.9999959}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2445028717839921829}
+  m_Father: {fileID: 3846957197738055792}
+  m_LocalEulerAnglesHint: {x: 0.000018690662, y: 7.804986, z: -0.00000997033}
+--- !u!1 &1078545359902477564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 454641965686426080}
+  m_Layer: 3
+  m_Name: RobeSkirt028
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454641965686426080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078545359902477564}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.67065406, y: 0.24582134, z: 0.6718963, w: -0.19583271}
+  m_LocalPosition: {x: 0.20699695, y: -0.18669286, z: -0.55156404}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -67.69662, y: 115.261505, z: 156.66618}
+--- !u!1 &1126740797270155829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5258475865436634167}
+  m_Layer: 3
+  m_Name: WeeperRPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5258475865436634167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126740797270155829}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.016550472, y: -0.02514791, z: -0.72465, w: 0.6884592}
+  m_LocalPosition: {x: -0, y: 0.000000009536743, z: 0.103823125}
+  m_LocalScale: {x: 0.99999917, y: 1.0000062, z: 0.9999962}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2403734637308049138}
+  - {fileID: 1541224943834840781}
+  - {fileID: 2517173152456983383}
+  - {fileID: 6463003161436312117}
+  - {fileID: 302086690215530601}
+  - {fileID: 3846957197738055792}
+  m_Father: {fileID: 7053987346427104308}
+  m_LocalEulerAnglesHint: {x: -4.04338, y: -10.075842, z: -92.17525}
+--- !u!1 &1183958784797027078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6335612990398371993}
+  m_Layer: 3
+  m_Name: RobeSkirt067
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6335612990398371993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183958784797027078}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.30754545, y: 0.6453664, z: 0.28839153, w: 0.63698375}
+  m_LocalPosition: {x: -0.2526982, y: 0.078018256, z: -0.10728264}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999976}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -42.607494, y: 89.68667, z: 4.573126}
+--- !u!1 &1236461745590621523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737490892681004582}
+  m_Layer: 3
+  m_Name: RobeSkirt038
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737490892681004582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236461745590621523}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7111954, y: -0.053836692, z: -0.6885028, w: -0.13140246}
+  m_LocalPosition: {x: 0.013245187, y: -0.06208163, z: -0.36342207}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -1.7604365, y: -94.60192, z: -165.40938}
+--- !u!1 &1389794977116993121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 43958588208344171}
+  m_Layer: 3
+  m_Name: WeeperSpine3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &43958588208344171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389794977116993121}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.09369454, y: 0.000000111546214, z: -0.000000079615745, w: 0.995601}
+  m_LocalPosition: {x: -6.0323146e-10, y: -0.000726037, z: 0.15061836}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4346972524132507823}
+  m_Father: {fileID: 6176849023821103648}
+  m_LocalEulerAnglesHint: {x: 0.49367526, y: 0.55527925, z: 0.368134}
+--- !u!1 &1582979525114842263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 302086690215530601}
+  m_Layer: 3
+  m_Name: WeeperRFingerRingR1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &302086690215530601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582979525114842263}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.15269458, y: 0.09008671, z: 0.0438255, w: 0.98318267}
+  m_LocalPosition: {x: 0.023632783, y: -0.0038983154, z: 0.103479914}
+  m_LocalScale: {x: 1, y: 1.0000012, z: 0.9999947}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7272669568598559324}
+  m_Father: {fileID: 5258475865436634167}
+  m_LocalEulerAnglesHint: {x: 16.998892, y: 11.492033, z: 6.827679}
+--- !u!1 &1585952231164010437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340560259722831852}
+  - component: {fileID: 8942685107510021640}
+  - component: {fileID: -8743196773365945334}
+  - component: {fileID: -5299903366790973440}
+  - component: {fileID: -7270669280317041067}
+  - component: {fileID: 7627077469807035369}
+  - component: {fileID: 8754490374722154632}
+  m_Layer: 3
+  m_Name: Weeper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &340560259722831852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585952231164010437}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3180436746403043868}
+  - {fileID: 8441975567785900489}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!95 &8942685107510021640
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585952231164010437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b65a7878399de774f825d95b20c0417c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8743196773365945334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585952231164010437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933f887d697144f4abb5f1e6eb76e642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitData: {fileID: 11400000, guid: 1cb779f9bd140114c9a03351329eac02, type: 2}
+  _attackType: 0
+  _targetType: 0
+  _unityType: 0
+  _movementType: 0
+  _targetMovementType: 0
+  _unitElementalType: 0
+  _name: 
+  DisplayName: 
+  _attackDelay: 0
+  _attackRange: 0
+  _damage: 0
+  _speed: 0
+  _life: 0
+  _defense: 0
+  _scanRange: 0
+  _isSplitAttackAnim: 0
+  _attackTiming: 0
+  _currentLife: 0
+  _worldObject: 0
+  _controller: {fileID: 0}
+--- !u!54 &-5299903366790973440
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585952231164010437}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &-7270669280317041067
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585952231164010437}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!195 &7627077469807035369
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585952231164010437}
+  m_Enabled: 1
+  m_AgentTypeID: -1372625422
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &8754490374722154632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585952231164010437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee152bf0dd3d99a4fb43e519f46a6b24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _state: 2
+  _unit: {fileID: 0}
+  _target: {fileID: 0}
+  _scanRange: 10
+  _barrel: {fileID: 0}
+  _isPlaced: 0
+  _isDelay: 0
+  _destPos: {fileID: 0}
+  _meeleAttack: {fileID: 0}
+  _arangeAttack: {fileID: 0}
+--- !u!1 &1847416692207484392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8358925572329673316}
+  m_Layer: 3
+  m_Name: WeeperCheek_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8358925572329673316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847416692207484392}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000035687826, y: -0.000000002310208, z: -0.064598575, w: 0.99791133}
+  m_LocalPosition: {x: 0.044949975, y: 0.12629817, z: 0.07096359}
+  m_LocalScale: {x: 1, y: 1.0000008, z: 0.9999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: 0.000024100445, y: -0.00000071125805, z: -7.40759}
+--- !u!1 &2062780726089463921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1895757230188901325}
+  m_Layer: 3
+  m_Name: WeeperRForearm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1895757230188901325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062780726089463921}
+  serializedVersion: 2
+  m_LocalRotation: {x: 5.131963e-10, y: 0.0000000018501126, z: -0.025602149, w: 0.99967223}
+  m_LocalPosition: {x: -0.00000015258789, y: 0, z: 0.10382309}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7053987346427104308}
+  m_Father: {fileID: 6308483282629911688}
+  m_LocalEulerAnglesHint: {x: 0.00000033575773, y: 0.0000001783186, z: -2.6395164}
+--- !u!1 &2107923259161707179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481235737865251432}
+  m_Layer: 3
+  m_Name: WeeperLCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481235737865251432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107923259161707179}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.021539906, y: 0.73725814, z: 0.015439205, w: 0.6750912}
+  m_LocalPosition: {x: 0.059869245, y: -0.032691844, z: -0.02824066}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8712183294847193298}
+  m_Father: {fileID: 4346972524132507823}
+  m_LocalEulerAnglesHint: {x: -9.132847, y: 96.15194, z: 3.3334532}
+--- !u!1 &2136523618596168640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9152505393709628160}
+  m_Layer: 3
+  m_Name: RobeSkirt068
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9152505393709628160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136523618596168640}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.1676345, y: -0.57998425, z: -0.115345806, w: 0.78880435}
+  m_LocalPosition: {x: -0.2049579, y: 0.17722249, z: -0.91469073}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -10.968753, y: -64.62353, z: 2.056998}
+--- !u!1 &2155930215603324942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5375953187987618481}
+  m_Layer: 3
+  m_Name: RobeSkirt011
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5375953187987618481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155930215603324942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3560904, y: 0.92587256, z: 0.109199926, w: -0.06352161}
+  m_LocalPosition: {x: 0.26836833, y: 0.17366335, z: -0.9450426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -18.691378, y: 173.11136, z: 78.12023}
+--- !u!1 &2209490233197832387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5609378134153544160}
+  m_Layer: 3
+  m_Name: WeeperLForearm3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5609378134153544160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2209490233197832387}
+  serializedVersion: 2
+  m_LocalRotation: {x: -2.0475323e-10, y: 0.0000000018550138, z: 0.047496583, w: 0.99887145}
+  m_LocalPosition: {x: -0.00000015258789, y: 0, z: 0.10382305}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1934192086265326607}
+  m_Father: {fileID: 2192942482294198221}
+  m_LocalEulerAnglesHint: {x: 0.000000011481063, y: -0.000009077483, z: 0.12623125}
+--- !u!1 &2259345554358559591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8720734845891385034}
+  m_Layer: 3
+  m_Name: WeeperRFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8720734845891385034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2259345554358559591}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.52339715, y: 0.04224404, z: -0.045148715, w: 0.8498426}
+  m_LocalPosition: {x: -0, y: -0.000000009536743, z: 0.37312648}
+  m_LocalScale: {x: 1.0000001, y: 0.9999972, z: 1.0000029}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6108527311812073773}
+  m_Father: {fileID: 3458704907017660190}
+  m_LocalEulerAnglesHint: {x: -66.47992, y: 6.531027, z: -5.035612}
+--- !u!1 &2273921910703293161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6176849023821103648}
+  m_Layer: 3
+  m_Name: WeeperSpine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6176849023821103648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2273921910703293161}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00017228351, y: 0.000000018688981, z: 0.000000014650238, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0.13179207}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 43958588208344171}
+  m_Father: {fileID: 1863182138080966063}
+  m_LocalEulerAnglesHint: {x: 0.7221585, y: 0.5806363, z: 0.7335968}
+--- !u!1 &2368638425393788518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2289015181176912791}
+  m_Layer: 3
+  m_Name: WeeperBrow_L3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2289015181176912791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2368638425393788518}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0053645545, y: 0.019216754, z: -0.2688199, w: 0.96298385}
+  m_LocalPosition: {x: 0.055379413, y: 0.123531185, z: 0.103967585}
+  m_LocalScale: {x: 0.9999997, y: 1.0000011, z: 0.9999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: 1.1840383, y: 1.9560971, z: -31.174242}
+--- !u!1 &2397025063558357361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3674817058112474222}
+  m_Layer: 3
+  m_Name: WeeperLThumbL3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3674817058112474222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2397025063558357361}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000097385204, y: -0.08116866, z: -0.000000089246896, w: 0.9967004}
+  m_LocalPosition: {x: -0, y: -0.00000015258789, z: 0.036188696}
+  m_LocalScale: {x: 1.0000052, y: 1.0000004, z: 0.9999952}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1948307363453125108}
+  m_LocalEulerAnglesHint: {x: 0.000009906194, y: -9.311444, z: -0.000013630497}
+--- !u!1 &2425030741710647216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3439940627015513550}
+  m_Layer: 3
+  m_Name: WeeperMouth_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3439940627015513550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2425030741710647216}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.89360327, y: 0.057846095, z: -0.028753992, w: 0.44418493}
+  m_LocalPosition: {x: 0.027104292, y: -0.019570312, z: 0.0921289}
+  m_LocalScale: {x: 0.99999994, y: 1.0000037, z: 0.999997}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3197349645724409266}
+  m_LocalEulerAnglesHint: {x: 52.861385, y: -179.99998, z: 172.5924}
+--- !u!1 &2495864657269072217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 373323005342338031}
+  m_Layer: 3
+  m_Name: WeeperBrow_R2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &373323005342338031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2495864657269072217}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0002336383, y: 0.0021298937, z: 0.109067574, w: 0.994032}
+  m_LocalPosition: {x: -0.041179713, y: 0.1365728, z: 0.10889908}
+  m_LocalScale: {x: 0.99999994, y: 0.9999995, z: 1.000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: -0.053212922, y: 0.23969506, z: 12.523135}
+--- !u!1 &2509626029548436153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5170754634845478252}
+  m_Layer: 3
+  m_Name: RobeSkirt003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5170754634845478252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2509626029548436153}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.45982003, y: 0.88666075, z: 0.04767502, w: 0.0111939255}
+  m_LocalPosition: {x: 0.022931013, y: 0.20263723, z: -0.5543929}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 14.663169, y: 172.20056, z: 0.18439037}
+--- !u!1 &2510891223333283418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2211092059332724410}
+  m_Layer: 3
+  m_Name: WeeperLThumbL1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2211092059332724410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510891223333283418}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17923501, y: 0.20425011, z: -0.082198896, w: 0.95885354}
+  m_LocalPosition: {x: 0.02823409, y: -0.028592376, z: 0.034155272}
+  m_LocalScale: {x: 1.0000068, y: 1.0000015, z: 0.9999918}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1948307363453125108}
+  m_Father: {fileID: 1934192086265326607}
+  m_LocalEulerAnglesHint: {x: 22.16625, y: 23.025024, z: -5.2300215}
+--- !u!1 &2636251945364076717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2461922246067032858}
+  m_Layer: 3
+  m_Name: RobeSkirt059
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2461922246067032858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2636251945364076717}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.404054, y: -0.5629266, z: 0.42399618, w: 0.5831649}
+  m_LocalPosition: {x: -0.2664231, y: -0.02654655, z: -0.4964644}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 86.350365, y: -119.24752, z: -32.359325}
+--- !u!1 &2723870578261667666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58532380535453478}
+  m_Layer: 3
+  m_Name: WeeperBrow_R3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &58532380535453478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2723870578261667666}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0053645517, y: -0.01921675, z: 0.26881975, w: 0.96298385}
+  m_LocalPosition: {x: -0.05537934, y: 0.12353115, z: 0.103967436}
+  m_LocalScale: {x: 0.9999994, y: 0.9999997, z: 1.0000008}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: 1.1840385, y: -1.9560982, z: 31.174294}
+--- !u!1 &2763399386660699686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2756029167052806035}
+  m_Layer: 3
+  m_Name: RobeSkirt026
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2756029167052806035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2763399386660699686}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.51778024, y: 0.4435178, z: 0.73150814, w: 0.009564364}
+  m_LocalPosition: {x: 0.3061939, y: -0.32456046, z: -0.9516222}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -76.78538, y: -97.42047, z: -19.704807}
+--- !u!1 &2826782664963788209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4866788455386409216}
+  m_Layer: 3
+  m_Name: WeeperNose_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4866788455386409216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826782664963788209}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000035687826, y: -0.000000002310208, z: -0.064598575, w: 0.99791133}
+  m_LocalPosition: {x: 0.015482818, y: 0.14328472, z: 0.057837676}
+  m_LocalScale: {x: 1, y: 1.0000008, z: 0.9999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: 0.000024100445, y: -0.00000071125805, z: -7.40759}
+--- !u!1 &2835501834854160644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8441975567785900489}
+  m_Layer: 3
+  m_Name: WeeperPelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8441975567785900489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2835501834854160644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000018831393, y: 0.7071068, z: 0.7071067, w: -1.2694767e-14}
+  m_LocalPosition: {x: 0.00000011477479, y: 0.99017113, z: -0.021608995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6412457678987191151}
+  - {fileID: 2853837483808641214}
+  - {fileID: 8333283996127354403}
+  - {fileID: 1863182138080966063}
+  m_Father: {fileID: 340560259722831852}
+  m_LocalEulerAnglesHint: {x: -83.09701, y: 14.349233, z: 161.10922}
+--- !u!1 &2856402738959688097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5327877180734594038}
+  m_Layer: 3
+  m_Name: RobeSkirt061
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5327877180734594038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2856402738959688097}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.3601428, y: 0.67423576, z: 0.35449785, w: 0.53854865}
+  m_LocalPosition: {x: -0.26089105, y: -0.051391944, z: -0.1389331}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -44.096535, y: 102.36407, z: -6.056223}
+--- !u!1 &3069200451281583533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1934192086265326607}
+  m_Layer: 3
+  m_Name: WeeperLPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1934192086265326607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3069200451281583533}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.016550468, y: 0.025147894, z: 0.7246495, w: 0.6884597}
+  m_LocalPosition: {x: -0, y: 0, z: 0.103823125}
+  m_LocalScale: {x: 1.0000052, y: 0.99999946, z: 0.9999958}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2277890547099492746}
+  - {fileID: 8092803610136076989}
+  - {fileID: 4817069024227705915}
+  - {fileID: 9066570447517402548}
+  - {fileID: 5208503711692926848}
+  - {fileID: 2211092059332724410}
+  m_Father: {fileID: 5609378134153544160}
+  m_LocalEulerAnglesHint: {x: -5.2785826, y: 9.9934635, z: 89.68148}
+--- !u!1 &3128798748457071387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5296850632141973678}
+  m_Layer: 3
+  m_Name: RobeSkirt054
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5296850632141973678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3128798748457071387}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.66510177, y: -0.23782219, z: -0.659314, w: -0.25765377}
+  m_LocalPosition: {x: -0.27352935, y: -0.15726373, z: -0.21927924}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -50.54687, y: -87.74909, z: 177.05957}
+--- !u!1 &3203746581857768409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8279897430930030429}
+  m_Layer: 3
+  m_Name: RobeSkirt042
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8279897430930030429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203746581857768409}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.19715519, y: 0.25900823, z: 0.82291526, w: -0.465677}
+  m_LocalPosition: {x: -0.017880885, y: -0.13175511, z: -0.61495984}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -4.462883, y: 31.151247, z: 160.84079}
+--- !u!1 &3237644671099846810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9049862959422797227}
+  m_Layer: 3
+  m_Name: WeeperRUpperarm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9049862959422797227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237644671099846810}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.009322182, y: 0.024621466, z: 0.03165006, w: 0.99915224}
+  m_LocalPosition: {x: 0.00000015258789, y: -0.0000000047683715, z: 0.13046438}
+  m_LocalScale: {x: 0.9999989, y: 1.0000004, z: 1.0000012}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4832912718401974374}
+  m_Father: {fileID: 1011129039475670124}
+  m_LocalEulerAnglesHint: {x: -31.31699, y: -39.87888, z: 4.9252014}
+--- !u!1 &3309972612691604824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2853837483808641214}
+  m_Layer: 3
+  m_Name: WeeperLThigh1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2853837483808641214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3309972612691604824}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.05176352, y: 0.9983009, z: 0.0034503094, w: 0.026533509}
+  m_LocalPosition: {x: 0.14037825, y: -0.014635233, z: -0.06250389}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8119006321125175728}
+  m_Father: {fileID: 8441975567785900489}
+  m_LocalEulerAnglesHint: {x: 16.365908, y: -38.352325, z: 5.7871795}
+--- !u!1 &3318233282302214580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7272669568598559324}
+  m_Layer: 3
+  m_Name: WeeperRFingerRingR2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7272669568598559324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318233282302214580}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.27249745, y: 0.0000007252209, z: 0.00000038699375, w: 0.96215653}
+  m_LocalPosition: {x: 0.000000019073486, y: -0.00000015258789, z: 0.03178959}
+  m_LocalScale: {x: 1, y: 1.0000045, z: 0.9999915}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1346680868044913085}
+  m_Father: {fileID: 302086690215530601}
+  m_LocalEulerAnglesHint: {x: 31.614801, y: 0.00009260048, z: 0.00006697071}
+--- !u!1 &3441148890052093430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4903251065280104904}
+  m_Layer: 3
+  m_Name: WeeperBrow_R1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4903251065280104904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3441148890052093430}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000363359, y: -0.000000007700735, z: 0.06459854, w: 0.99791133}
+  m_LocalPosition: {x: -0.01791872, y: 0.14181007, z: 0.106503144}
+  m_LocalScale: {x: 1, y: 1.0000008, z: 0.9999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: 0.000021622687, y: 0.0000003508676, z: 7.407596}
+--- !u!1 &3511624790075663688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3649974967904275690}
+  m_Layer: 3
+  m_Name: RobeSkirt079
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3649974967904275690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3511624790075663688}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.60869557, y: 0.7881549, z: 0.020224398, w: -0.08884006}
+  m_LocalPosition: {x: -0.02269322, y: 0.11518318, z: -0.7734759}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 5.7737026, y: -171.64285, z: 0.19447136}
+--- !u!1 &3523194995344033826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 317826704952482384}
+  m_Layer: 3
+  m_Name: RobeSkirt030
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &317826704952482384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523194995344033826}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9255973, y: 0.37613773, z: -0.041648716, w: 0.0074431226}
+  m_LocalPosition: {x: 0.1878554, y: -0.16275702, z: -0.13649605}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 8.9035015, y: -179.83742, z: 123.877686}
+--- !u!1 &3543618776611250833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9155038327277629085}
+  m_Layer: 3
+  m_Name: RobeSkirt076
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9155038327277629085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543618776611250833}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.115614735, y: -0.26484606, z: -0.038543716, w: 0.9565585}
+  m_LocalPosition: {x: -0.057543796, y: 0.10386856, z: -0.26102653}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -10.718145, y: -29.545164, z: -13.046394}
+--- !u!1 &3556527205329488661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1863182138080966063}
+  m_Layer: 3
+  m_Name: WeeperSpine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1863182138080966063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556527205329488661}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.025206497, y: -0.0000000010273637, z: 0.000000007079453, w: 0.99968225}
+  m_LocalPosition: {x: 0.0000000056902807, y: -0.005841553, z: 0.11281349}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6176849023821103648}
+  m_Father: {fileID: 8441975567785900489}
+  m_LocalEulerAnglesHint: {x: -18.636393, y: -0.91241527, z: 1.1946185}
+--- !u!1 &3597982646773523889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5208503711692926848}
+  m_Layer: 3
+  m_Name: WeeperLFingerRingL1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5208503711692926848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597982646773523889}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.15269466, y: -0.09008745, z: -0.043825723, w: 0.98318255}
+  m_LocalPosition: {x: -0.023632793, y: -0.0038984679, z: 0.103479914}
+  m_LocalScale: {x: 1.0000007, y: 1.0000056, z: 0.99999404}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4616859856275732670}
+  m_Father: {fileID: 1934192086265326607}
+  m_LocalEulerAnglesHint: {x: 17.00652, y: -11.495823, z: -6.8378034}
+--- !u!1 &3714603345722153705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 966338103645405854}
+  m_Layer: 3
+  m_Name: WeeperLFingerPinkieL2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &966338103645405854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3714603345722153705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.31805474, y: -0.00000084606245, z: -0.0000007299344, w: 0.9480724}
+  m_LocalPosition: {x: -0, y: 0, z: 0.021987839}
+  m_LocalScale: {x: 1.0000001, y: 1.0000111, z: 0.99998915}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2787107199246670850}
+  m_Father: {fileID: 9066570447517402548}
+  m_LocalEulerAnglesHint: {x: 37.0905, y: -0.00014021073, z: -0.00014156042}
+--- !u!1 &3904923004328591656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4525821430399538894}
+  m_Layer: 3
+  m_Name: RobeSkirt006
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4525821430399538894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3904923004328591656}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.14335848, y: 0.9655945, z: 0.21672097, w: -0.010379707}
+  m_LocalPosition: {x: 0.18545051, y: 0.33928406, z: -0.91220665}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 10.288672, y: -158.56357, z: -74.40311}
+--- !u!1 &3981293759221172112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9066570447517402548}
+  m_Layer: 3
+  m_Name: WeeperLFingerPinkieL1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9066570447517402548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3981293759221172112}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.171984, y: -0.119899265, z: -0.076248884, w: 0.9747983}
+  m_LocalPosition: {x: -0.045094337, y: -0.0019754027, z: 0.09215843}
+  m_LocalScale: {x: 1.0000049, y: 1.0000021, z: 0.9999934}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 966338103645405854}
+  m_Father: {fileID: 1934192086265326607}
+  m_LocalEulerAnglesHint: {x: 18.49761, y: -15.947864, z: -11.574273}
+--- !u!1 &4053471334049876890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7575842325636413948}
+  m_Layer: 3
+  m_Name: WeeperRFingerPinkieR2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7575842325636413948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4053471334049876890}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3180546, y: 0.00000075307224, z: 0.0000007689891, w: 0.94807243}
+  m_LocalPosition: {x: -0, y: 0, z: 0.021987723}
+  m_LocalScale: {x: 1.0000001, y: 1.0000062, z: 0.99999017}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3832712061559515795}
+  m_Father: {fileID: 2517173152456983383}
+  m_LocalEulerAnglesHint: {x: 37.11707, y: 0.00013525803, z: 0.00014037266}
+--- !u!1 &4090067883690267659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4619407182010370834}
+  m_Layer: 3
+  m_Name: RobeSkirt044
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4619407182010370834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4090067883690267659}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.68595463, y: 0.015994467, z: 0.69150865, w: -0.22589009}
+  m_LocalPosition: {x: -0.03869067, y: -0.12204346, z: -0.14149421}
+  m_LocalScale: {x: 0.9999998, y: 1, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -8.629517, y: 94.43289, z: 161.2405}
+--- !u!1 &4094067366511865367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6308483282629911688}
+  m_Layer: 3
+  m_Name: WeeperRForearm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6308483282629911688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4094067366511865367}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.005393087, y: 0.0002687241, z: 0.049774695, w: 0.9987459}
+  m_LocalPosition: {x: -0, y: 0.000000019073486, z: 0.12071892}
+  m_LocalScale: {x: 0.99999994, y: 1.0000006, z: 0.999996}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1895757230188901325}
+  m_Father: {fileID: 4832912718401974374}
+  m_LocalEulerAnglesHint: {x: -37.72926, y: -4.434477, z: 7.2223616}
+--- !u!1 &4192596771185806588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1541224943834840781}
+  m_Layer: 3
+  m_Name: WeeperRFingerIndexR1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1541224943834840781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4192596771185806588}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.118379906, y: 0.002373486, z: 0.06012295, w: 0.9911437}
+  m_LocalPosition: {x: 0.00025117875, y: -0.0015553284, z: 0.11348976}
+  m_LocalScale: {x: 0.99999994, y: 1.0000007, z: 0.9999943}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9068148522336393513}
+  m_Father: {fileID: 5258475865436634167}
+  m_LocalEulerAnglesHint: {x: 13.530457, y: 1.1131961, z: 7.0746136}
+--- !u!1 &4277757593952652058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1948307363453125108}
+  m_Layer: 3
+  m_Name: WeeperLThumbL2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1948307363453125108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4277757593952652058}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000008849819, y: -0.06805906, z: -0.000000016366485, w: 0.9976813}
+  m_LocalPosition: {x: -0, y: 0, z: 0.03765514}
+  m_LocalScale: {x: 1.0000046, y: 1.0000001, z: 0.9999954}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3674817058112474222}
+  m_Father: {fileID: 2211092059332724410}
+  m_LocalEulerAnglesHint: {x: 0.00000571779, y: -7.804998, z: 0.000004641013}
+--- !u!1 &4295088114050841106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2445028717839921829}
+  m_Layer: 3
+  m_Name: WeeperRThumbR3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2445028717839921829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4295088114050841106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000010167511, y: 0.08116747, z: 0.00000003657142, w: 0.99670047}
+  m_LocalPosition: {x: -0, y: 0.00000015258789, z: 0.036188696}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 0.9999956}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6461443015917090797}
+  m_LocalEulerAnglesHint: {x: 0.000023655804, y: 9.311517, z: 0.00000076076566}
+--- !u!1 &4343979491696205097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8092803610136076989}
+  m_Layer: 3
+  m_Name: WeeperLFingerIndexL1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8092803610136076989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4343979491696205097}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.118379965, y: -0.002373553, z: -0.060123283, w: 0.9911437}
+  m_LocalPosition: {x: -0.0002511978, y: -0.0015554809, z: 0.11348984}
+  m_LocalScale: {x: 1.000004, y: 1.0000012, z: 0.99999475}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8292826250950422620}
+  m_Father: {fileID: 1934192086265326607}
+  m_LocalEulerAnglesHint: {x: 13.554752, y: -1.1163361, z: -7.075465}
+--- !u!1 &4410048560407418677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4346972524132507823}
+  m_Layer: 3
+  m_Name: WeeperRibcage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4346972524132507823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4410048560407418677}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.068397336, y: -0.00000020817266, z: 0.00000007099711, w: 0.9976582}
+  m_LocalPosition: {x: -0, y: 0, z: 0.17659393}
+  m_LocalScale: {x: 0.9999999, y: 1.0000002, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1481235737865251432}
+  - {fileID: 3576168956599092369}
+  - {fileID: 1011129039475670124}
+  m_Father: {fileID: 43958588208344171}
+  m_LocalEulerAnglesHint: {x: 8.200094, y: -0.000023759734, z: 0.000004461369}
+--- !u!1 &4461765452068355073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3087510935301339703}
+  m_Layer: 3
+  m_Name: SleeveL3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3087510935301339703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4461765452068355073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0056539536, y: -0.13000447, z: 0.0016347293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 330162770712674787}
+  m_LocalEulerAnglesHint: {x: 1.1828785, y: 0.08781546, z: 0.8791733}
+--- !u!1 &4607049072503140022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7812739439380328507}
+  m_Layer: 3
+  m_Name: RobeSkirt010
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7812739439380328507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4607049072503140022}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.02683618, y: -0.6794616, z: -0.042783108, w: 0.73197085}
+  m_LocalPosition: {x: 0.13379873, y: 0.20890388, z: -0.090247266}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 10.6004715, y: -85.39138, z: 7.479654}
+--- !u!1 &4737324321381721788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270421549233616985}
+  m_Layer: 3
+  m_Name: WeeperCheek_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &270421549233616985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4737324321381721788}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000363359, y: -0.000000007700735, z: 0.06459854, w: 0.99791133}
+  m_LocalPosition: {x: -0.044949897, y: 0.12629816, z: 0.07096359}
+  m_LocalScale: {x: 1, y: 1.0000008, z: 0.9999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: 0.000021622687, y: 0.0000003508676, z: 7.407596}
+--- !u!1 &4799636199242232223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6412457678987191151}
+  m_Layer: 3
+  m_Name: RobeHub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6412457678987191151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4799636199242232223}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -5.155074e-15, w: 1}
+  m_LocalPosition: {x: -9.094947e-15, y: -0.0000000023841857, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8520643191859816677}
+  - {fileID: 5170754634845478252}
+  - {fileID: 1730585303234652283}
+  - {fileID: 4525821430399538894}
+  - {fileID: 5663528669516754090}
+  - {fileID: 7812739439380328507}
+  - {fileID: 5375953187987618481}
+  - {fileID: 1865927262618587018}
+  - {fileID: 1743145560158555253}
+  - {fileID: 4682769560711235860}
+  - {fileID: 5347747830763636778}
+  - {fileID: 3224400296377391705}
+  - {fileID: 2620337796153177687}
+  - {fileID: 4911037087193025323}
+  - {fileID: 2756029167052806035}
+  - {fileID: 454641965686426080}
+  - {fileID: 317826704952482384}
+  - {fileID: 4292544560401347184}
+  - {fileID: 9040136433825852316}
+  - {fileID: 3380467052654528469}
+  - {fileID: 6847772101352903786}
+  - {fileID: 737490892681004582}
+  - {fileID: 6691645948670741058}
+  - {fileID: 8279897430930030429}
+  - {fileID: 4619407182010370834}
+  - {fileID: 523204987842806411}
+  - {fileID: 419706221632488382}
+  - {fileID: 5692122249513722261}
+  - {fileID: 1216576574603214386}
+  - {fileID: 326326710945275494}
+  - {fileID: 5296850632141973678}
+  - {fileID: 2301611455424878948}
+  - {fileID: 1526235442744260148}
+  - {fileID: 2461922246067032858}
+  - {fileID: 5327877180734594038}
+  - {fileID: 2936035022806146374}
+  - {fileID: 2275611507571391301}
+  - {fileID: 6335612990398371993}
+  - {fileID: 9152505393709628160}
+  - {fileID: 2449860642347563202}
+  - {fileID: 3853070940994893278}
+  - {fileID: 8503578769472783181}
+  - {fileID: 9155038327277629085}
+  - {fileID: 3649974967904275690}
+  - {fileID: 588575188955803703}
+  - {fileID: 997891301755187550}
+  m_Father: {fileID: 8441975567785900489}
+  m_LocalEulerAnglesHint: {x: -0.000003616315, y: 0.0000012708281, z: 0.0000017790171}
+--- !u!1 &4837056066833350614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5347747830763636778}
+  m_Layer: 3
+  m_Name: RobeSkirt020
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5347747830763636778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4837056066833350614}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.04790629, y: -0.05134825, z: -0.3064218, w: 0.9493019}
+  m_LocalPosition: {x: 0.2725019, y: 0.05982907, z: -0.19472237}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -3.7464323, y: 3.3664663, z: -42.094147}
+--- !u!1 &4986635364319553505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1865927262618587018}
+  m_Layer: 3
+  m_Name: RobeSkirt013
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1865927262618587018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4986635364319553505}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.48340634, y: 0.87463313, z: 0.03114891, w: 0.019103251}
+  m_LocalPosition: {x: 0.18288355, y: 0.11931423, z: -0.5305361}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -1.0762577, y: 177.95955, z: 44.15926}
+--- !u!1 &5120606723219121480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5508958241206752636}
+  m_Layer: 3
+  m_Name: WeeperLFingerL2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5508958241206752636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5120606723219121480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17726627, y: -0.0000005605183, z: -0.000000054234178, w: 0.9841629}
+  m_LocalPosition: {x: -0, y: -0.00000015258789, z: 0.03287014}
+  m_LocalScale: {x: 1.0000043, y: 1.0000025, z: 0.99999386}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6954314037389736860}
+  m_Father: {fileID: 4817069024227705915}
+  m_LocalEulerAnglesHint: {x: 20.420837, y: -0.000066910645, z: -0.000010740451}
+--- !u!1 &5173811363997751510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1106250202221771758}
+  - component: {fileID: 1104385548927047770}
+  m_Layer: 3
+  m_Name: Weeper_LP_RESERVE_H1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1106250202221771758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173811363997751510}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3180436746403043868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1104385548927047770
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173811363997751510}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f52e37ac5cc1e4eee85c91e7e6d5849c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -9031710209087496288, guid: ee7a3e3e7834a4209b5deb0d953485f5, type: 3}
+  m_Bones:
+  - {fileID: 8441975567785900489}
+  - {fileID: 2853837483808641214}
+  - {fileID: 8333283996127354403}
+  - {fileID: 3458704907017660190}
+  - {fileID: 8720734845891385034}
+  - {fileID: 6108527311812073773}
+  - {fileID: 1863182138080966063}
+  - {fileID: 6176849023821103648}
+  - {fileID: 43958588208344171}
+  - {fileID: 1481235737865251432}
+  - {fileID: 8712183294847193298}
+  - {fileID: 5932514093316472762}
+  - {fileID: 1600041961421475196}
+  - {fileID: 2192942482294198221}
+  - {fileID: 5609378134153544160}
+  - {fileID: 1934192086265326607}
+  - {fileID: 2211092059332724410}
+  - {fileID: 1948307363453125108}
+  - {fileID: 3674817058112474222}
+  - {fileID: 4817069024227705915}
+  - {fileID: 5508958241206752636}
+  - {fileID: 6954314037389736860}
+  - {fileID: 8092803610136076989}
+  - {fileID: 8292826250950422620}
+  - {fileID: 3092437286571815810}
+  - {fileID: 5208503711692926848}
+  - {fileID: 4616859856275732670}
+  - {fileID: 7974638502909958292}
+  - {fileID: 9066570447517402548}
+  - {fileID: 966338103645405854}
+  - {fileID: 2787107199246670850}
+  - {fileID: 2277890547099492746}
+  - {fileID: 330162770712674787}
+  - {fileID: 3087510935301339703}
+  - {fileID: 1011129039475670124}
+  - {fileID: 9049862959422797227}
+  - {fileID: 4832912718401974374}
+  - {fileID: 6308483282629911688}
+  - {fileID: 1895757230188901325}
+  - {fileID: 7053987346427104308}
+  - {fileID: 5258475865436634167}
+  - {fileID: 3846957197738055792}
+  - {fileID: 6461443015917090797}
+  - {fileID: 2445028717839921829}
+  - {fileID: 6463003161436312117}
+  - {fileID: 2827706638655673372}
+  - {fileID: 1456125914945466720}
+  - {fileID: 1541224943834840781}
+  - {fileID: 6218633058395410272}
+  - {fileID: 302086690215530601}
+  - {fileID: 7272669568598559324}
+  - {fileID: 1346680868044913085}
+  - {fileID: 2517173152456983383}
+  - {fileID: 7575842325636413948}
+  - {fileID: 3832712061559515795}
+  - {fileID: 2403734637308049138}
+  - {fileID: 6590753832553699786}
+  - {fileID: 4679422005599736408}
+  - {fileID: 3576168956599092369}
+  - {fileID: 7535765474603581834}
+  - {fileID: 3197349645724409266}
+  - {fileID: 3439940627015513550}
+  - {fileID: 8078680446254119192}
+  - {fileID: 8520643191859816677}
+  - {fileID: 5170754634845478252}
+  - {fileID: 1730585303234652283}
+  - {fileID: 4525821430399538894}
+  - {fileID: 5663528669516754090}
+  - {fileID: 7812739439380328507}
+  - {fileID: 5375953187987618481}
+  - {fileID: 1865927262618587018}
+  - {fileID: 1743145560158555253}
+  - {fileID: 4682769560711235860}
+  - {fileID: 5347747830763636778}
+  - {fileID: 3224400296377391705}
+  - {fileID: 2620337796153177687}
+  - {fileID: 4911037087193025323}
+  - {fileID: 2756029167052806035}
+  - {fileID: 454641965686426080}
+  - {fileID: 317826704952482384}
+  - {fileID: 4292544560401347184}
+  - {fileID: 9040136433825852316}
+  - {fileID: 3380467052654528469}
+  - {fileID: 6847772101352903786}
+  - {fileID: 737490892681004582}
+  - {fileID: 6691645948670741058}
+  - {fileID: 8279897430930030429}
+  - {fileID: 4619407182010370834}
+  - {fileID: 523204987842806411}
+  - {fileID: 419706221632488382}
+  - {fileID: 5692122249513722261}
+  - {fileID: 1216576574603214386}
+  - {fileID: 326326710945275494}
+  - {fileID: 5296850632141973678}
+  - {fileID: 2301611455424878948}
+  - {fileID: 1526235442744260148}
+  - {fileID: 2461922246067032858}
+  - {fileID: 5327877180734594038}
+  - {fileID: 2936035022806146374}
+  - {fileID: 2275611507571391301}
+  - {fileID: 6335612990398371993}
+  - {fileID: 9152505393709628160}
+  - {fileID: 2449860642347563202}
+  - {fileID: 3853070940994893278}
+  - {fileID: 8503578769472783181}
+  - {fileID: 9155038327277629085}
+  - {fileID: 3649974967904275690}
+  - {fileID: 588575188955803703}
+  - {fileID: 997891301755187550}
+  m_BlendShapeWeights:
+  - 0
+  - -0
+  - 0
+  - -0
+  m_RootBone: {fileID: 8441975567785900489}
+  m_AABB:
+    m_Center: {x: 0.007365942, y: -0.0821673, z: -0.21069717}
+    m_Extent: {x: 1.2038519, y: 0.6205195, z: 0.90028715}
+  m_DirtyAABB: 0
+--- !u!1 &5188119518592004682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997891301755187550}
+  m_Layer: 3
+  m_Name: RobeSkirt083
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &997891301755187550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5188119518592004682}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.22154216, y: -0.6429229, z: 0.26903555, w: 0.6820477}
+  m_LocalPosition: {x: 0.037452653, y: 0.113758124, z: -0.09908783}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 20.9773, y: -77.31972, z: 9.517912}
+--- !u!1 &5295174043188010499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4817069024227705915}
+  m_Layer: 3
+  m_Name: WeeperLFingerL1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4817069024227705915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5295174043188010499}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17338546, y: 0.05749709, z: -0.04969414, w: 0.98191756}
+  m_LocalPosition: {x: 0.025130501, y: -0.0032141113, z: 0.11543632}
+  m_LocalScale: {x: 1.0000042, y: 1.0000015, z: 0.9999941}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5508958241206752636}
+  m_Father: {fileID: 1934192086265326607}
+  m_LocalEulerAnglesHint: {x: 20.252865, y: 5.8149962, z: -4.761413}
+--- !u!1 &5299003546516618987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6996777687492554014}
+  m_Layer: 3
+  m_Name: WeeperLCalf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6996777687492554014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299003546516618987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.07676842, y: -0.013026276, z: 0.026182339, w: 0.99662}
+  m_LocalPosition: {x: 0.000000057220458, y: 0.000007634163, z: 0.21815486}
+  m_LocalScale: {x: 1.0000026, y: 0.9999991, z: 0.9999983}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7444690310965722125}
+  m_Father: {fileID: 8119006321125175728}
+  m_LocalEulerAnglesHint: {x: 25.500095, y: -1.9890978, z: -6.0723763}
+--- !u!1 &5341777589100140108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5692122249513722261}
+  m_Layer: 3
+  m_Name: RobeSkirt049
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5692122249513722261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5341777589100140108}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.68918353, y: 0.092460625, z: 0.7015112, w: -0.15607399}
+  m_LocalPosition: {x: -0.17693737, y: -0.21217956, z: -0.11046295}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -17.293095, y: 93.39554, z: -178.2803}
+--- !u!1 &5355640106864613336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2043462345063850579}
+  - component: {fileID: 5123310584471045689}
+  m_Layer: 3
+  m_Name: Robe03_LP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2043462345063850579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5355640106864613336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3180436746403043868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &5123310584471045689
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5355640106864613336}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f52e37ac5cc1e4eee85c91e7e6d5849c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -2762138648746371292, guid: ee7a3e3e7834a4209b5deb0d953485f5, type: 3}
+  m_Bones:
+  - {fileID: 8441975567785900489}
+  - {fileID: 2853837483808641214}
+  - {fileID: 1863182138080966063}
+  - {fileID: 6176849023821103648}
+  - {fileID: 43958588208344171}
+  - {fileID: 1481235737865251432}
+  - {fileID: 8712183294847193298}
+  - {fileID: 5932514093316472762}
+  - {fileID: 1600041961421475196}
+  - {fileID: 1011129039475670124}
+  - {fileID: 9049862959422797227}
+  - {fileID: 4832912718401974374}
+  - {fileID: 6308483282629911688}
+  - {fileID: 3576168956599092369}
+  - {fileID: 7535765474603581834}
+  - {fileID: 3197349645724409266}
+  - {fileID: 3439940627015513550}
+  - {fileID: 8078680446254119192}
+  - {fileID: 7812739439380328507}
+  - {fileID: 5692122249513722261}
+  - {fileID: 6335612990398371993}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 8441975567785900489}
+  m_AABB:
+    m_Center: {x: -0.022183508, y: -0.012789056, z: 0.37921962}
+    m_Extent: {x: 0.29371712, y: 0.25480622, z: 0.27707735}
+  m_DirtyAABB: 0
+--- !u!1 &5442614394860685082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8078680446254119192}
+  m_Layer: 3
+  m_Name: WeeperMouth_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8078680446254119192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5442614394860685082}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.89360327, y: -0.0578462, z: 0.028753987, w: 0.44418496}
+  m_LocalPosition: {x: -0.027104301, y: -0.019570312, z: 0.0921289}
+  m_LocalScale: {x: 0.99999994, y: 1.0000036, z: 0.9999968}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3197349645724409266}
+  m_LocalEulerAnglesHint: {x: 52.861362, y: 24.478165, z: -172.59239}
+--- !u!1 &5559391022095916369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3576168956599092369}
+  m_Layer: 3
+  m_Name: WeeperNeck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3576168956599092369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5559391022095916369}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.19943063, y: -0.00000010178298, z: 0.00000022259135, w: 0.979912}
+  m_LocalPosition: {x: -0.000000018696955, y: -0.033181984, z: -0.0057377624}
+  m_LocalScale: {x: 1.0000007, y: 1.0000004, z: 0.9999993}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7535765474603581834}
+  m_Father: {fileID: 4346972524132507823}
+  m_LocalEulerAnglesHint: {x: 5.0539694, y: -1.5536985, z: -9.711066}
+--- !u!1 &5651602432204348893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2827706638655673372}
+  m_Layer: 3
+  m_Name: WeeperRFingerR2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2827706638655673372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5651602432204348893}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17726603, y: 0.000000535369, z: 0.000000051194363, w: 0.984163}
+  m_LocalPosition: {x: -0, y: 0, z: 0.032870024}
+  m_LocalScale: {x: 0.99999994, y: 1.0000021, z: 0.99999404}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1456125914945466720}
+  m_Father: {fileID: 6463003161436312117}
+  m_LocalEulerAnglesHint: {x: 20.420918, y: 0.00007096471, z: 0.000016196598}
+--- !u!1 &5730931212191063290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3224400296377391705}
+  m_Layer: 3
+  m_Name: RobeSkirt021
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3224400296377391705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5730931212191063290}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.77197087, y: -0.13477792, z: -0.57649446, w: 0.23140888}
+  m_LocalPosition: {x: 0.32615444, y: -0.16058412, z: -0.9444948}
+  m_LocalScale: {x: 1, y: 0.9999997, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 30.028236, y: -78.94502, z: -161.03233}
+--- !u!1 &5860861320474343023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2517173152456983383}
+  m_Layer: 3
+  m_Name: WeeperRFingerPinkieR1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2517173152456983383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5860861320474343023}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.171984, y: 0.11989832, z: 0.07624855, w: 0.97479844}
+  m_LocalPosition: {x: 0.045094337, y: -0.0019754027, z: 0.092158586}
+  m_LocalScale: {x: 0.99999994, y: 1.0000015, z: 0.99999416}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7575842325636413948}
+  m_Father: {fileID: 5258475865436634167}
+  m_LocalEulerAnglesHint: {x: 18.55357, y: 15.9248085, z: 11.554823}
+--- !u!1 &5890473902905654193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7974638502909958292}
+  m_Layer: 3
+  m_Name: WeeperLFingerRingL3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7974638502909958292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5890473902905654193}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.34150863, y: -0.0000010528859, z: 0.00000015664592, w: 0.93987864}
+  m_LocalPosition: {x: 0.000000019073486, y: 0, z: 0.028856734}
+  m_LocalScale: {x: 1.0000005, y: 1.0000085, z: 0.9999915}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4616859856275732670}
+  m_LocalEulerAnglesHint: {x: 39.926132, y: -0.00013503892, z: -0.00002507045}
+--- !u!1 &5951664435225784320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8520643191859816677}
+  m_Layer: 3
+  m_Name: RobeSkirt001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8520643191859816677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951664435225784320}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.41494718, y: 0.8900245, z: 0.18865253, w: 0.0092474725}
+  m_LocalPosition: {x: -0.01489957, y: 0.27517107, z: -0.89554137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 9.841787, y: 170.88611, z: -44.291756}
+--- !u!1 &5965547461084713041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 523204987842806411}
+  m_Layer: 3
+  m_Name: RobeSkirt045
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &523204987842806411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5965547461084713041}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.98191404, y: 0.022144942, z: 0.048672233, w: 0.18161905}
+  m_LocalPosition: {x: -0.120298594, y: -0.32226583, z: -0.9575527}
+  m_LocalScale: {x: 0.99999976, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 23.0988, y: -171.5559, z: -174.34523}
+--- !u!1 &5982591756220981284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6074294096586149367}
+  m_Layer: 3
+  m_Name: WeeperBrow_L2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6074294096586149367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5982591756220981284}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0002336433, y: -0.0021299408, z: -0.10906753, w: 0.994032}
+  m_LocalPosition: {x: 0.04117979, y: 0.13657284, z: 0.10889923}
+  m_LocalScale: {x: 0.9999998, y: 1.000001, z: 0.9999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: -0.053212084, y: -0.23968847, z: -12.523134}
+--- !u!1 &6200853621207809446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1011129039475670124}
+  m_Layer: 3
+  m_Name: WeeperRCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1011129039475670124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200853621207809446}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.021539545, y: -0.73725826, z: -0.015439596, w: 0.67509115}
+  m_LocalPosition: {x: -0.05986924, y: -0.032691848, z: -0.02824066}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999991}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9049862959422797227}
+  m_Father: {fileID: 4346972524132507823}
+  m_LocalEulerAnglesHint: {x: -17.134474, y: -95.89272, z: -7.9565377}
+--- !u!1 &6314966294102418276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6463003161436312117}
+  m_Layer: 3
+  m_Name: WeeperRFingerR1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6463003161436312117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6314966294102418276}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17338529, y: -0.0574967, z: 0.04969379, w: 0.9819176}
+  m_LocalPosition: {x: -0.02513051, y: -0.0032141113, z: 0.11543632}
+  m_LocalScale: {x: 1.0000001, y: 1.0000015, z: 0.99999446}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2827706638655673372}
+  m_Father: {fileID: 5258475865436634167}
+  m_LocalEulerAnglesHint: {x: 20.255747, y: -5.8537135, z: 4.7479196}
+--- !u!1 &6397977803961746697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1216576574603214386}
+  m_Layer: 3
+  m_Name: RobeSkirt050
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1216576574603214386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397977803961746697}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9637073, y: -0.098278925, z: -0.04721525, w: 0.24368042}
+  m_LocalPosition: {x: -0.39029205, y: -0.24575453, z: -0.9616731}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 25.556847, y: 168.07782, z: -101.87362}
+--- !u!1 &6409609942691890493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3180436746403043868}
+  m_Layer: 3
+  m_Name: R_colored
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3180436746403043868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409609942691890493}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 493454658952958872}
+  - {fileID: 394934413521550212}
+  - {fileID: 2043462345063850579}
+  - {fileID: 1106250202221771758}
+  - {fileID: 5821241932900137785}
+  m_Father: {fileID: 340560259722831852}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6466746683712607590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3458704907017660190}
+  m_Layer: 3
+  m_Name: WeeperRCalf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3458704907017660190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6466746683712607590}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.07668889, y: 0.012950153, z: -0.026198788, w: 0.9966267}
+  m_LocalPosition: {x: -0.000000057220458, y: 0.0000076389315, z: 0.21815471}
+  m_LocalScale: {x: 0.9999922, y: 1.0000024, z: 1.0000052}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8720734845891385034}
+  m_Father: {fileID: 6172673425453452822}
+  m_LocalEulerAnglesHint: {x: -0.22847176, y: -0.033552557, z: 0.38703215}
+--- !u!1 &6557658812274061667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8712183294847193298}
+  m_Layer: 3
+  m_Name: WeeperLUpperarm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8712183294847193298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6557658812274061667}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0093221925, y: -0.02462149, z: -0.03165005, w: 0.99915224}
+  m_LocalPosition: {x: -0, y: 0.0000000047683715, z: 0.13046439}
+  m_LocalScale: {x: 1.0000008, y: 1.0000002, z: 0.999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5932514093316472762}
+  m_Father: {fileID: 1481235737865251432}
+  m_LocalEulerAnglesHint: {x: -37.71368, y: 28.889397, z: -14.066036}
+--- !u!1 &6595234375901557513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3832712061559515795}
+  m_Layer: 3
+  m_Name: WeeperRFingerPinkieR3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3832712061559515795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6595234375901557513}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.21768194, y: 0.00000076357736, z: -0.00000013594949, w: 0.9760198}
+  m_LocalPosition: {x: -0, y: 0.00000015258789, z: 0.020752868}
+  m_LocalScale: {x: 1.0000001, y: 1.0000038, z: 0.99999243}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7575842325636413948}
+  m_LocalEulerAnglesHint: {x: 25.188202, y: 0.000090372836, z: 0.000008307202}
+--- !u!1 &6690899760035418863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 802144848371622018}
+  m_Layer: 3
+  m_Name: WeeperBrow_L1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &802144848371622018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690899760035418863}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000035687826, y: -0.000000002310208, z: -0.064598575, w: 0.99791133}
+  m_LocalPosition: {x: 0.017918812, y: 0.1418101, z: 0.106503144}
+  m_LocalScale: {x: 1, y: 1.0000008, z: 0.9999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: 0.000024100445, y: -0.00000071125805, z: -7.40759}
+--- !u!1 &6780208218601482320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6590753832553699786}
+  m_Layer: 3
+  m_Name: SleeveR2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6590753832553699786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6780208218601482320}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.43783325, y: -0.1389975, z: 0.10161457, w: 0.88241506}
+  m_LocalPosition: {x: 0.0172229, y: -0.09313524, z: 0.048990097}
+  m_LocalScale: {x: 0.9999992, y: 1.000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4679422005599736408}
+  m_Father: {fileID: 2403734637308049138}
+  m_LocalEulerAnglesHint: {x: -26.663834, y: -18.172625, z: 19.032879}
+--- !u!1 &6852536841478594922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4292544560401347184}
+  m_Layer: 3
+  m_Name: RobeSkirt031
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4292544560401347184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852536841478594922}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5661469, y: -0.12052096, z: 0.72681934, w: 0.36971068}
+  m_LocalPosition: {x: 0.16858101, y: -0.31972358, z: -0.9357038}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 7.3961744, y: 88.57092, z: 148.93692}
+--- !u!1 &6949646483940794612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8503578769472783181}
+  m_Layer: 3
+  m_Name: RobeSkirt074
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8503578769472783181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6949646483940794612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.039770927, y: 0.70098895, z: -0.10555145, w: 0.70419574}
+  m_LocalPosition: {x: -0.07593562, y: 0.033401012, z: -0.62658566}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 69.60049, y: 75.78558, z: -20.748796}
+--- !u!1 &6950460427979007193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4679422005599736408}
+  m_Layer: 3
+  m_Name: SleeveR3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4679422005599736408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6950460427979007193}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.016888572, y: -0.12995356, z: 0.0020193164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6590753832553699786}
+  m_LocalEulerAnglesHint: {x: 1.295196, y: 0.37517643, z: -0.5405507}
+--- !u!1 &6988338912127621894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3380467052654528469}
+  m_Layer: 3
+  m_Name: RobeSkirt035
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3380467052654528469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6988338912127621894}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9639531, y: -0.2565551, z: 0.044320315, w: -0.054861236}
+  m_LocalPosition: {x: 0.091786414, y: -0.15683131, z: -0.14046936}
+  m_LocalScale: {x: 0.99999976, y: 1, z: 0.9999997}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 17.362383, y: 175.25038, z: 176.95987}
+--- !u!1 &7097075769704919172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326326710945275494}
+  m_Layer: 3
+  m_Name: RobeSkirt052
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &326326710945275494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7097075769704919172}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.95860213, y: -0.27656266, z: -0.060703453, w: 0.030168738}
+  m_LocalPosition: {x: -0.2799512, y: -0.16798948, z: -0.57754034}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -0.6351283, y: -177.43036, z: -112.14266}
+--- !u!1 &7302861014592013263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4911037087193025323}
+  m_Layer: 3
+  m_Name: RobeSkirt025
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4911037087193025323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7302861014592013263}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.57544416, y: 0.3931468, z: 0.5947685, w: -0.4006871}
+  m_LocalPosition: {x: 0.23390433, y: -0.040664416, z: -0.16846442}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -74.841095, y: 104.87239, z: 161.30402}
+--- !u!1 &7666404092838917981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2620337796153177687}
+  m_Layer: 3
+  m_Name: RobeSkirt023
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2620337796153177687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666404092838917981}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6175918, y: 0.3111375, z: -0.5916621, w: 0.4143788}
+  m_LocalPosition: {x: 0.24596597, y: -0.09598083, z: -0.5786036}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 81.6297, y: -17.08368, z: -113.81685}
+--- !u!1 &7670151007507077838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1295185470280763396}
+  m_Layer: 3
+  m_Name: WeeperNose_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1295185470280763396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7670151007507077838}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000363359, y: -0.000000007700735, z: 0.06459854, w: 0.99791133}
+  m_LocalPosition: {x: -0.0154827265, y: 0.14328472, z: 0.057837676}
+  m_LocalScale: {x: 1, y: 1.0000008, z: 0.9999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: 0.000021622687, y: 0.0000003508676, z: 7.407596}
+--- !u!1 &7725404653696296273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8119006321125175728}
+  m_Layer: 3
+  m_Name: WeeperLThigh2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8119006321125175728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725404653696296273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 4.655006e-10, y: 1.22291205e-11, z: 0.026261838, w: 0.9996551}
+  m_LocalPosition: {x: -0.000000019073486, y: 0, z: 0.21815422}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6996777687492554014}
+  m_Father: {fileID: 2853837483808641214}
+  m_LocalEulerAnglesHint: {x: -9.656648e-12, y: 2.2372505e-12, z: -5.6983604}
+--- !u!1 &7808785541411838461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5821241932900137785}
+  - component: {fileID: 420901367220827686}
+  m_Layer: 3
+  m_Name: WeeperHead_LP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5821241932900137785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808785541411838461}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3180436746403043868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &420901367220827686
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808785541411838461}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f52e37ac5cc1e4eee85c91e7e6d5849c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4231983502250931951, guid: ee7a3e3e7834a4209b5deb0d953485f5, type: 3}
+  m_Bones:
+  - {fileID: 43958588208344171}
+  - {fileID: 1481235737865251432}
+  - {fileID: 8712183294847193298}
+  - {fileID: 1011129039475670124}
+  - {fileID: 9049862959422797227}
+  - {fileID: 3576168956599092369}
+  - {fileID: 7535765474603581834}
+  - {fileID: 3197349645724409266}
+  - {fileID: 3439940627015513550}
+  - {fileID: 8078680446254119192}
+  - {fileID: 802144848371622018}
+  - {fileID: 6074294096586149367}
+  - {fileID: 2289015181176912791}
+  - {fileID: 4866788455386409216}
+  - {fileID: 8358925572329673316}
+  - {fileID: 4903251065280104904}
+  - {fileID: 373323005342338031}
+  - {fileID: 58532380535453478}
+  - {fileID: 270421549233616985}
+  - {fileID: 1295185470280763396}
+  m_BlendShapeWeights:
+  - 0
+  - 0
+  - 0
+  - 0
+  m_RootBone: {fileID: 43958588208344171}
+  m_AABB:
+    m_Center: {x: 0.006048158, y: 0.008327618, z: 0.35203496}
+    m_Extent: {x: 0.178165, y: 0.21284771, z: 0.26307353}
+  m_DirtyAABB: 0
+--- !u!1 &7814512465630927423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6691645948670741058}
+  m_Layer: 3
+  m_Name: RobeSkirt040
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6691645948670741058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814512465630927423}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.64662284, y: 0.49368215, z: 0.58134705, w: 0.013874924}
+  m_LocalPosition: {x: 0.061566122, y: -0.28303418, z: -0.94877255}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 47.827213, y: 85.01911, z: 151.05428}
+--- !u!1 &7924427856317139350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4682769560711235860}
+  m_Layer: 3
+  m_Name: RobeSkirt018
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4682769560711235860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7924427856317139350}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.29365695, y: -0.71493876, z: -0.28735512, w: 0.5657342}
+  m_LocalPosition: {x: 0.31601867, y: 0.029219517, z: -0.59201413}
+  m_LocalScale: {x: 1.0000001, y: 1.0000004, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -76.98748, y: -119.82469, z: 31.81282}
+--- !u!1 &7936698882055057596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6954314037389736860}
+  m_Layer: 3
+  m_Name: WeeperLFingerL3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6954314037389736860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936698882055057596}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.21964103, y: -0.0000005511671, z: 0.00000028255764, w: 0.97558075}
+  m_LocalPosition: {x: -0, y: 0, z: 0.026541365}
+  m_LocalScale: {x: 1.0000042, y: 1.000004, z: 0.99999183}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5508958241206752636}
+  m_LocalEulerAnglesHint: {x: 25.375576, y: -0.000055989436, z: 0.000016280292}
+--- !u!1 &7960671001368220716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3197349645724409266}
+  m_Layer: 3
+  m_Name: WeeperJaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3197349645724409266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7960671001368220716}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.8954736, y: 0.00000008189364, z: 0.00000006681275, w: -0.44511467}
+  m_LocalPosition: {x: 0.000000031984236, y: 0.041343126, z: 0.05730362}
+  m_LocalScale: {x: 0.9999999, y: 1.0000027, z: 0.99999774}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3439940627015513550}
+  - {fileID: 8078680446254119192}
+  m_Father: {fileID: 7535765474603581834}
+  m_LocalEulerAnglesHint: {x: -52.861454, y: 179.99998, z: 179.99998}
+--- !u!1 &8050227617703710262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4616859856275732670}
+  m_Layer: 3
+  m_Name: WeeperLFingerRingL2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4616859856275732670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8050227617703710262}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.27249798, y: -0.00000075407087, z: -0.00000041366891, w: 0.9621564}
+  m_LocalPosition: {x: -0, y: 0, z: 0.03178951}
+  m_LocalScale: {x: 1.0000002, y: 1.0000103, z: 0.9999894}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7974638502909958292}
+  m_Father: {fileID: 5208503711692926848}
+  m_LocalEulerAnglesHint: {x: 31.615152, y: -0.00010470883, z: -0.0000819509}
+--- !u!1 &8131678730120035099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2277890547099492746}
+  m_Layer: 3
+  m_Name: SleeveL1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2277890547099492746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131678730120035099}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.036765337, y: 0.10571719, z: -0.23592168, w: 0.9653047}
+  m_LocalPosition: {x: 0.024168491, y: 0.0045833867, z: 0.13902436}
+  m_LocalScale: {x: 0.9999943, y: 0.99999493, z: 1.0000093}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 330162770712674787}
+  m_Father: {fileID: 1934192086265326607}
+  m_LocalEulerAnglesHint: {x: 6.9418178, y: 10.843691, z: -26.808195}
+--- !u!1 &8234723378380670691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2449860642347563202}
+  m_Layer: 3
+  m_Name: RobeSkirt070
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2449860642347563202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234723378380670691}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.22615612, y: 0.9589202, z: 0.015185503, w: -0.17057252}
+  m_LocalPosition: {x: -0.17277521, y: 0.10337538, z: -0.49031195}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -1.4239814, y: -157.33478, z: -16.198212}
+--- !u!1 &8256992845887247548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9068148522336393513}
+  m_Layer: 3
+  m_Name: WeeperRFingerIndexR2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9068148522336393513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8256992845887247548}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.28129104, y: 0.000000747895, z: 0.00000011462713, w: 0.9596225}
+  m_LocalPosition: {x: -0, y: -0.00000015258789, z: 0.037114944}
+  m_LocalScale: {x: 1.0000001, y: 1.0000052, z: 0.99998987}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6218633058395410272}
+  m_Father: {fileID: 1541224943834840781}
+  m_LocalEulerAnglesHint: {x: 32.67438, y: 0.00010711477, z: 0.00005046318}
+--- !u!1 &8293704486237474721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1730585303234652283}
+  m_Layer: 3
+  m_Name: RobeSkirt005
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1730585303234652283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8293704486237474721}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.029939672, y: 0.051328734, z: 0.18220748, w: 0.9814629}
+  m_LocalPosition: {x: 0.053188656, y: 0.19976343, z: -0.22616646}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -14.25999, y: -2.5599914, z: -15.4784565}
+--- !u!1 &8309171926746810869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6218633058395410272}
+  m_Layer: 3
+  m_Name: WeeperRFingerIndexR3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6218633058395410272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8309171926746810869}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.21338928, y: 0.00000053592396, z: -0.0000001475615, w: 0.9769673}
+  m_LocalPosition: {x: -0, y: 0, z: 0.029011076}
+  m_LocalScale: {x: 1.0000001, y: 1.0000039, z: 0.99999225}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9068148522336393513}
+  m_LocalEulerAnglesHint: {x: 24.641876, y: 0.00007514972, z: 0.0000013282634}
+--- !u!1 &8318752424003530911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2301611455424878948}
+  m_Layer: 3
+  m_Name: RobeSkirt055
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2301611455424878948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8318752424003530911}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.33455476, y: 0.67502356, z: 0.44347385, w: 0.48553824}
+  m_LocalPosition: {x: -0.34225973, y: -0.06609225, z: -0.94431716}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -78.89863, y: 116.68645, z: -5.823203}
+--- !u!1 &8320562162588684815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1600041961421475196}
+  m_Layer: 3
+  m_Name: WeeperLForearm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1600041961421475196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8320562162588684815}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.005392926, y: -0.00026890959, z: -0.049774956, w: 0.9987459}
+  m_LocalPosition: {x: -0, y: 0, z: 0.12071893}
+  m_LocalScale: {x: 1.0000045, y: 1.0000002, z: 0.9999963}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2192942482294198221}
+  m_Father: {fileID: 5932514093316472762}
+  m_LocalEulerAnglesHint: {x: -40.009094, y: 4.808069, z: -7.455283}
+--- !u!1 &8384176344873078005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2936035022806146374}
+  m_Layer: 3
+  m_Name: RobeSkirt062
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2936035022806146374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8384176344873078005}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.36026725, y: -0.5389534, z: 0.18271698, w: 0.7391558}
+  m_LocalPosition: {x: -0.36871064, y: 0.19799718, z: -0.922359}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 11.4265995, y: -77.35386, z: -10.024509}
+--- !u!1 &8429335826947858647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1743145560158555253}
+  m_Layer: 3
+  m_Name: RobeSkirt016
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1743145560158555253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8429335826947858647}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.55197185, y: 0.80353343, z: 0.0707167, w: 0.21132958}
+  m_LocalPosition: {x: 0.45852152, y: -0.05945196, z: -0.92242765}
+  m_LocalScale: {x: 0.99999994, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 6.5209107, y: -172.72993, z: -10.000721}
+--- !u!1 &8540942974264488999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1346680868044913085}
+  m_Layer: 3
+  m_Name: WeeperRFingerRingR3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1346680868044913085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8540942974264488999}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3415082, y: 0.0000010446441, z: -0.00000028841256, w: 0.9398788}
+  m_LocalPosition: {x: -0, y: 0, z: 0.028856697}
+  m_LocalScale: {x: 1, y: 1.0000045, z: 0.9999916}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7272669568598559324}
+  m_LocalEulerAnglesHint: {x: 39.92662, y: 0.00012769927, z: 0.000018525305}
+--- !u!1 &8553830332034552950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3853070940994893278}
+  m_Layer: 3
+  m_Name: RobeSkirt072
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3853070940994893278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8553830332034552950}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.084003165, y: -0.0030296324, z: -0.49916583, w: 0.8624197}
+  m_LocalPosition: {x: -0.10899341, y: 0.073088475, z: -0.8929125}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 0.05787337, y: -2.324512, z: -46.943825}
+--- !u!1 &8589693809699537545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588575188955803703}
+  m_Layer: 3
+  m_Name: RobeSkirt081
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &588575188955803703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589693809699537545}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.051589895, y: -0.0595299, z: 0.4439715, w: 0.89257157}
+  m_LocalPosition: {x: 0.0066055744, y: 0.08633587, z: -0.4130226}
+  m_LocalScale: {x: 1, y: 0.99999976, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -10.106997, y: -7.568797, z: -2.2007694}
+--- !u!1 &8640718024036465755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2192942482294198221}
+  m_Layer: 3
+  m_Name: WeeperLForearm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2192942482294198221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8640718024036465755}
+  serializedVersion: 2
+  m_LocalRotation: {x: -4.7687732e-11, y: 0.0000000018620346, z: 0.025602156, w: 0.99967223}
+  m_LocalPosition: {x: -0.00000015258789, y: 0, z: 0.10382309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5609378134153544160}
+  m_Father: {fileID: 1600041961421475196}
+  m_LocalEulerAnglesHint: {x: -0.000007051776, y: 0.0000023468654, z: -0.16767211}
+--- !u!1 &8667646768055479290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8292826250950422620}
+  m_Layer: 3
+  m_Name: WeeperLFingerIndexL2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8292826250950422620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8667646768055479290}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.2812911, y: -0.0000007709456, z: -0.00000019327346, w: 0.9596225}
+  m_LocalPosition: {x: 0.000000019073486, y: 0, z: 0.037114944}
+  m_LocalScale: {x: 1.0000042, y: 1.000006, z: 0.99999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3092437286571815810}
+  m_Father: {fileID: 8092803610136076989}
+  m_LocalEulerAnglesHint: {x: 32.682705, y: -0.00010744885, z: -0.00005235618}
+--- !u!1 &8767311632687532632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526235442744260148}
+  m_Layer: 3
+  m_Name: RobeSkirt057
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1526235442744260148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8767311632687532632}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5330852, y: -0.5054421, z: 0.4208056, w: 0.5322321}
+  m_LocalPosition: {x: -0.26287416, y: 0.067071855, z: -0.81047285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: 47.83958, y: 108.41515, z: -171.32051}
+--- !u!1 &8823802416465741449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 394934413521550212}
+  - component: {fileID: 7648946606187990890}
+  m_Layer: 3
+  m_Name: Hands_LP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &394934413521550212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823802416465741449}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3180436746403043868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &7648946606187990890
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823802416465741449}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f52e37ac5cc1e4eee85c91e7e6d5849c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -7135512106835019202, guid: ee7a3e3e7834a4209b5deb0d953485f5, type: 3}
+  m_Bones:
+  - {fileID: 2192942482294198221}
+  - {fileID: 5609378134153544160}
+  - {fileID: 1934192086265326607}
+  - {fileID: 2211092059332724410}
+  - {fileID: 1948307363453125108}
+  - {fileID: 3674817058112474222}
+  - {fileID: 4817069024227705915}
+  - {fileID: 5508958241206752636}
+  - {fileID: 6954314037389736860}
+  - {fileID: 8092803610136076989}
+  - {fileID: 8292826250950422620}
+  - {fileID: 3092437286571815810}
+  - {fileID: 5208503711692926848}
+  - {fileID: 4616859856275732670}
+  - {fileID: 7974638502909958292}
+  - {fileID: 9066570447517402548}
+  - {fileID: 966338103645405854}
+  - {fileID: 2787107199246670850}
+  - {fileID: 2277890547099492746}
+  - {fileID: 330162770712674787}
+  - {fileID: 1895757230188901325}
+  - {fileID: 7053987346427104308}
+  - {fileID: 5258475865436634167}
+  - {fileID: 3846957197738055792}
+  - {fileID: 6461443015917090797}
+  - {fileID: 2445028717839921829}
+  - {fileID: 6463003161436312117}
+  - {fileID: 2827706638655673372}
+  - {fileID: 1456125914945466720}
+  - {fileID: 1541224943834840781}
+  - {fileID: 9068148522336393513}
+  - {fileID: 6218633058395410272}
+  - {fileID: 302086690215530601}
+  - {fileID: 7272669568598559324}
+  - {fileID: 1346680868044913085}
+  - {fileID: 2517173152456983383}
+  - {fileID: 7575842325636413948}
+  - {fileID: 3832712061559515795}
+  - {fileID: 2403734637308049138}
+  - {fileID: 6590753832553699786}
+  m_BlendShapeWeights:
+  - 0
+  m_RootBone: {fileID: 1895757230188901325}
+  m_AABB:
+    m_Center: {x: -0.07151644, y: -0.0039466694, z: -0.5335613}
+    m_Extent: {x: 0.16663958, y: 0.11763323, z: 0.9690327}
+  m_DirtyAABB: 0
+--- !u!1 &8866532275387084478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2403734637308049138}
+  m_Layer: 3
+  m_Name: SleeveR1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2403734637308049138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8866532275387084478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000050472632, y: -0.00000023301489, z: 0.21169756, w: 0.9773353}
+  m_LocalPosition: {x: -0.019149784, y: 0.004536265, z: 0.15772383}
+  m_LocalScale: {x: 1.000005, y: 1.000003, z: 0.9999895}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6590753832553699786}
+  m_Father: {fileID: 5258475865436634167}
+  m_LocalEulerAnglesHint: {x: 0.000011572617, y: -0.000025253705, z: 24.443703}
+--- !u!1 &8897882121835697024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5932514093316472762}
+  m_Layer: 3
+  m_Name: WeeperLUpperarm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5932514093316472762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8897882121835697024}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.3982736e-10, y: 0.0000000018719253, z: -0.049775798, w: 0.9987604}
+  m_LocalPosition: {x: -0.00000015258789, y: 0.0000000047683715, z: 0.12071892}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1600041961421475196}
+  m_Father: {fileID: 8712183294847193298}
+  m_LocalEulerAnglesHint: {x: -0.000004608356, y: -0.000016337939, z: -5.7047114}
+--- !u!1 &8975092498971646521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2787107199246670850}
+  m_Layer: 3
+  m_Name: WeeperLFingerPinkieL3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2787107199246670850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975092498971646521}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.21768267, y: -0.0000007984205, z: 0.000000013949426, w: 0.9760196}
+  m_LocalPosition: {x: -0, y: 0, z: 0.020752868}
+  m_LocalScale: {x: 1.0000005, y: 1.0000093, z: 0.9999911}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 966338103645405854}
+  m_LocalEulerAnglesHint: {x: 25.145508, y: -0.00009540512, z: -0.000012896464}
+--- !u!1 &9001764595500963684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7444690310965722125}
+  m_Layer: 3
+  m_Name: WeeperLFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7444690310965722125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001764595500963684}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5233632, y: -0.04209179, z: 0.04516549, w: 0.8498702}
+  m_LocalPosition: {x: -0, y: 0.000000009536743, z: 0.37312958}
+  m_LocalScale: {x: 1.0000001, y: 1.0000013, z: 0.999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8909167084286026799}
+  m_Father: {fileID: 6996777687492554014}
+  m_LocalEulerAnglesHint: {x: -58.810272, y: -3.8782642, z: 0.022647947}
+--- !u!1 &9062723866076991574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330162770712674787}
+  m_Layer: 3
+  m_Name: SleeveL2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &330162770712674787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062723866076991574}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.43924397, y: 0.027178334, z: -0.12833034, w: 0.8887393}
+  m_LocalPosition: {x: -0.01916294, y: -0.097695485, z: 0.06507278}
+  m_LocalScale: {x: 1.0000031, y: 0.99999976, z: 0.9999968}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3087510935301339703}
+  m_Father: {fileID: 2277890547099492746}
+  m_LocalEulerAnglesHint: {x: -39.03382, y: 8.453901, z: -18.197279}
+--- !u!1 &9079459342917932593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9040136433825852316}
+  m_Layer: 3
+  m_Name: RobeSkirt033
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9040136433825852316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079459342917932593}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5930878, y: -0.29601035, z: 0.68444806, w: 0.30357134}
+  m_LocalPosition: {x: 0.099530704, y: -0.117423475, z: -0.5656867}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6412457678987191151}
+  m_LocalEulerAnglesHint: {x: -0.47401047, y: 77.737305, z: 161.53679}
+--- !u!1 &9086879576512123524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8909167084286026799}
+  m_Layer: 3
+  m_Name: WeeperLToe11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8909167084286026799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9086879576512123524}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.28236952, y: -0.032374516, z: 0.10848263, w: 0.95260215}
+  m_LocalPosition: {x: 0.000007743835, y: 0.00006621361, z: 0.20006435}
+  m_LocalScale: {x: 0.99999976, y: 1.0000001, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7444690310965722125}
+  m_LocalEulerAnglesHint: {x: -25.050083, y: 2.6296463, z: -6.032627}

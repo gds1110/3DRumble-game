@@ -20,9 +20,6 @@ public class GameScene : BaseScene
         //Cursor.lockState = CursorLockMode.Locked;
         //Cursor.visible = false;
 
-        Dictionary<int, Data.Stat>dict = Managers.Data.StatDict;
-        //GameObject player = Managers.Game.Spawn(Define.WorldObject.Player, "UnityChan");
-
 
         //GameObject go = new GameObject { name = "Genrator" };
         //EnemyGenerator generator = go.GetOrAddComponent<EnemyGenerator>();
