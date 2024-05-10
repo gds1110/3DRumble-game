@@ -97,6 +97,7 @@ public class Define
         Wind,
         Dark,
         Light,
-        Normal
+        Normal,
+        All
     }
 }

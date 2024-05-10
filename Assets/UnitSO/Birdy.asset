@@ -16,7 +16,7 @@ MonoBehaviour:
   DisplayName: "\uBC84\uB514"
   FriendlyUnit: {fileID: 3156694307915122761, guid: 6d98cc4fdb279864a85efec70a5cd117, type: 3}
   HostileUnit: {fileID: 3156694307915122761, guid: 6d98cc4fdb279864a85efec70a5cd117, type: 3}
-  UnitPortrait: {fileID: 2800000, guid: 1450c9b2bfd047a478f2dc2cc4a18399, type: 3}
+  UnitPortrait: {fileID: 21300000, guid: 1450c9b2bfd047a478f2dc2cc4a18399, type: 3}
   cost: 3
   _attackType: 0
   _movementType: 1

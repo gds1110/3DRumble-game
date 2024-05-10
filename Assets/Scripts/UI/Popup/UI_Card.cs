@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using static Define;
 
 public class UI_Card : UI_Popup
 {
@@ -31,7 +32,7 @@ public class UI_Card : UI_Popup
 
     public Image _attackType;
     public Image _elementalType;
-    public RawImage _characterImg;
+    public Image _characterImg;
 
 
     public TMP_Text _bName;
@@ -62,7 +63,7 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
         _cost = Get<GameObject>((int)GameObjects.CostText).GetComponent<TMP_Text>();
         _attackType= Get<GameObject>((int)GameObjects.AttackTypeImg).GetComponent<Image>();
         _elementalType = Get<GameObject>((int)GameObjects.ElementalTypeImg).GetComponent<Image>();
-        _characterImg = Get<GameObject>((int)GameObjects.CharacterImg).GetComponent<RawImage>();
+        _characterImg = Get<GameObject>((int)GameObjects.CharacterImg).GetComponent<Image>();
         _bName = Get<GameObject>((int)GameObjects.BackNameText).GetComponent<TMP_Text>();
         _bElemental = Get<GameObject>((int)GameObjects.BElementalText).GetComponent<TMP_Text>();
         _bMovemnet = Get<GameObject>((int)GameObjects.BMovementTypeText).GetComponent<TMP_Text>();
@@ -81,7 +82,7 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
         {
             _name.text = _unitData.DisplayName;
             _cost.text = _unitData.cost.ToString();
-            _characterImg.texture = _unitData.UnitPortrait;
+            _characterImg.sprite = _unitData.UnitPortrait;
             if (_CardImageSO != null)
             {
                 string belemental= "";
@@ -204,6 +205,23 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
 
 
 
+        }
+        else
+        {
+            _name.text = "ºó ½½·Ô";
+            _cost.text = "0";
+            _characterImg.sprite = _CardImageSO.DefaultImg;
+
+            _bElemental.text = "¼Ó¼º : ºó ½½·Ô";
+
+            _bMovemnet.text = "ÀÌµ¿Å¸ÀÔ : ºó ½½·Ô";
+            _bAttackType.text = "°ø°ÝÅ¸ÀÔ : ºó ½½·Ô";
+            _bTargetType.text = "Å¸°ÙÅ¸ÀÔ : ºó ½½·Ô";
+            _bTargetMovementType.text = "Å¸°ÙÀÌµ¿Å¸ÀÔ : ºó ½½·Ô";
+            _bLife.text = "Ã¼·Â : 0";
+            _bDamage.text = "°ø°Ý·Â : 0";
+            _bAttackSpd.text = "°ø°Ý¼Óµµ : 0";
+            _bSpd.text = "ÀÌµ¿¼Óµµ : 0";
         }
     }
     // Update is called once per frame
