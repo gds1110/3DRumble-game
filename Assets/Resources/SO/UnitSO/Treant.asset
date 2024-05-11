@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
-  m_Name: Golem
+  m_Name: Treant
   m_EditorClassIdentifier: 
-  Name: Golem
-  DisplayName: "\uAC00\uACE0\uC77C"
-  FriendlyUnit: {fileID: 7207875618359367689, guid: 5b9d353d071260d4194018ff2b106881, type: 3}
-  HostileUnit: {fileID: 7207875618359367689, guid: 5b9d353d071260d4194018ff2b106881, type: 3}
-  UnitPortrait: {fileID: 21300000, guid: 8e8bfc197baaed14c8f30b92a7983a0b, type: 3}
-  cost: 5
+  _name: Treant
+  _displayName: "\uAD34\uC218"
+  FriendlyUnit: {fileID: 5890717295045990382, guid: 61ba1a746f1e1ad4fb6dcb7395a1b395, type: 3}
+  HostileUnit: {fileID: 5890717295045990382, guid: 61ba1a746f1e1ad4fb6dcb7395a1b395, type: 3}
+  UnitPortrait: {fileID: 21300000, guid: 4d3982bd9b307f04aa5074b7213318e3, type: 3}
+  cost: 8
   _attackType: 0
   _movementType: 0
-  _targetMovementType: 0
-  _targetType: 0
+  _targetMovementType: 2
+  _targetType: 2
   _UnitType: 0
   _elementalType: 2
-  _attackRatio: 1.5
+  _attackRatio: 2.5
   _attackRange: 4
-  _speed: 10
-  _scanRange: 10
-  _damage: 20
-  _life: 50
-  _defense: 35
+  _speed: 2
+  _scanRange: 8
+  _damage: 30
+  _life: 100
+  _defense: 30
   _isSplitAttackAnim: 0
   _attackTiming: 0.2

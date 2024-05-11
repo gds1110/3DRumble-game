@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
   m_Name: BoneDragon
   m_EditorClassIdentifier: 
-  Name: BoneDragon
-  DisplayName: "\uBCF8 \uB4DC\uB798\uACE4"
+  _name: BoneDragon
+  _displayName: "\uBCF8 \uB4DC\uB798\uACE4"
   FriendlyUnit: {fileID: 8797495720604275925, guid: 9caaab53961097348ba2405814db7993, type: 3}
   HostileUnit: {fileID: 8797495720604275925, guid: 9caaab53961097348ba2405814db7993, type: 3}
   UnitPortrait: {fileID: 21300000, guid: 9bcbc622c37ae1d4cabfd0ab98e2cf85, type: 3}

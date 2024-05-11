@@ -10,25 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
-  m_Name: Gazer
+  m_Name: Demoness
   m_EditorClassIdentifier: 
-  Name: Gazer
-  DisplayName: "\uAC10\uC2DC\uC790"
-  FriendlyUnit: {fileID: 9026311584679861985, guid: e2371038490fa2644a85e2eef46c5863, type: 3}
-  HostileUnit: {fileID: 9026311584679861985, guid: e2371038490fa2644a85e2eef46c5863, type: 3}
-  UnitPortrait: {fileID: 21300000, guid: 76dce298c1032aa4cb0767d140fbb6bb, type: 3}
-  cost: 6
+  _name: Demoness
+  _displayName: "\uC11C\uD050\uBC84\uC2A4"
+  FriendlyUnit: {fileID: 9139807633038369256, guid: 0af50640749021443a065e9a41f4a41b, type: 3}
+  HostileUnit: {fileID: 9139807633038369256, guid: 0af50640749021443a065e9a41f4a41b, type: 3}
+  UnitPortrait: {fileID: 21300000, guid: a086249e981fdd0439ae679dd188a0b3, type: 3}
+  cost: 2
   _attackType: 1
   _movementType: 0
   _targetMovementType: 2
-  _targetType: 0
+  _targetType: 2
   _UnitType: 0
-  _elementalType: 4
+  _elementalType: 1
   _attackRatio: 1
-  _attackRange: 12
-  _speed: 5
-  _scanRange: 15
-  _damage: 40
+  _attackRange: 10
+  _speed: 10
+  _scanRange: 12
+  _damage: 15
   _life: 30
   _defense: 10
   _isSplitAttackAnim: 0

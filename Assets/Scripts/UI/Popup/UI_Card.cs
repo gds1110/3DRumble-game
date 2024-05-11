@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,6 +25,8 @@ public class UI_Card : UI_Popup
         BDamageText,
         BAttackSpdText,
         BSpdText,
+        BackBG,
+        FrontBG
     }
   
 
@@ -52,7 +55,39 @@ public class UI_Card : UI_Popup
     UnitData _unitData;
     [SerializeField]
     CardImages _CardImageSO;
-UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
+
+    GameObject _fg, _bg;
+    bool _isFront;
+    public bool _isFlipping;
+
+    public UnitData UnitData
+    { 
+        get
+        {
+            return _unitData; 
+        }
+
+        set
+        { 
+         _unitData = value;
+         SetCardInfo();
+        }
+    }
+    public void FlipCard()
+    {
+        if(_isFront)
+        {
+            _fg.SetActive(false);
+            _bg.SetActive(true);
+        }
+        else
+        {
+            _fg.SetActive(true);
+            _bg.SetActive(false);
+        }
+        _isFront=!_isFront;
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -74,13 +109,17 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
         _bDamage = Get<GameObject>((int)GameObjects.BDamageText).GetComponent<TMP_Text>();
         _bAttackSpd = Get<GameObject>((int)GameObjects.BAttackSpdText).GetComponent<TMP_Text>();
         _bSpd = Get<GameObject>((int)GameObjects.BSpdText).GetComponent<TMP_Text>();
+        _fg = Get<GameObject>((int)GameObjects.FrontBG);
+        _bg = Get<GameObject>((int)GameObjects.BackBG);
         SetCardInfo();
+        _isFront = true;
+        _isFlipping = false;
     }
-    void SetCardInfo()
+    public void SetCardInfo()
     {
         if (_unitData != null)
         {
-            _name.text = _unitData.DisplayName;
+            _name.text = _unitData._displayName;
             _cost.text = _unitData.cost.ToString();
             _characterImg.sprite = _unitData.UnitPortrait;
             if (_CardImageSO != null)
@@ -123,6 +162,7 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
 
                         break;
                 }
+                
                 string battacktype = "";
                 switch (_unitData._attackType)
                 {
@@ -140,6 +180,7 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
 
                         break;
                 }
+                
 
                 string bmovemnt = "";
                 string btargettype = "";
@@ -187,9 +228,10 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
                         break;
                 }
 
+                _attackType.enabled = true;
+                _elementalType.enabled = true;
 
-
-
+                _bName.text = _unitData._displayName;
                 _bElemental.text = "º”º∫ : "+ belemental;
                
                 _bMovemnet.text ="¿Ãµø≈∏¿‘ : "+bmovemnt;
@@ -209,9 +251,13 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
         else
         {
             _name.text = "∫Û ΩΩ∑‘";
+            _bName.text = "∫Û ΩΩ∑‘";
             _cost.text = "0";
             _characterImg.sprite = _CardImageSO.DefaultImg;
-
+            _attackType.sprite = null;
+            _elementalType.sprite = null;
+            _attackType.enabled = false;
+            _elementalType.enabled = false;
             _bElemental.text = "º”º∫ : ∫Û ΩΩ∑‘";
 
             _bMovemnet.text = "¿Ãµø≈∏¿‘ : ∫Û ΩΩ∑‘";
@@ -224,9 +270,5 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
             _bSpd.text = "¿Ãµøº”µµ : 0";
         }
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
-  m_Name: Minotaur
+  m_Name: Gazer
   m_EditorClassIdentifier: 
-  Name: Minotaur
-  DisplayName: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4"
-  FriendlyUnit: {fileID: 5730195438104950828, guid: 9afba96e00fca3a429dd24df22503681, type: 3}
-  HostileUnit: {fileID: 5730195438104950828, guid: 9afba96e00fca3a429dd24df22503681, type: 3}
-  UnitPortrait: {fileID: 21300000, guid: 83fd502f15cb0b04b833bde87d4ca7bc, type: 3}
+  _name: Gazer
+  _displayName: "\uAC10\uC2DC\uC790"
+  FriendlyUnit: {fileID: 9026311584679861985, guid: e2371038490fa2644a85e2eef46c5863, type: 3}
+  HostileUnit: {fileID: 9026311584679861985, guid: e2371038490fa2644a85e2eef46c5863, type: 3}
+  UnitPortrait: {fileID: 21300000, guid: 76dce298c1032aa4cb0767d140fbb6bb, type: 3}
   cost: 6
-  _attackType: 0
+  _attackType: 1
   _movementType: 0
-  _targetMovementType: 0
+  _targetMovementType: 2
   _targetType: 0
   _UnitType: 0
-  _elementalType: 0
+  _elementalType: 4
   _attackRatio: 1
-  _attackRange: 8
+  _attackRange: 12
   _speed: 5
-  _scanRange: 8
-  _damage: 35
-  _life: 65
-  _defense: 20
+  _scanRange: 15
+  _damage: 40
+  _life: 30
+  _defense: 10
   _isSplitAttackAnim: 0
   _attackTiming: 0.2

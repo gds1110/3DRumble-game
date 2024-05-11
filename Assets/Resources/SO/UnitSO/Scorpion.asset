@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
-  m_Name: Spider
+  m_Name: Scorpion
   m_EditorClassIdentifier: 
-  Name: Spider
-  DisplayName: "\uAC70\uBBF8"
-  FriendlyUnit: {fileID: 6659854095826798099, guid: 8301c2c0992b2d842a2a6a4dbcfa7f6f, type: 3}
-  HostileUnit: {fileID: 6659854095826798099, guid: 8301c2c0992b2d842a2a6a4dbcfa7f6f, type: 3}
-  UnitPortrait: {fileID: 21300000, guid: c0abd17978f6591448df34e542cc7d5b, type: 3}
-  cost: 3
+  _name: Scorpion
+  _displayName: "\uC804\uAC08"
+  FriendlyUnit: {fileID: 3299699744879712760, guid: c70273d65e836f54782a345a2fb6053c, type: 3}
+  HostileUnit: {fileID: 3299699744879712760, guid: c70273d65e836f54782a345a2fb6053c, type: 3}
+  UnitPortrait: {fileID: 21300000, guid: f00cd56478770194493d21dfd689c6e5, type: 3}
+  cost: 4
   _attackType: 0
   _movementType: 0
   _targetMovementType: 0
-  _targetType: 2
+  _targetType: 0
   _UnitType: 0
-  _elementalType: 4
+  _elementalType: 6
   _attackRatio: 1
   _attackRange: 4
-  _speed: 8
+  _speed: 5
   _scanRange: 10
-  _damage: 10
-  _life: 35
-  _defense: 5
+  _damage: 15
+  _life: 55
+  _defense: 10
   _isSplitAttackAnim: 0
   _attackTiming: 0.2

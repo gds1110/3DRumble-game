@@ -56,11 +56,11 @@ public abstract class UI_Base : MonoBehaviour
 
     protected GameObject GetObject(int idx) { return Get<GameObject>(idx); }    
     protected Text GetText(int idx) { return Get<Text>(idx); }
-    protected TextMeshPro GetTMP(int idx) { return Get<TextMeshPro>(idx); }
+    protected TextMeshProUGUI GetTMP(int idx) { return Get<TextMeshProUGUI>(idx); }
     protected Button GetButton(int idx) { return Get<Button>(idx); }
     protected Image GetImage(int idx) { return Get<Image>(idx); }
 
-    public static void BindEvent(GameObject go, Action<PointerEventData>action,Define.UIEvent type = Define.UIEvent.Click)
+    public static void BindEvent(GameObject go, Action<PointerEventData>action,Define.UIEvent type = Define.UIEvent.LeftClick)
     {
         UI_EventHandler evt = Util.GetOrAddComponent<UI_EventHandler>(go);
    
@@ -68,9 +68,13 @@ public abstract class UI_Base : MonoBehaviour
         switch (type)
         {
 
-            case Define.UIEvent.Click:
-                evt.OnClickHandler -= action;
-                evt.OnClickHandler += action;
+            case Define.UIEvent.LeftClick:
+                evt.OnLeftClickHandler -= action;
+                evt.OnLeftClickHandler += action;
+                break;
+            case Define.UIEvent.RightClick:
+                evt.OnRightClickHandler -= action;
+                evt.OnRightClickHandler += action;
                 break;
               
             case Define.UIEvent.Drag:

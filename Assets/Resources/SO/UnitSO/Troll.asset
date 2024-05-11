@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
-  m_Name: Plant
+  m_Name: Troll
   m_EditorClassIdentifier: 
-  Name: "\uD50C\uB80C\uD130"
-  DisplayName: Plant
-  FriendlyUnit: {fileID: 7962573459934622015, guid: 6bad8e6acbb9a474c96a64ee57ad2658, type: 3}
-  HostileUnit: {fileID: 7962573459934622015, guid: 6bad8e6acbb9a474c96a64ee57ad2658, type: 3}
-  UnitPortrait: {fileID: 21300000, guid: efb1744002ab45142bd3c22d32d80078, type: 3}
-  cost: 2
-  _attackType: 1
+  _name: Troll
+  _displayName: "\uD2B8\uB864"
+  FriendlyUnit: {fileID: 6473802105334099796, guid: d092bbf24b612034cab2f60cace25849, type: 3}
+  HostileUnit: {fileID: 6473802105334099796, guid: d092bbf24b612034cab2f60cace25849, type: 3}
+  UnitPortrait: {fileID: 21300000, guid: ba19620a2f7dd6644824b0f5ca8b313f, type: 3}
+  cost: 5
+  _attackType: 0
   _movementType: 0
   _targetMovementType: 0
-  _targetType: 2
+  _targetType: 0
   _UnitType: 0
-  _elementalType: 2
-  _attackRatio: 1.5
-  _attackRange: 18
+  _elementalType: 1
+  _attackRatio: 2.5
+  _attackRange: 3
   _speed: 2
-  _scanRange: 18
+  _scanRange: 5
   _damage: 10
-  _life: 15
-  _defense: 10
+  _life: 50
+  _defense: 20
   _isSplitAttackAnim: 0
   _attackTiming: 0.2

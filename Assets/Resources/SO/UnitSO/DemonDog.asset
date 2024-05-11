@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
-  m_Name: Troll
+  m_Name: DemonDog
   m_EditorClassIdentifier: 
-  Name: Troll
-  DisplayName: "\uD2B8\uB864"
-  FriendlyUnit: {fileID: 0}
-  HostileUnit: {fileID: 0}
-  UnitPortrait: {fileID: 21300000, guid: ba19620a2f7dd6644824b0f5ca8b313f, type: 3}
-  cost: 5
+  _name: DemonDog
+  _displayName: "\uC545\uB9C8\uACAC"
+  FriendlyUnit: {fileID: 3500964662399934306, guid: bc474e9872ccef74d86f6ee1f27cc345, type: 3}
+  HostileUnit: {fileID: 3500964662399934306, guid: bc474e9872ccef74d86f6ee1f27cc345, type: 3}
+  UnitPortrait: {fileID: 21300000, guid: 748dec856fa383344b28caaebef40e8f, type: 3}
+  cost: 2
   _attackType: 0
   _movementType: 0
   _targetMovementType: 0
-  _targetType: 0
+  _targetType: 2
   _UnitType: 0
-  _elementalType: 1
-  _attackRatio: 2.5
+  _elementalType: 6
+  _attackRatio: 0.5
   _attackRange: 3
-  _speed: 2
-  _scanRange: 5
+  _speed: 5
+  _scanRange: 7
   _damage: 10
-  _life: 50
-  _defense: 20
+  _life: 20
+  _defense: 5
   _isSplitAttackAnim: 0
   _attackTiming: 0.2

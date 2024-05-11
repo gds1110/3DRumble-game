@@ -24,7 +24,7 @@ public class UI_MiniCard : UI_Base
     UnitData _unitData;
     [SerializeField]
     CardImages _CardImageSO;
-    UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
+    public UnitData UnitData { get { return _unitData; } set { _unitData = value; SetInfo(); } }
 
     public override void Init()
     {
@@ -41,14 +41,14 @@ public class UI_MiniCard : UI_Base
     {
         if(_unitData != null)
         {
-            _name.text = _unitData.Name;
+            _name.text = _unitData._displayName;
             _cost.text = _unitData.cost.ToString();
             _characterImg.sprite = _unitData.UnitPortrait;
 
         }
         else
         {
-            _name.text = "ºó ½½·Ô";
+            _name.text = "ºó ½½·Ô00";
             _cost.text = "0";
             _characterImg.sprite = _CardImageSO.DefaultMiniImg;
         }
@@ -58,7 +58,9 @@ public class UI_MiniCard : UI_Base
     // Start is called before the first frame update
     void Start()
     {
-        
+        Init();
+
+
     }
 
     // Update is called once per frame

@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
-  m_Name: Scorpion
+  m_Name: Minotaur
   m_EditorClassIdentifier: 
-  Name: Scorpion
-  DisplayName: "\uC804\uAC08"
-  FriendlyUnit: {fileID: 3299699744879712760, guid: c70273d65e836f54782a345a2fb6053c, type: 3}
-  HostileUnit: {fileID: 3299699744879712760, guid: c70273d65e836f54782a345a2fb6053c, type: 3}
-  UnitPortrait: {fileID: 21300000, guid: f00cd56478770194493d21dfd689c6e5, type: 3}
-  cost: 4
+  _name: Minotaur
+  _displayName: "\uBBF8\uB178\uD0C0\uC6B0"
+  FriendlyUnit: {fileID: 5730195438104950828, guid: 9afba96e00fca3a429dd24df22503681, type: 3}
+  HostileUnit: {fileID: 5730195438104950828, guid: 9afba96e00fca3a429dd24df22503681, type: 3}
+  UnitPortrait: {fileID: 21300000, guid: 83fd502f15cb0b04b833bde87d4ca7bc, type: 3}
+  cost: 6
   _attackType: 0
   _movementType: 0
   _targetMovementType: 0
   _targetType: 0
   _UnitType: 0
-  _elementalType: 6
+  _elementalType: 0
   _attackRatio: 1
-  _attackRange: 4
+  _attackRange: 8
   _speed: 5
-  _scanRange: 10
-  _damage: 15
-  _life: 55
-  _defense: 10
+  _scanRange: 8
+  _damage: 35
+  _life: 65
+  _defense: 20
   _isSplitAttackAnim: 0
   _attackTiming: 0.2

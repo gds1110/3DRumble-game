@@ -32,7 +32,7 @@ public class Unit : MonoBehaviour
 
     public void SetData()
     {
-        _name = unitData.name;
+        _name = unitData._name;
         _attackType = unitData._attackType;
         _targetType = unitData._targetType;
         _attackDelay = unitData._attackRatio;
