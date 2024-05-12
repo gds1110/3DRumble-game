@@ -22,6 +22,7 @@ public class UnitController : MonoBehaviour
     private readonly int _idleHash = Animator.StringToHash("IDLE");
     private readonly int _attackTrigger = Animator.StringToHash("ATTACKTRIGGER");
 
+    public bool isChange = false;
 
     [SerializeField] private Define.State _state= Define.State.Idle;
     Animator _anim;
@@ -94,8 +95,10 @@ public class UnitController : MonoBehaviour
         Rigidbody rb = GetComponent<Rigidbody>();
         rb.constraints=RigidbodyConstraints.FreezePositionX| RigidbodyConstraints.FreezePositionZ;
         rb.constraints |= RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-        // Managers.UI.MakeWorldSpaceUI<UI_HpBar>(transform);
+
     }
+ 
+
     private void Update()
     {
         if (_isPlaced == false)

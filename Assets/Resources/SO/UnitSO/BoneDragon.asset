@@ -16,6 +16,7 @@ MonoBehaviour:
   _displayName: "\uBCF8 \uB4DC\uB798\uACE4"
   FriendlyUnit: {fileID: 8797495720604275925, guid: 9caaab53961097348ba2405814db7993, type: 3}
   HostileUnit: {fileID: 8797495720604275925, guid: 9caaab53961097348ba2405814db7993, type: 3}
+  PlaceGhost: {fileID: 919132149155446097, guid: 5d07b3fdea3d240df9e88bdbc9b56f24, type: 3}
   UnitPortrait: {fileID: 21300000, guid: 9bcbc622c37ae1d4cabfd0ab98e2cf85, type: 3}
   cost: 10
   _attackType: 1

@@ -15,10 +15,10 @@ TagManager:
   - FlyUnit
   - GroundUnit
   - Tower
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Wall
+  - Fence
+  - Placement
   - 
   - 
   - 

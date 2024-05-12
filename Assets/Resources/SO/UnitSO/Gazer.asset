@@ -16,6 +16,7 @@ MonoBehaviour:
   _displayName: "\uAC10\uC2DC\uC790"
   FriendlyUnit: {fileID: 9026311584679861985, guid: e2371038490fa2644a85e2eef46c5863, type: 3}
   HostileUnit: {fileID: 9026311584679861985, guid: e2371038490fa2644a85e2eef46c5863, type: 3}
+  PlaceGhost: {fileID: 919132149155446097, guid: d11c5c1543e3a46e2afe00ae2e384d61, type: 3}
   UnitPortrait: {fileID: 21300000, guid: 76dce298c1032aa4cb0767d140fbb6bb, type: 3}
   cost: 6
   _attackType: 1

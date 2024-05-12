@@ -10,6 +10,7 @@ public class GameManager
    // Dictionary<int, GameObject> _monsters = new Dictionary<int, GameObject>();
    public HashSet<GameObject> _monsters= new HashSet<GameObject>();
 
+    public Define.WorldObject _playerType = Define.WorldObject.Player;
     public Action<int> OnSpawnEvent;
     public Action GameOverTimeEvent;
     public int _score=0;

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84469202498e54409ae324f879e1c504, type: 3}
   m_Name: Bone Dragon Color Shifter
   m_EditorClassIdentifier: 
-  activeColorSetIndex: 0
+  activeColorSetIndex: 1
   activeColors: 49
   colorSets:
   - name: Bone

@@ -8,7 +8,8 @@ public class Define
     {
         Unknown,
         Player,
-        Monster
+        Monster,
+        None
     }
 
     public enum Layer

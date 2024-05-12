@@ -16,6 +16,7 @@ MonoBehaviour:
   _displayName: "\uC720\uB839"
   FriendlyUnit: {fileID: 1585952231164010437, guid: 05e48f14efe9d06408ee09fd2669b922, type: 3}
   HostileUnit: {fileID: 1585952231164010437, guid: 05e48f14efe9d06408ee09fd2669b922, type: 3}
+  PlaceGhost: {fileID: 919132149155446097, guid: ee7a3e3e7834a4209b5deb0d953485f5, type: 3}
   UnitPortrait: {fileID: 21300000, guid: 53802e5131a252f4d9490f3eb5c18e99, type: 3}
   cost: 3
   _attackType: 1

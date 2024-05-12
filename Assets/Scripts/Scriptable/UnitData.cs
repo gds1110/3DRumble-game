@@ -12,6 +12,7 @@ public class UnitData : ScriptableObject
     public string _displayName;
     public GameObject FriendlyUnit; // 快龋利牢
     public GameObject HostileUnit; // 利措利牢
+    public GameObject PlaceGhost;
     public Sprite UnitPortrait;
     public int cost;
     [Header("Unit")]
