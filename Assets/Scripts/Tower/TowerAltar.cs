@@ -44,7 +44,7 @@ public class TowerAltar : MonoBehaviour
     public void CountUnbreakable()
     {
         UnbreakableCount++;
-        if(UnbreakableCount>2)
+        if(UnbreakableCount>=2)
         {
             GetComponent<Tower>()._isUnbreakable = false;
         }

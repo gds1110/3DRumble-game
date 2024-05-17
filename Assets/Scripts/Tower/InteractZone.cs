@@ -65,7 +65,7 @@ public class InteractZone : UI_Base
     void Update()
     {
         _conquerSlider.value = _currentConquerTime / _conquerTime;
-        if(_currentConquerTime>0&&!_isConquered&&!_isConquering)
+        if(_currentConquerTime>0&&!_isConquering)
         {
             _currentConquerTime -= Time.deltaTime;
         }
@@ -105,6 +105,12 @@ public class InteractZone : UI_Base
         _isConquering = true;
         
 
+    }
+
+    public void StopConquer()
+    {
+        _isConquering = false;
+        if (_owner != Define.WorldObject.None || _owner != Define.WorldObject.Unknown) _isConquered = false;
     }
     public void EndConquer(Controller controller)
     {

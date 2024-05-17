@@ -31,6 +31,7 @@ public class Tower : BaseCombat, IDamageAble
         _isSplitAttackAnim = unitData._isSplitAttackAnim;
         _attackTiming = unitData._attackTiming;
         _controller = GetComponent<TowerController>();
+        _currentLife = unitData._life;
        // _isUnbreakable = unitData._isUnbreakable;
         
     }
@@ -54,7 +55,6 @@ public class Tower : BaseCombat, IDamageAble
         }
  
         float eleDamage = ElementalCalculate.GetMultiplier(fromUnit._unit._unitElementalType, _unitElementalType);
-        Debug.Log("HitDamage");
         int trueDamage = Mathf.RoundToInt(damage * eleDamage);
         if (trueDamage < 0)
         {
@@ -62,7 +62,9 @@ public class Tower : BaseCombat, IDamageAble
         }
 
         _currentLife -= trueDamage;
-        if(hpBar)
+        //Debug.Log($"HitDamage from : {fromUnit.gameObject.name}, To : {this.gameObject.name}, Damaga : {trueDamage}");
+
+        if (hpBar)
         {
             float ratio = _currentLife / _life;
             hpBar.SetHpRatio(ratio);

@@ -25,7 +25,7 @@ MonoBehaviour:
   _targetType: 2
   _UnitType: 0
   _elementalType: 4
-  _attackRatio: 2
+  _attackRatio: 1.5
   _attackRange: 25
   _speed: 10
   _scanRange: 25

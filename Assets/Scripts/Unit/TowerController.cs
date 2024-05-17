@@ -183,6 +183,26 @@ public class TowerController : Controller,IConquerAble
 
 
     }
+    private void OnDrawGizmos()
+    {
+
+
+
+        if (_unit != null)
+
+        {
+
+            Gizmos.color = Color.red;
+
+            Gizmos.DrawWireSphere(this.transform.position, _unit._scanRange);
+
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(this.transform.position, _unit._attackRange);
+
+        }
+
+
+    }
     public override void FindTarget()
     {
         base.FindTarget();
@@ -194,6 +214,7 @@ public class TowerController : Controller,IConquerAble
         {
             if (controller == this) continue;
             //if (!CheckCanAttackType(controller.GetComponent<BaseCombat>())) continue;
+            if (controller.GetComponent<Tower>()) continue;
             if (_owner == controller._owner) continue;
             if (gameObject.tag == controller.tag) continue;
             if (controller._owner == Define.WorldObject.None || controller._owner == Define.WorldObject.Unknown) continue;
@@ -223,6 +244,7 @@ public class TowerController : Controller,IConquerAble
     {
         _owner = _interactZone._owner;
         ConquerEvent?.Invoke(fromUnit._owner);
+        _target = null;
         Debug.Log("EndConquer!!");
     }
 
@@ -233,6 +255,6 @@ public class TowerController : Controller,IConquerAble
 
     public void StopConquer(Controller fromUnit)
     {
-       
+        _interactZone.StopConquer();
     }
 }

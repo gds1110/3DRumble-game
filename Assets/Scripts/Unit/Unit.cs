@@ -62,7 +62,7 @@ public class Unit : BaseCombat, IDamageAble
         {
             damage = 1;
         }
-        if (_controller._target == null)
+        if (_controller._target == null&&_controller.State!=Define.State.Attack)
         {
             if (_controller.CheckCanAttackType(fromUnit._unit))
             {
@@ -71,7 +71,7 @@ public class Unit : BaseCombat, IDamageAble
             }
         }
         float eleDamage = ElementalCalculate.GetMultiplier(fromUnit._unit._unitElementalType, _unitElementalType);
-        Debug.Log("HitDamage");
+        
         int trueDamage = Mathf.RoundToInt(damage * eleDamage);
         if (trueDamage < 0)
         {
@@ -88,7 +88,7 @@ public class Unit : BaseCombat, IDamageAble
         if (_currentLife <= 0)
         {
             DeadAction?.Invoke();
-            Invoke("OnDeath", 1.0f);
+            Invoke("OnDeath",0.5f);
         }
     }
 

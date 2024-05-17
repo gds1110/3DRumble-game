@@ -35,7 +35,7 @@ public class ArangeAttack : Attack
         {
             Debug.Log("NoHiteffect");
         }
-
+        
     }
     public override void DoAttack(GameObject target)
     {

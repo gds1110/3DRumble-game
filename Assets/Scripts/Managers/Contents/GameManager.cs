@@ -77,69 +77,41 @@ public class GameManager
     public GameObject CardSpawn(Define.WorldObject type,GameObject original,Transform transform,Transform parent = null)
     {
         GameObject go = GameObject.Instantiate(original, transform.position,transform.rotation,parent);
-
-        switch (type)
-        {
-            case Define.WorldObject.Unknown:
-                break;
-            case Define.WorldObject.Player:
-                go.tag = "Player";
-                go.GetComponent<Unit>()._owner = type;
-                go.GetComponent<UnitController>()._owner = type;
-                go.GetComponent<UnitController>()._isPlaced = true;
-                go.GetComponent<UnitController>()._destPos = GetNearWaypoint(go.GetComponent<Controller>());
-
-                SpawnCardEvent?.Invoke();
-                OffPlaceEvent?.Invoke();
-                break;
-            case Define.WorldObject.Monster:
-                go.tag = "Enemy";
-                go.GetComponent<Unit>()._owner = type;
-                go.GetComponent<UnitController>()._owner = type;
-                go.GetComponent<UnitController>()._isPlaced = true;
-                go.GetComponent<UnitController>()._destPos = GetNearWaypoint(go.GetComponent<Controller>());
-
-                break;
-            case Define.WorldObject.None:
-                break;
-        }
-        allUnits.Add(go.GetComponent<UnitController>());
+        SetUnitInfo(type, go);
         return go;
     }
     public GameObject CardSpawn(Define.WorldObject type,GameObject original,Vector3 Pos, Transform parent = null)
     {
         GameObject go = GameObject.Instantiate(original,Pos,Quaternion.identity,parent);
-
+        SetUnitInfo(type, go);
+        return go;
+    }
+    void SetUnitInfo(Define.WorldObject type,GameObject go)
+    {
+        go.GetComponent<Unit>()._owner = type;
+        go.GetComponent<UnitController>()._owner = type;
         switch (type)
         {
             case Define.WorldObject.Unknown:
                 break;
             case Define.WorldObject.Player:
                 go.tag = "Player";
-                go.GetComponent<Unit>()._owner = type;
-                go.GetComponent<UnitController>()._owner = type;             
-                go.GetComponent<UnitController>()._isPlaced = true;
                 go.GetComponent<UnitController>()._destPos = GetNearWaypoint(go.GetComponent<Controller>());
-
                 SpawnCardEvent?.Invoke();
                 OffPlaceEvent?.Invoke();
                 break;
             case Define.WorldObject.Monster:
                 go.tag = "Enemy";
-                go.GetComponent<Unit>()._owner = type;
-                go.GetComponent<UnitController>()._owner = type;
-                go.GetComponent<UnitController>()._isPlaced = true;
                 go.GetComponent<UnitController>()._destPos = GetNearWaypoint(go.GetComponent<Controller>());
-
-
                 break;
             case Define.WorldObject.None:
                 break;
         }
-        allUnits.Add(go.GetComponent<UnitController>());    
-        return go;
+        go.GetComponent<UnitController>()._isPlaced = true;
+        go.transform.LookAt(GetNearWaypoint(go.GetComponent<Controller>()));
+        go.GetComponent<UnitController>().OnPlace();
+        allUnits.Add(go.GetComponent<UnitController>());
     }
-
 
     public GameObject GetPlayer()
     {

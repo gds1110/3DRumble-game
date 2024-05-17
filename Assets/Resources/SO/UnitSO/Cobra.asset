@@ -30,7 +30,7 @@ MonoBehaviour:
   _speed: 5
   _scanRange: 25
   _damage: 10
-  _life: 20
+  _life: 15
   _defense: 1
   _isSplitAttackAnim: 0
   _attackTiming: 0.2

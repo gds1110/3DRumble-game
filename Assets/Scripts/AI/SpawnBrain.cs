@@ -65,8 +65,6 @@ public class SpawnBrain : MonoBehaviour
         Bounds bounds = meshCollider.bounds;
         float xExtent = bounds.extents.x;
         float zExtent = bounds.extents.z;
-        Debug.Log($"x : {xExtent} + z:{zExtent}");
-
         Vector3 randomPos = new Vector3(Random.Range(-xExtent, xExtent), 0, Random.Range(-zExtent, zExtent));
 
 
@@ -84,8 +82,7 @@ public class SpawnBrain : MonoBehaviour
             if (zone)          
              {
                 Vector3 pos = zone.transform.position+ GetRandomPoint(zone.gameObject);
-                Debug.Log($"x : {pos.x} + y : {pos.y}+z:{pos.z}");
-              GameObject go =   Managers.Game.CardSpawn(_owner, nextUnit.HostileUnit, pos);
+                GameObject go =   Managers.Game.CardSpawn(_owner, nextUnit.HostileUnit, pos);
                 if(go)
                 {
                     _manaGage-= nextUnit.cost;

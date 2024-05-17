@@ -26,10 +26,10 @@ MonoBehaviour:
   _UnitType: 1
   _elementalType: 6
   _attackRatio: 1
-  _attackRange: 40
+  _attackRange: 30
   _speed: 0
-  _scanRange: 40
-  _damage: 2
+  _scanRange: 30
+  _damage: 5
   _life: 100
   _defense: 30
   _isSplitAttackAnim: 0

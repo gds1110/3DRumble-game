@@ -13,6 +13,7 @@ public abstract class Attack : MonoBehaviour
     public void Awake()
     {
         _owner = GetComponent<Controller>();
+        _damage = _owner._unit._damage;
     }
 
 
