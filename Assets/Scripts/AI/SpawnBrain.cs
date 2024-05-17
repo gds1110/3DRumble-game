@@ -18,6 +18,8 @@ public class SpawnBrain : MonoBehaviour
 
     private void Start()
     {
+        
+
         _owner = Define.WorldObject.Monster;
         StartCoroutine(CoManaCheckAndSapwn());
     }

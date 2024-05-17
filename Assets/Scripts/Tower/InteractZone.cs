@@ -16,7 +16,7 @@ public class InteractZone : UI_Base
     public bool _isConquering = false;
     public float _conquerTime=5f;
     float _currentConquerTime = 0;
-    Controller _conquerUnit;
+    public Controller _conquerUnit;
     public TowerController _ownerTower;
 
 
@@ -65,9 +65,12 @@ public class InteractZone : UI_Base
     void Update()
     {
         _conquerSlider.value = _currentConquerTime / _conquerTime;
-        if(_currentConquerTime>0&&!_isConquering)
+        if (!_isConquering || !_conquerUnit)
         {
-            _currentConquerTime -= Time.deltaTime;
+            if (_currentConquerTime > 0)
+            {
+                _currentConquerTime -= Time.deltaTime;
+            }
         }
 
     }
@@ -106,6 +109,25 @@ public class InteractZone : UI_Base
         
 
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+        if (_conquerUnit) return;
+        Controller controller = other.GetComponent<Controller>();
+        if(!controller) return;
+        if (controller._unit._movementType == Define.MovemnetType.Aerial) return;
+        if(controller._owner==_owner) return;
+        if (other.GetComponentInParent<IConquerAble>() != null)
+           {
+
+            _conquerUnit = controller;
+              other.GetComponent<IConquerAble>().StartConquer(_ownerTower);
+              StartConquer(other.GetComponent<Controller>());
+           }
+        
+    }
+
 
     public void StopConquer()
     {

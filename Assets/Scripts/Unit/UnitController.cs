@@ -132,7 +132,7 @@ public class UnitController : Controller, IConquerAble
         _otherConquerAble = null;
         Rigidbody rb = GetComponent<Rigidbody>();
         rb.isKinematic = true;
-        _nav.enabled = false;
+        _nav.isStopped = true;
         _isPlaced = false;
     }
     public void OnPlace()
@@ -295,30 +295,30 @@ public class UnitController : Controller, IConquerAble
 
 
     }
-    private void OnTriggerEnter(Collider other)
+    //private void OnTriggerEnter(Collider other)
 
-    {
+    //{
 
-        if (State == Define.State.Attack) return;
+    //    if (State == Define.State.Attack) return;
 
 
 
-        if (other.GetComponent<InteractZone>() != null)
+    //    if (other.GetComponent<InteractZone>() != null)
 
-        {
-            if (this._unit._movementType == Define.MovemnetType.Aerial) return;
+    //    {
+    //        if (this._unit._movementType == Define.MovemnetType.Aerial) return;
 
-            if (other.GetComponent<InteractZone>()._isConquering) return;
+    //        if (other.GetComponent<InteractZone>()._isConquering) return;
 
-            if (other.GetComponentInParent<IConquerAble>() != null && other.GetComponentInParent<Controller>()._owner != _owner)
-            {
+    //        if (other.GetComponentInParent<IConquerAble>() != null && other.GetComponentInParent<Controller>()._owner != _owner)
+    //        {
 
-                other.GetComponentInParent<IConquerAble>().StartConquer(this);
-                StartConquer(other.GetComponentInParent<Controller>());
-            }
-        }
+    //            other.GetComponentInParent<IConquerAble>().StartConquer(this);
+    //            StartConquer(other.GetComponentInParent<Controller>());
+    //        }
+    //    }
 
-    }
+    //}
 
   
 

@@ -38,7 +38,17 @@ public class TowerAltar : MonoBehaviour
             RightTower.GetComponent<TowerCentry>().DeadAction.AddListener(CountUnbreakable);
            
         }
-       
+      GetComponent<Tower>().DeadAction.AddListener(GameEnd);
+    }
+    public void GameEnd()
+    {
+        if (_owner == Define.WorldObject.Player)
+            Managers.Game.SetGameEnding(true);
+        else
+        {
+            Managers.Game.SetGameEnding(false);
+
+        }
     }
 
     public void CountUnbreakable()

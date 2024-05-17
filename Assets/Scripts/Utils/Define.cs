@@ -31,6 +31,7 @@ public class Define
         Login,
         Lobby,
         Game,
+        Deck,
         EndingScene
 
     }

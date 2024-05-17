@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using static UnityEngine.UI.GridLayoutGroup;
 
 public class PlaceObject : MonoBehaviour
 {
@@ -36,7 +37,13 @@ public class PlaceObject : MonoBehaviour
                 SkinnedMeshRenderer[] _meshs = tempGhost.GetComponentsInChildren<SkinnedMeshRenderer>();
                 _GhostsRenderers.Add(tempGhost, _meshs);
                 tempGhost.SetActive(false);
+
+                var go = Instantiate(_unitDatas[i].FriendlyUnit);
+                    Managers.Game.Despawn(go);
+               
+
             }
+
         }
         //SetGhost(_unitDatas[5]);
         if (_ghost)

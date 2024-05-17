@@ -32,6 +32,15 @@ public class GameManager
     public HashSet<Controller> allUnits = new HashSet<Controller>();
     public HashSet<PlaceableZone> allPlaceZone = new HashSet<PlaceableZone>();
 
+
+    public bool GameWin = false;
+
+    public void SetGameEnding(bool isWin)
+    {
+        GameWin = isWin;
+        Managers.Scene.LoadScene(Define.Scene.EndingScene);
+    }
+
     public void Init()
     {
     }
