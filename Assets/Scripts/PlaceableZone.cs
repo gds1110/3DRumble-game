@@ -1,3 +1,4 @@
+using Data;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,34 +7,56 @@ public class PlaceableZone : MonoBehaviour
 {
     public Define.WorldObject _owner;
 
+  
     [SerializeField]
-    Material[] materials = null;
-
+    PlaceableMaterials _placeMaterials;
     private void Start()
     {
         SetOwner(_owner);
+
+        Managers.Game.OnPlaceEvent -= OnPlace;
+        Managers.Game.OnPlaceEvent += OnPlace;
+        Managers.Game.OffPlaceEvent -= OffPlace;
+        Managers.Game.OffPlaceEvent += OffPlace;
+        if (GetComponentInParent<TowerController>())
+        {
+            GetComponentInParent<TowerController>().ConquerEvent.AddListener(SetOwner);
+        }
+        Managers.Game.allPlaceZone.Add(this);
+
+        OffPlace();
+    }
+    void OnPlace()
+    {
+        gameObject.SetActive(true);
+    }
+    void OffPlace()
+    {
+        gameObject.SetActive(false);
+
     }
 
     void SetOwner(Define.WorldObject owner)
     {
         _owner = owner;
-        int num = 0;
+
+        Material material = _placeMaterials.unkownMaterial;
         switch (owner)
         {
             case Define.WorldObject.Unknown:
-                num = 0;
+                material = _placeMaterials.unkownMaterial;
                 break;
             case Define.WorldObject.Player:
-                num = 1;
+                material = _placeMaterials.ableMaterial;
 
                 break;
             case Define.WorldObject.Monster:
-                num = 2;
+                material = _placeMaterials.unableMaterial;
 
                 break;
         }
 
-        GetComponent<MeshRenderer>().material = materials[num];
+        GetComponent<MeshRenderer>().material = material;
     }
 
 }

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5116917775710273301}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRThigh2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1319434105860640017}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargNeck2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6565943007627413901}
   - component: {fileID: 2187779181978206799}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: eyes_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5541978605697130489}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRUpperarm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 284705053431405764}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargTail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7225955912370408937}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRWing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6019091195076680404}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRThigh1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2992730855628311419}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLLegToe012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 110873027958589118}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRForearm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2491508376671699495}
   - component: {fileID: 9211319229609672085}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Teeth_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -452,7 +452,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4569396973002739037}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -483,7 +483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1560707870871780906}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargSpine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3437553540758686970}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargPelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3586716997825175080}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitPink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -582,7 +582,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8798715049037896029}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmForearm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -614,7 +614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 182911889204182807}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 517317371292428642}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRToe012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6695944906987728325}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +713,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8852942003344810666}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRForearm3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -745,7 +745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3520824652800430284}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRCalf2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4945930606232995692}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +808,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7710481462194095500}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLWingRDigit2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8007099533444328961}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,7 +871,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1516583879732651505}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +903,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 742946091773674296}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLLegToe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2394941903364008991}
   - component: {fileID: 1926828307694008365}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Wings_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1060,7 +1060,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4441771201422855242}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargWingThumbR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1091,7 +1091,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8089515275192651826}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargTongue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1122,7 +1122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5182354267025617419}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRUpperarm3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: -5820588428484719778}
   - component: {fileID: -3162656190331768689}
   - component: {fileID: 7126758565828930420}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: IMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1175,15 +1175,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2809857456937018350}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 59.328312, y: 0.00000071525574, z: -8.888842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2020834330578208226}
   - {fileID: 3478134463970208872}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5603533088548801570
 Animator:
   serializedVersion: 7
@@ -1218,7 +1218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 933f887d697144f4abb5f1e6eb76e642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitData: {fileID: 11400000, guid: 070c1c3fefe1da44ba2224be27de87dd, type: 2}
   _attackType: 0
   _targetType: 0
   _unityType: 0
@@ -1237,7 +1236,10 @@ MonoBehaviour:
   _isSplitAttackAnim: 0
   _attackTiming: 0
   _currentLife: 0
-  _worldObject: 0
+  _isUnbreakable: 0
+  hpBar: {fileID: 0}
+  unitData: {fileID: 11400000, guid: 070c1c3fefe1da44ba2224be27de87dd, type: 2}
+  _owner: 0
   _controller: {fileID: 0}
 --- !u!54 &4479094158412288206
 Rigidbody:
@@ -1264,7 +1266,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 32
   m_CollisionDetection: 0
 --- !u!136 &-5820588428484719778
 CapsuleCollider:
@@ -1323,16 +1325,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee152bf0dd3d99a4fb43e519f46a6b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 2
   _unit: {fileID: 0}
   _target: {fileID: 0}
+  _meeleAttack: {fileID: 0}
+  _arangeAttack: {fileID: 0}
+  _isDelay: 0
+  _owner: 0
+  _otherConquerAble: {fileID: 0}
+  _interactZone: {fileID: 0}
+  isChange: 0
+  _state: 2
+  _channelingTime: 0
   _scanRange: 10
   _barrel: {fileID: 0}
   _isPlaced: 0
-  _isDelay: 0
   _destPos: {fileID: 0}
-  _meeleAttack: {fileID: 0}
-  _arangeAttack: {fileID: 0}
 --- !u!1 &2828568277383796530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,7 +1349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7643293865026504076}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRForearm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1374,7 +1381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6235126336139307642}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitPink2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1405,7 +1412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 30961745116777056}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLLegThigh1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1437,7 +1444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3423983387044718464}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargTail4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1469,7 +1476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6853968003775221805}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargSpine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1501,7 +1508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 261520173060052321}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRToe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1532,7 +1539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2077438354902769547}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1563,7 +1570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3574074139835008874}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargTail5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1594,7 +1601,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4908508352070513493}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRWingRWingPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1627,7 +1634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6893739028518639263}
   - component: {fileID: 9136409352894432872}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: horns_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1722,7 +1729,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1215513089870278539}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1754,7 +1761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4300811139622182520}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1785,7 +1792,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7101403123889018691}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRWingRDigit2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1816,7 +1823,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2914924344476621145}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1848,7 +1855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5611513003055520583}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLWing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1883,7 +1890,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1731104660269966856}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLWingWCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1915,7 +1922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2020834330578208226}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1947,7 +1954,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5133128430940100254}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargEyeL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1978,7 +1985,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9096039587572332684}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargSpine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2010,7 +2017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1550477359405054278}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargTail3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2042,7 +2049,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1615888306635132849}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRWingWCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2074,7 +2081,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5317997486768585378}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitMiddle3 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2105,7 +2112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2992479261992174934}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLWing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2137,7 +2144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7589533376617032677}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLLegThigh2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2169,7 +2176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5213789169490411519}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRibcage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2205,7 +2212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4673284716125829124}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2237,7 +2244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2521820893020010976}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2269,7 +2276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5505537729378247365}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmForearm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2301,7 +2308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4465877789581467027}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2333,7 +2340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7417340809920238520}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2365,7 +2372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3098143323626693651}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRToe011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2397,7 +2404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1872194024625491786}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2429,7 +2436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3771195238598607776}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRToe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2461,7 +2468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5874305864796081579}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2493,7 +2500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 391278204530084932}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2524,7 +2531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6688648954380198877}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRWingRDigit1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2556,7 +2563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2422275655335620736}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitMiddle 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2589,7 +2596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1027330100264517614}
   - component: {fileID: 3844025992363691339}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Tail_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2686,7 +2693,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8228737500999562916}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2718,7 +2725,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2667776748565539625}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2754,7 +2761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5102198534459165426}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2786,7 +2793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3478134463970208872}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Imp_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2823,7 +2830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 205773783608748069}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2857,7 +2864,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3560151453813610489}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmUpperarm3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2889,7 +2896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4418963728333509835}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargTail2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2921,7 +2928,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6800946476938431381}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmUpperarm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2953,7 +2960,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3358623829126673239}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2985,7 +2992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7020727193432092702}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3017,7 +3024,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7972819165489860610}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3048,7 +3055,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6235828399320686491}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3080,7 +3087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8884506784000748221}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargJaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3112,7 +3119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1994026389028296274}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3143,7 +3150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 387607457914208779}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLLegToe011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3175,7 +3182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6438090238569029167}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3207,7 +3214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3377038981577990527}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3239,7 +3246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 426743442187167947}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLLegCalf2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3271,7 +3278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1593488680701368732}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLWingRDigit1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3303,7 +3310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6087947879537289869}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3334,7 +3341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3955350216488909251}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmForearm3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3366,7 +3373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7610935289166727517}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3399,7 +3406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7149365568985688661}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3431,7 +3438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4375036003791294832}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitPink2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3462,7 +3469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5937534970357992738}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRWing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3494,7 +3501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5134430006745614345}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRCalf1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3526,7 +3533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6010578635603583821}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargWingThumbR 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3557,7 +3564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8286944188057902035}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLLegCalf1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3589,7 +3596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7079447125141865335}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargNeck1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3621,7 +3628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1953683738269129886}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargTongue1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3653,7 +3660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5995411553301206024}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLWingRWingPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3685,7 +3692,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7575858279032755489}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3717,7 +3724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8162619519711051860}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitPink 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3750,7 +3757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8756695080691772211}
   - component: {fileID: 3569974979416517517}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Body_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3937,7 +3944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2713137060753114823}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLLegAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3970,7 +3977,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4458106077801056845}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4002,7 +4009,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422545913400544462}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4034,7 +4041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3148574635722643581}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargEyeR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4065,7 +4072,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7907201725792940700}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4097,7 +4104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3643568946304744783}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLLegToe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4128,7 +4135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5215298342522671673}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigit03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4159,7 +4166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8480971910424458716}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRUpperarm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4191,7 +4198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7574683134816967870}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargRDigitMiddle2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4223,7 +4230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6442758459285927309}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmUpperarm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4255,7 +4262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2207605241244685768}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4287,7 +4294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8999250179446029529}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4318,7 +4325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7721345795909101167}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: GargLArmDigit33
   m_TagString: Untagged
   m_Icon: {fileID: 0}

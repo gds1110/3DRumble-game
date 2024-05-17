@@ -82,7 +82,8 @@ public class Define
         Die,
         Moving,
         Idle,
-        Attack
+        Attack,
+        Channeling
     }
     public enum UnitGrade
     {
@@ -101,5 +102,17 @@ public class Define
         Light,
         Normal,
         All
+    }
+    public enum Chanelling
+    {
+        Conquer,
+    }
+
+    public enum CardState
+    {
+        Active,
+        UnActive,
+        Selected,
+        None,
     }
 }

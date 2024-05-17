@@ -22,7 +22,7 @@ MonoBehaviour:
   _attackType: 0
   _movementType: 0
   _targetMovementType: 0
-  _targetType: 0
+  _targetType: 2
   _UnitType: 0
   _elementalType: 6
   _attackRatio: 1

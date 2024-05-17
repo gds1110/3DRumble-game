@@ -35,34 +35,38 @@ public class PlaceObject : MonoBehaviour
                 _placeGhosts.Add(_unitDatas[i], tempGhost);
                 SkinnedMeshRenderer[] _meshs = tempGhost.GetComponentsInChildren<SkinnedMeshRenderer>();
                 _GhostsRenderers.Add(tempGhost, _meshs);
+                tempGhost.SetActive(false);
             }
         }
-        SetGhost(_unitDatas[0]);
+        //SetGhost(_unitDatas[5]);
+        if (_ghost)
+        {
+            _ghost.transform.localScale = Vector3.one * 2;
+        }
+        Managers.Game.SpawnCardEvent -= UnSetGhost;
+        Managers.Game.SpawnCardEvent += UnSetGhost;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            Debug.Log("UI Hit");
+           if(_ghost)
+            _ghost.SetActive(false);
+
+        }
+
+
         if (_ghost == null)
             return;
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if(EventSystem.current.IsPointerOverGameObject())
-        {
-            Debug.Log("UI Hit");
-            _ghost.SetActive(false);
-            return;
-        }
-        //else
-        //{
-        //   if(_ghost!=null)
-        //    {
-        //        _ghost.SetActive(true);
-        //    }
-        //}
-
+     
         if(Physics.Raycast(ray,out hit,200f,(1<<12|1<<9)))
         {
             if(hit.collider != null)
@@ -79,8 +83,12 @@ public class PlaceObject : MonoBehaviour
                     {
                         if(Input.GetMouseButtonDown(0))
                         {
-                            Instantiate(_currentUnitdata?.FriendlyUnit, _ghost.transform.position, _ghost.transform.rotation);
+
+                            
+                            Managers.Game.CardSpawn(Define.WorldObject.Player, _currentUnitdata?.FriendlyUnit, _ghost.transform);
+                            
                         }
+
                     }
                 }
 
@@ -137,14 +145,17 @@ public class PlaceObject : MonoBehaviour
         _currentUnder = hitOwner;
     }
 
-    void SetGhost(UnitData ghost)
+    public void SetGhost(UnitData ghost)
     {
+        if (ghost == null) return;
         if (ghost.PlaceGhost == null) return;
         if(_ghost!=null)
         {
             _ghost.gameObject.SetActive(false);
             _ghost = null;
         }
+
+
         _currentUnitdata = ghost;
         GameObject temp;
         _placeGhosts.TryGetValue(ghost,out temp);
@@ -152,6 +163,10 @@ public class PlaceObject : MonoBehaviour
         if(temp!=null)
         {
             _ghost = temp;
+            _ghost.SetActive(true);
+            _ghost.transform.localScale = Vector3.one * 2;
+
+            Managers.Game.OnPlaceEvent?.Invoke();
         }
         else
         {
@@ -161,5 +176,16 @@ public class PlaceObject : MonoBehaviour
             _GhostsRenderers.Add(tempGhost, _meshs);
         }
 
+    }
+
+    public void UnSetGhost()
+    {
+        if(_ghost)
+            _ghost.SetActive(false);
+
+        Managers.Game.OffPlaceEvent?.Invoke();
+
+        _ghost = null;
+        _currentUnitdata = null;
     }
 }

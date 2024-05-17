@@ -10,7 +10,7 @@ using UnityEngine.Purchasing.MiniJSON;
 public class PlayerDeck : ScriptableObject
 {
     [SerializeField]
-    public UnitData[] unitDatas = new UnitData[5];
+    public List<UnitData> unitDatas = new List<UnitData>();
 
     public void Save()
     {

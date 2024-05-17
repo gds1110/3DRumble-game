@@ -32,6 +32,6 @@ public class UnitData : ScriptableObject
     public int _defense = 10;
     public bool _isSplitAttackAnim = false;
     public float _attackTiming = 0.2f;
-
+    public bool _isUnbreakable = false;
 
 }

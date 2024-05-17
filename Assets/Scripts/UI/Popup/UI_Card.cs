@@ -49,7 +49,17 @@ public class UI_Card : UI_Popup
     public TMP_Text _bAttackSpd;
     public TMP_Text _bSpd;
 
+    [SerializeField]
+   public Color _selectColor;
+    [SerializeField]
+    public Color _unableColor;
+    [SerializeField]
+    public Color _ableColor;
 
+    [SerializeField]
+    List<Image> _targetImages = new List<Image>();
+    [SerializeField]
+    List<RawImage> _targetRawImages = new List<RawImage>();
 
     [SerializeField]
     UnitData _unitData;
@@ -59,6 +69,10 @@ public class UI_Card : UI_Popup
     GameObject _fg, _bg;
     bool _isFront;
     public bool _isFlipping;
+
+    public bool _isSelected = false;
+    public bool _isActive = false;
+    public Define.CardState _cardSate = CardState.Active;
 
     public UnitData UnitData
     { 
@@ -114,6 +128,7 @@ public class UI_Card : UI_Popup
         SetCardInfo();
         _isFront = true;
         _isFlipping = false;
+
     }
     public void SetCardInfo()
     {
@@ -270,5 +285,64 @@ public class UI_Card : UI_Popup
             _bSpd.text = "이동속도 : 0";
         }
     }
+
+    public void Refresh(int cost)
+    {
+        if (_unitData == null) return;
+        if (_cardSate == CardState.Selected) return;
+
+        if(_unitData.cost<=cost)
+        {
+            _cardSate = CardState.Active;
+            
+        }
+        else if(_unitData.cost>cost)
+        {
+            _cardSate = CardState.UnActive;
+        }
+        SetColor();
+    }
+    public void IsSelect()
+    {
+        _cardSate = CardState.Selected;
+        SetColor();
+    }
+    public void UnSelect()
+    {
+        _cardSate = CardState.None;
+    }
+    public void SetColor()
+    {
+       
+        Color color = Color.white;
+
+        switch (_cardSate)
+        {
+            case CardState.Active:
+                color = _ableColor;
+                break;
+            case CardState.UnActive:
+                color = _unableColor;
+                break;
+            case CardState.Selected:
+                color = _selectColor;
+                break;
+        }
+       
+        for (int i = 0; i < _targetImages.Count; i++)
+        {
+           if(color != _targetImages[i].color)
+            _targetImages[i].color = color;
+        }
+        for (int i = 0; i < _targetRawImages.Count; i++)
+        {
+            if (color != _targetRawImages[i].color)
+                _targetRawImages[i].color = color;
+        }
+
+
+
+    }
+
 
 }

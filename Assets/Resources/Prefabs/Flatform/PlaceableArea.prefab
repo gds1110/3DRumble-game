@@ -122,7 +122,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _owner: 0
-  materials:
-  - {fileID: 2100000, guid: f88a75f0dede40742b4bb7cc57193c7c, type: 2}
-  - {fileID: 2100000, guid: 91bbb1e4c947f3b44a0f9be88b4c4207, type: 2}
-  - {fileID: 2100000, guid: c7378d762e072714f94c2d55ee4808c5, type: 2}
+  _placeMaterials: {fileID: 11400000, guid: f7110290b7d5d4545b10c0eef182dde1, type: 2}

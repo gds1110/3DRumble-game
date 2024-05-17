@@ -23,7 +23,7 @@ public class MeeleBullet : Projectile
         rb.isKinematic = true;
     }
 
-    public override void SetProjectileInfo(Transform target, int damage, UnitController byUnit, Attack byAttack, bool isFollow = true)
+    public override void SetProjectileInfo(Transform target, int damage, Controller byUnit, Attack byAttack, bool isFollow = true)
     {
         _target = target;
         _damage = damage;
@@ -56,9 +56,10 @@ public class MeeleBullet : Projectile
                 Poolable poolable = Managers.Pool.PopAutoPush(_hitEffect, _owner.gameObject.transform);
                 poolable.transform.position = transform.position + (transform.forward * 1.5f)+(transform.up*1.5f);
             }
-            UnitController unit = _target.GetComponent<UnitController>();
-            if (unit)
-                unit.TakeDamage(_damage, _owner);
+
+            IDamageAble damageAble = _target.GetComponent<IDamageAble>();
+            if (damageAble!=null)
+                damageAble.TakeDamage(_damage, _owner);
             if (_isSplash == true)
             {
                 SplashDamage(other);

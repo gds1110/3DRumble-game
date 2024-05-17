@@ -39,12 +39,13 @@ public class ArangeAttack : Attack
     }
     public override void DoAttack(GameObject target)
     {
-        ArangeBullet projectile = Managers.Pool.Pop(_bullet.gameObject, gameObject.transform).GetComponent<ArangeBullet>();
+        ArangeBullet projectile = Managers.Pool.Pop(_bullet.gameObject).GetComponent<ArangeBullet>();
 
         if (projectile)
         {
             projectile.transform.position = _Barrel.position;
             projectile.SetProjectileInfo(target.transform,_damage, _owner,this);
+          //  projectile.GetComponent<Rigidbody>().AddForce(_Barrel.forward * 100f);
         }
 
     }

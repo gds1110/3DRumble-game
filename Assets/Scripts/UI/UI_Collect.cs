@@ -15,12 +15,12 @@ public class UI_Collect : UI_Scene
 {
     enum CollectCardSlot
     {
-        Slot1, Slot2, Slot3, Slot4, Slot5, Slot6, Slot7, Slot8,
+        Slot1, Slot2, Slot3, Slot4, Slot5, Slot6, Slot7, Slot8,Slot9,Slot10,Slot11,Slot12,Slot13,Slot14,Slot15,Slot16,
         
     }
     enum HorizontalSlot
     {
-        MyCard1, MyCard2, MyCard3, MyCard4, MyCard5,
+        MyCard1, MyCard2, MyCard3, MyCard4, MyCard5, MyCard6, MyCard7
     }
    enum Btns
     {
@@ -160,8 +160,8 @@ public class UI_Collect : UI_Scene
                 _showColletDatas.Add(data);
             }
         }
-
-        _maxPageNum = (int)Mathf.Floor((_showColletDatas.Count - 1) / 8);
+        int CollectCardNum = Enum.GetValues(typeof(CollectCardSlot)).Length;
+        _maxPageNum = (int)Mathf.Floor((_showColletDatas.Count - 1) / CollectCardNum);
         _currentPage = 0;
 
         ShowCardCollection();
@@ -173,7 +173,8 @@ public class UI_Collect : UI_Scene
         {
             return;
         }
-        int i = _currentPage * 8;
+        int CollectCardNum = Enum.GetValues(typeof(CollectCardSlot)).Length;
+        int i = _currentPage * CollectCardNum;
         foreach(UI_Card card in _slots)
         {
 
@@ -261,7 +262,7 @@ public class UI_Collect : UI_Scene
         PlayerDeck deck = new PlayerDeck();
         for(int i=0;i< _playerSlots.Count;i++)
         {
-            deck.unitDatas[i] = _playerSlots[i].UnitData;
+            deck.unitDatas.Add(_playerSlots[i].UnitData);
         }
         AssetDatabase.CreateAsset(deck, "Assets/Resources/DeckSo.asset");
     }
@@ -271,7 +272,7 @@ public class UI_Collect : UI_Scene
         PlayerDeck deck = Resources.Load("DeckSo", typeof(ScriptableObject)) as PlayerDeck;
         if (deck)
         {
-            for (int i = 0; i < deck.unitDatas.Length; i++)
+            for (int i = 0; i < deck.unitDatas.Count; i++)
             {
                 _playerSlots[i].UnitData = deck.unitDatas[i];
 
