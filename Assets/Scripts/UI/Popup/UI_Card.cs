@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using static Define;
 
 public class UI_Card : UI_Popup
 {
@@ -23,6 +25,8 @@ public class UI_Card : UI_Popup
         BDamageText,
         BAttackSpdText,
         BSpdText,
+        BackBG,
+        FrontBG
     }
   
 
@@ -31,7 +35,7 @@ public class UI_Card : UI_Popup
 
     public Image _attackType;
     public Image _elementalType;
-    public RawImage _characterImg;
+    public Image _characterImg;
 
 
     public TMP_Text _bName;
@@ -45,13 +49,59 @@ public class UI_Card : UI_Popup
     public TMP_Text _bAttackSpd;
     public TMP_Text _bSpd;
 
+    [SerializeField]
+   public Color _selectColor;
+    [SerializeField]
+    public Color _unableColor;
+    [SerializeField]
+    public Color _ableColor;
 
+    [SerializeField]
+    List<Image> _targetImages = new List<Image>();
+    [SerializeField]
+    List<RawImage> _targetRawImages = new List<RawImage>();
 
     [SerializeField]
     UnitData _unitData;
     [SerializeField]
     CardImages _CardImageSO;
-UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
+
+    GameObject _fg, _bg;
+    bool _isFront;
+    public bool _isFlipping;
+
+    public bool _isSelected = false;
+    public bool _isActive = false;
+    public Define.CardState _cardSate = CardState.Active;
+
+    public UnitData UnitData
+    { 
+        get
+        {
+            return _unitData; 
+        }
+
+        set
+        { 
+         _unitData = value;
+         SetCardInfo();
+        }
+    }
+    public void FlipCard()
+    {
+        if(_isFront)
+        {
+            _fg.SetActive(false);
+            _bg.SetActive(true);
+        }
+        else
+        {
+            _fg.SetActive(true);
+            _bg.SetActive(false);
+        }
+        _isFront=!_isFront;
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -62,7 +112,7 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
         _cost = Get<GameObject>((int)GameObjects.CostText).GetComponent<TMP_Text>();
         _attackType= Get<GameObject>((int)GameObjects.AttackTypeImg).GetComponent<Image>();
         _elementalType = Get<GameObject>((int)GameObjects.ElementalTypeImg).GetComponent<Image>();
-        _characterImg = Get<GameObject>((int)GameObjects.CharacterImg).GetComponent<RawImage>();
+        _characterImg = Get<GameObject>((int)GameObjects.CharacterImg).GetComponent<Image>();
         _bName = Get<GameObject>((int)GameObjects.BackNameText).GetComponent<TMP_Text>();
         _bElemental = Get<GameObject>((int)GameObjects.BElementalText).GetComponent<TMP_Text>();
         _bMovemnet = Get<GameObject>((int)GameObjects.BMovementTypeText).GetComponent<TMP_Text>();
@@ -73,15 +123,20 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
         _bDamage = Get<GameObject>((int)GameObjects.BDamageText).GetComponent<TMP_Text>();
         _bAttackSpd = Get<GameObject>((int)GameObjects.BAttackSpdText).GetComponent<TMP_Text>();
         _bSpd = Get<GameObject>((int)GameObjects.BSpdText).GetComponent<TMP_Text>();
+        _fg = Get<GameObject>((int)GameObjects.FrontBG);
+        _bg = Get<GameObject>((int)GameObjects.BackBG);
         SetCardInfo();
+        _isFront = true;
+        _isFlipping = false;
+
     }
-    void SetCardInfo()
+    public void SetCardInfo()
     {
         if (_unitData != null)
         {
-            _name.text = _unitData.DisplayName;
+            _name.text = _unitData._displayName;
             _cost.text = _unitData.cost.ToString();
-            _characterImg.texture = _unitData.UnitPortrait;
+            _characterImg.sprite = _unitData.UnitPortrait;
             if (_CardImageSO != null)
             {
                 string belemental= "";
@@ -122,6 +177,7 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
 
                         break;
                 }
+                
                 string battacktype = "";
                 switch (_unitData._attackType)
                 {
@@ -139,6 +195,7 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
 
                         break;
                 }
+                
 
                 string bmovemnt = "";
                 string btargettype = "";
@@ -186,9 +243,10 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
                         break;
                 }
 
+                _attackType.enabled = true;
+                _elementalType.enabled = true;
 
-
-
+                _bName.text = _unitData._displayName;
                 _bElemental.text = "º”º∫ : "+ belemental;
                
                 _bMovemnet.text ="¿Ãµø≈∏¿‘ : "+bmovemnt;
@@ -205,10 +263,86 @@ UnitData UnitData { get { return _unitData; } set { _unitData = value; } }
 
 
         }
+        else
+        {
+            _name.text = "∫Û ΩΩ∑‘";
+            _bName.text = "∫Û ΩΩ∑‘";
+            _cost.text = "0";
+            _characterImg.sprite = _CardImageSO.DefaultImg;
+            _attackType.sprite = null;
+            _elementalType.sprite = null;
+            _attackType.enabled = false;
+            _elementalType.enabled = false;
+            _bElemental.text = "º”º∫ : ∫Û ΩΩ∑‘";
+
+            _bMovemnet.text = "¿Ãµø≈∏¿‘ : ∫Û ΩΩ∑‘";
+            _bAttackType.text = "∞¯∞›≈∏¿‘ : ∫Û ΩΩ∑‘";
+            _bTargetType.text = "≈∏∞Ÿ≈∏¿‘ : ∫Û ΩΩ∑‘";
+            _bTargetMovementType.text = "≈∏∞Ÿ¿Ãµø≈∏¿‘ : ∫Û ΩΩ∑‘";
+            _bLife.text = "√º∑¬ : 0";
+            _bDamage.text = "∞¯∞›∑¬ : 0";
+            _bAttackSpd.text = "∞¯∞›º”µµ : 0";
+            _bSpd.text = "¿Ãµøº”µµ : 0";
+        }
     }
-    // Update is called once per frame
-    void Update()
+
+    public void Refresh(int cost)
     {
-        
+        if (_unitData == null) return;
+        if (_cardSate == CardState.Selected) return;
+
+        if(_unitData.cost<=cost)
+        {
+            _cardSate = CardState.Active;
+            
+        }
+        else if(_unitData.cost>cost)
+        {
+            _cardSate = CardState.UnActive;
+        }
+        SetColor();
     }
+    public void IsSelect()
+    {
+        _cardSate = CardState.Selected;
+        SetColor();
+    }
+    public void UnSelect()
+    {
+        _cardSate = CardState.None;
+    }
+    public void SetColor()
+    {
+       
+        Color color = Color.white;
+
+        switch (_cardSate)
+        {
+            case CardState.Active:
+                color = _ableColor;
+                break;
+            case CardState.UnActive:
+                color = _unableColor;
+                break;
+            case CardState.Selected:
+                color = _selectColor;
+                break;
+        }
+       
+        for (int i = 0; i < _targetImages.Count; i++)
+        {
+           if(color != _targetImages[i].color)
+            _targetImages[i].color = color;
+        }
+        for (int i = 0; i < _targetRawImages.Count; i++)
+        {
+            if (color != _targetRawImages[i].color)
+                _targetRawImages[i].color = color;
+        }
+
+
+
+    }
+
+
 }

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ffe090b86207cf489760417313571e0, type: 3}
+  m_Name: PlaceableMats
+  m_EditorClassIdentifier: 
+  playerMaterial: {fileID: 2100000, guid: 91bbb1e4c947f3b44a0f9be88b4c4207, type: 2}
+  monsterMaterial: {fileID: 2100000, guid: c7378d762e072714f94c2d55ee4808c5, type: 2}
+  unkownMaterial: {fileID: 2100000, guid: f88a75f0dede40742b4bb7cc57193c7c, type: 2}
+  ableMaterial: {fileID: 2100000, guid: 91bbb1e4c947f3b44a0f9be88b4c4207, type: 2}
+  unableMaterial: {fileID: 2100000, guid: c7378d762e072714f94c2d55ee4808c5, type: 2}

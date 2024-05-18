@@ -23,7 +23,7 @@ public class MeeleBullet : Projectile
         rb.isKinematic = true;
     }
 
-    public override void SetProjectileInfo(Transform target, int damage, UnitController byUnit, Attack byAttack, bool isFollow = true)
+    public override void SetProjectileInfo(Transform target, int damage, Controller byUnit, Attack byAttack, bool isFollow = true)
     {
         _target = target;
         _damage = damage;
@@ -34,6 +34,7 @@ public class MeeleBullet : Projectile
         _bulletColider.enabled = true;
 
         //StartCoroutine(MeeleOnOf());
+        OnTarget();
     }
     IEnumerator MeeleOnOf()
     {
@@ -41,34 +42,54 @@ public class MeeleBullet : Projectile
         yield return new WaitForSeconds(3f);
         _bulletColider.enabled = false;
     }
-
-    private void OnTriggerEnter(Collider other)
+    void OnTarget()
     {
-        if(other==_owner.GetComponent<Collider>())
-        {
-            return;
-        }
-
-        if (other.gameObject.transform == _target)
-        {
-            if (_hitEffect)
-            {
-                Poolable poolable = Managers.Pool.PopAutoPush(_hitEffect, _owner.gameObject.transform);
-                poolable.transform.position = transform.position + (transform.forward * 1.5f)+(transform.up*1.5f);
-            }
-            UnitController unit = _target.GetComponent<UnitController>();
-            if (unit)
-                unit.TakeDamage(_damage, _owner);
-            if (_isSplash == true)
-            {
-                SplashDamage(other);
-            }
-            _bulletColider.enabled = false;
-
-        }
-      
+        OnEffect();
+        _target.GetComponent<IDamageAble>().damagedDelegate.Invoke(_damage, _owner);
     }
-   
+
+    void OnEffect()
+    {
+        if (_hitEffect)
+        {
+            Poolable poolable = Managers.Pool.PopAutoPush(_hitEffect);
+            poolable.transform.position = transform.position;
+            //poolable.transform.position = _target.position + _target.transform.up * 1;
+
+        }
+    }
+
+
+
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if(other==_owner.GetComponent<Collider>())
+    //    {
+    //        return;
+    //    }
+
+    //    if (other.gameObject.transform == _target)
+    //    {
+    //        if (_hitEffect)
+    //        {
+    //            Poolable poolable = Managers.Pool.PopAutoPush(_hitEffect, _owner.gameObject.transform);
+    //            poolable.transform.position = transform.position + (transform.forward * 1.5f)+(transform.up*1.5f);
+    //        }
+
+    //        IDamageAble damageAble = _target.GetComponent<IDamageAble>();
+    //        if (damageAble!=null)
+    //            damageAble.TakeDamage(_damage, _owner);
+    //        if (_isSplash == true)
+    //        {
+    //            SplashDamage(other);
+    //        }
+    //        _bulletColider.enabled = false;
+
+    //    }
+
+    //}
+
 
     public override void Clear()
     {

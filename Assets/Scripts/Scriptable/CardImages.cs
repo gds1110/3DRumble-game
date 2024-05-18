@@ -18,4 +18,7 @@ public class CardImages : ScriptableObject
     public Sprite Meele;
     public Sprite Arange;
     public Sprite Both;
+
+    public Sprite DefaultImg;
+    public Sprite DefaultMiniImg;
 }

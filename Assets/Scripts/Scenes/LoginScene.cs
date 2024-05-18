@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
 public class LoginScene : BaseScene
 {
+
+   
     protected override void Init()
     {
         base.Init();
 
         SceneType = Define.Scene.Login;
-
 
     }
 
@@ -24,6 +26,10 @@ public class LoginScene : BaseScene
 
 
         Init();
+        
+      //var t =   Managers.UI.ShowPopupUI<UI_MsgPopup>("MsgPopup");
+      //  t.Init();
+      //   t.SetText("Test Message");
     }
     private void Update()
     {

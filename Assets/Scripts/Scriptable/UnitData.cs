@@ -1,16 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName ="Unit Data",menuName ="Scriptable Object/UnitData",order =int.MaxValue)]
+[Serializable]
 public class UnitData : ScriptableObject
 {
     [Header("Common")]
-    public string Name;
-    public string DisplayName;
+    public string _name;
+    public string _displayName;
     public GameObject FriendlyUnit; // 快龋利牢
     public GameObject HostileUnit; // 利措利牢
-    public Texture2D UnitPortrait;
+    public GameObject PlaceGhost;
+    public Sprite UnitPortrait;
     public int cost;
     [Header("Unit")]
     public Define.AttackType _attackType = Define.AttackType.Meele;
@@ -29,4 +32,6 @@ public class UnitData : ScriptableObject
     public int _defense = 10;
     public bool _isSplitAttackAnim = false;
     public float _attackTiming = 0.2f;
+    public bool _isUnbreakable = false;
+
 }

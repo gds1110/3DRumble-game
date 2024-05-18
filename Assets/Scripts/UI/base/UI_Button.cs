@@ -50,7 +50,7 @@ public class UI_Button : UI_Popup
         //BindEvent(go, (PointerEventData data) => { go.transform.position = data.position; }, Define.UIEvent.Drag);
 
 
-        GetButton((int)Buttons.PointButton).gameObject.BindEvent(OnButtonClicked);
+        //GetButton((int)Buttons.PointButton).gameObject.BindEvent(OnButtonClicked);
     }
 
     int _score = 0;

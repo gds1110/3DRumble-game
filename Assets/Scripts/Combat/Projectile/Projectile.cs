@@ -8,9 +8,10 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    [SerializeField]
     protected Transform _target;
     protected int _damage;
-    public UnitController _owner;
+    public Controller _owner;
     protected Define.UnitElementalType _type;
     protected Rigidbody _rb;
     public bool _isSplash;
@@ -27,7 +28,7 @@ public class Projectile : MonoBehaviour
     }
 
 
-    public virtual void SetProjectileInfo(Transform target, int damage, UnitController byUnit, Attack byAttack, bool isFollow = true) { }
+    public virtual void SetProjectileInfo(Transform target, int damage, Controller byUnit, Attack byAttack, bool isFollow = true) { }
    
 
    public virtual void Clear()
@@ -36,6 +37,13 @@ public class Projectile : MonoBehaviour
         _target = null;
         _hitEffect = null;
     }
+
+    public virtual void DamageToTarget(IDamageAble target,float damage,Controller fromUnit)
+    {
+        target.damagedDelegate.Invoke((int)damage, fromUnit); 
+       
+    }
+
     public virtual void SplashDamage(Collider other)
     {
         int splashNum = 0;
@@ -47,11 +55,14 @@ public class Projectile : MonoBehaviour
             {
                 continue;
             }
-
+            IDamageAble damageAble = hitCols[i].GetComponent<IDamageAble>();
+          
             UnitController targetUnit = hitCols[i].GetComponent<UnitController>();
             if (targetUnit && _owner.CheckCanAttackType(targetUnit._unit))
             {
-                targetUnit.TakeDamage((int)(_damage * 0.5f), _owner);
+                if (damageAble != null)
+                    damageAble.damagedDelegate.Invoke((int)(_damage * 0.5f), _owner);
+            
                 if (_hitEffect)
                 {
                     Poolable poolable = Managers.Pool.PopAutoPush(_hitEffect, _owner.transform);

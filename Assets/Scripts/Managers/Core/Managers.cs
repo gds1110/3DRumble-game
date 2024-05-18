@@ -31,6 +31,10 @@ public class Managers : MonoBehaviour
     public static SoundManager Sound { get { return Instance._sound; } }
 
     public static PoolManager Pool { get { return Instance._pool; } }
+
+    [SerializeField]
+    public HashSet<Controller> allUnits = new HashSet<Controller>();
+
     #endregion
     // Start is called before the first frame update
     void Start()
@@ -43,7 +47,7 @@ public class Managers : MonoBehaviour
     void Update()
     {
         _input.OnUpdate();
-        
+       
     }
 
     static void Init()

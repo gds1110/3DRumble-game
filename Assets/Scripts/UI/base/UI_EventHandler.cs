@@ -8,17 +8,27 @@ public class UI_EventHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 {
 
     public  Action<PointerEventData> OnBeginDragHandler = null;
-    public  Action<PointerEventData> OnClickHandler = null;
+    public  Action<PointerEventData> OnLeftClickHandler = null;
+    public  Action<PointerEventData> OnRightClickHandler = null;
     public  Action<PointerEventData> OnDragHandler = null;
 
 
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (OnClickHandler != null)
+        //if (OnClickHandler != null)
+        //{
+        //    OnClickHandler.Invoke(eventData);
+        //}
+        if(eventData.button==PointerEventData.InputButton.Left)
         {
-            OnClickHandler.Invoke(eventData);
+            OnLeftClickHandler?.Invoke(eventData);
         }
+        else if(eventData.button== PointerEventData.InputButton.Right)
+        {
+            OnRightClickHandler?.Invoke(eventData);
+        }
+
     }
 
     public void OnBeginDrag(PointerEventData eventData)

@@ -911,16 +911,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3500964662399934306}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 61.405502, y: -0.0000009536743, z: -4.0722513}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 58173331433198300}
   - {fileID: 2229860336096493096}
   - {fileID: 715631451010147048}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &8728831374960257450
 Animator:
   serializedVersion: 7
@@ -955,7 +955,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 933f887d697144f4abb5f1e6eb76e642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitData: {fileID: 11400000, guid: 5425c4c497f880047b8b8abab59cb2ac, type: 2}
   _attackType: 0
   _targetType: 0
   _unityType: 0
@@ -974,7 +973,10 @@ MonoBehaviour:
   _isSplitAttackAnim: 0
   _attackTiming: 0
   _currentLife: 0
-  _worldObject: 0
+  _isUnbreakable: 0
+  hpBar: {fileID: 0}
+  unitData: {fileID: 11400000, guid: 5425c4c497f880047b8b8abab59cb2ac, type: 2}
+  _owner: 0
   _controller: {fileID: 0}
 --- !u!54 &265971314527778914
 Rigidbody:
@@ -1001,7 +1003,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 32
   m_CollisionDetection: 0
 --- !u!136 &6617532405365282981
 CapsuleCollider:
@@ -1060,16 +1062,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee152bf0dd3d99a4fb43e519f46a6b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 2
   _unit: {fileID: 0}
   _target: {fileID: 0}
+  _meeleAttack: {fileID: 0}
+  _arangeAttack: {fileID: 0}
+  _isDelay: 0
+  _owner: 0
+  _otherConquerAble: {fileID: 0}
+  _interactZone: {fileID: 0}
+  isChange: 0
+  _state: 2
+  _channelingTime: 0
   _scanRange: 10
   _barrel: {fileID: 0}
   _isPlaced: 0
-  _isDelay: 0
   _destPos: {fileID: 0}
-  _meeleAttack: {fileID: 0}
-  _arangeAttack: {fileID: 0}
 --- !u!1 &3552254104699711425
 GameObject:
   m_ObjectHideFlags: 0

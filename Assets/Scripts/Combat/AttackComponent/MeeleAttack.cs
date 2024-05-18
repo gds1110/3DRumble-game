@@ -16,7 +16,6 @@ public class MeeleAttack : Attack
         {
             string hitEffectName = _owner._unit._name + "HE";
             _hitEffect = Managers.Resource.Load<GameObject>("Prefabs/HitEffect/" + hitEffectName);
-            Debug.Log(hitEffectName);
         }
         if(_hitEffect==null)
         {

@@ -8,7 +8,8 @@ public class Define
     {
         Unknown,
         Player,
-        Monster
+        Monster,
+        None
     }
 
     public enum Layer
@@ -30,12 +31,14 @@ public class Define
         Login,
         Lobby,
         Game,
+        Deck,
         EndingScene
 
     }
     public enum UIEvent
     {
-        Click,
+        LeftClick,
+        RightClick,
         Drag,
     }
 
@@ -80,7 +83,8 @@ public class Define
         Die,
         Moving,
         Idle,
-        Attack
+        Attack,
+        Channeling
     }
     public enum UnitGrade
     {
@@ -97,6 +101,19 @@ public class Define
         Wind,
         Dark,
         Light,
-        Normal
+        Normal,
+        All
+    }
+    public enum Chanelling
+    {
+        Conquer,
+    }
+
+    public enum CardState
+    {
+        Active,
+        UnActive,
+        Selected,
+        None,
     }
 }

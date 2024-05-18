@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dfc09c89d1ed24f8cb28dcaa5b92e0, type: 3}
+  m_Name: Weeper
+  m_EditorClassIdentifier: 
+  _name: Weeper
+  _displayName: "\uC720\uB839"
+  FriendlyUnit: {fileID: 1585952231164010437, guid: 05e48f14efe9d06408ee09fd2669b922, type: 3}
+  HostileUnit: {fileID: 1585952231164010437, guid: 05e48f14efe9d06408ee09fd2669b922, type: 3}
+  PlaceGhost: {fileID: 919132149155446097, guid: ee7a3e3e7834a4209b5deb0d953485f5, type: 3}
+  UnitPortrait: {fileID: 21300000, guid: 53802e5131a252f4d9490f3eb5c18e99, type: 3}
+  cost: 3
+  _attackType: 1
+  _movementType: 1
+  _targetMovementType: 2
+  _targetType: 2
+  _UnitType: 0
+  _elementalType: 4
+  _attackRatio: 1.5
+  _attackRange: 25
+  _speed: 10
+  _scanRange: 25
+  _damage: 5
+  _life: 15
+  _defense: 1
+  _isSplitAttackAnim: 0
+  _attackTiming: 0.2
+  _isUnbreakable: 0
