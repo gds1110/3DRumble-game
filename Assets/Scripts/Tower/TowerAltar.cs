@@ -43,10 +43,10 @@ public class TowerAltar : MonoBehaviour
     public void GameEnd()
     {
         if (_owner == Define.WorldObject.Player)
-            Managers.Game.SetGameEnding(true);
+            Managers.Game.SetGameEnding(false);
         else
         {
-            Managers.Game.SetGameEnding(false);
+            Managers.Game.SetGameEnding(true);
 
         }
     }

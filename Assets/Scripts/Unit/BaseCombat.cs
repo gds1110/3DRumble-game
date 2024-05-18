@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+public interface IDamageAble
+{
+    void TakeDamage(int damage, Controller fromUnit);
+    TakeDamagedDelegate damagedDelegate { get; }
+}
+
+
+public delegate void TakeDamagedDelegate(int damage, Controller fromUnit);
 public class BaseCombat : MonoBehaviour
 {
     public Define.AttackType _attackType;
@@ -29,6 +37,7 @@ public class BaseCombat : MonoBehaviour
 
     public UnityEvent DeadAction;
 
+    public TakeDamagedDelegate _damageDelegate;
     public virtual void OnDeath()
     {
         Managers.Game.Despawn(this.gameObject);

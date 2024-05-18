@@ -4,10 +4,9 @@ using UnityEngine;
 using UnityEngine.Events;
 using static UnityEngine.GraphicsBuffer;
 
-
-public interface IDamageAble
+public class DamageInfo
 {
-    void TakeDamage(int damage, Controller fromUnit);
+    Define.UnitElementalType elementalType;
 
 }
 
@@ -22,7 +21,6 @@ public interface IConquerAble
     void EndConquer(Controller fromUnit);
 }
 
-
 public class Unit : BaseCombat, IDamageAble
 {
 
@@ -31,6 +29,11 @@ public class Unit : BaseCombat, IDamageAble
     public Define.WorldObject _owner;
 
     public UnitController _controller;
+
+    public TakeDamagedDelegate damagedDelegate
+    {
+        get { return _damageDelegate; }
+    }
 
     public void SetData()
     {
@@ -58,6 +61,7 @@ public class Unit : BaseCombat, IDamageAble
 
     public void TakeDamage(int damage, Controller fromUnit)
     {
+        if(fromUnit == null) { return; }
         if (damage < 0)
         {
             damage = 1;
@@ -101,6 +105,8 @@ public class Unit : BaseCombat, IDamageAble
             TeamMark mark = hpBar.GetComponent<TeamMark>();
             if(mark != null) { mark.SetMarkColor(_owner); }
         }
+        _damageDelegate += TakeDamage;
+
 
     }
     private void Awake()

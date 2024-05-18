@@ -13,7 +13,14 @@ public class TowerMidHub : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<TowerController>().ConquerEvent.AddListener(SetMat);
+        // GetComponent<TowerController>().ConquerEvent.AddListener(SetMat);
+        var interact = GetComponentInChildren<InteractZone>();
+        if(interact != null)
+        {
+            interact.ConquerEvent.AddListener(SetMat);
+            Debug.Log("Connect interact");
+
+        }
 
     }
 

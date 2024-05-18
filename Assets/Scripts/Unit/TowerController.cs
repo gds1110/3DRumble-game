@@ -33,7 +33,7 @@ public class TowerController : Controller,IConquerAble
 
     }
     public bool _isAttackTower = false;
-    public UnityEvent<Define.WorldObject> ConquerEvent;
+    //public UnityEvent<Define.WorldObject> ConquerEvent;
 
     private void Awake()
     {
@@ -243,7 +243,7 @@ public class TowerController : Controller,IConquerAble
     public void EndConquer(Controller fromUnit)
     {
         _owner = _interactZone._owner;
-        ConquerEvent?.Invoke(fromUnit._owner);
+        //ConquerEvent?.Invoke(fromUnit._owner);
         _target = null;
         Debug.Log("EndConquer!!");
     }

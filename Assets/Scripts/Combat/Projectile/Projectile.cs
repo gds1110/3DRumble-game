@@ -37,6 +37,13 @@ public class Projectile : MonoBehaviour
         _target = null;
         _hitEffect = null;
     }
+
+    public virtual void DamageToTarget(IDamageAble target,float damage,Controller fromUnit)
+    {
+        target.damagedDelegate.Invoke((int)damage, fromUnit); 
+       
+    }
+
     public virtual void SplashDamage(Collider other)
     {
         int splashNum = 0;
@@ -54,7 +61,7 @@ public class Projectile : MonoBehaviour
             if (targetUnit && _owner.CheckCanAttackType(targetUnit._unit))
             {
                 if (damageAble != null)
-                    damageAble.TakeDamage((int)(_damage * 0.5f), _owner);
+                    damageAble.damagedDelegate.Invoke((int)(_damage * 0.5f), _owner);
             
                 if (_hitEffect)
                 {

@@ -214,6 +214,7 @@ public class UnitController : Controller, IConquerAble
                 Vector3 direction = _target.transform.position - transform.position;
                 Quaternion targetRot = Quaternion.LookRotation(direction);
                 gameObject.transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, 10 * Time.deltaTime);
+                _nav.isStopped = true;
 
                 if (_isDelay == false)
                 {
@@ -225,6 +226,7 @@ public class UnitController : Controller, IConquerAble
             }
             else
             {
+                _nav.isStopped = false;
                 _nav.SetDestination(_target.transform.position);
             }
         }

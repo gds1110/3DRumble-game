@@ -20,7 +20,13 @@ public class PlaceableZone : MonoBehaviour
         Managers.Game.OffPlaceEvent += OffPlace;
         if (GetComponentInParent<TowerController>())
         {
-            GetComponentInParent<TowerController>().ConquerEvent.AddListener(SetOwner);
+            // GetComponentInParent<TowerController>().ConquerEvent.AddListener(SetOwner);
+            var interact = GetComponentInParent<TowerController>().GetComponentInChildren<InteractZone>();
+            if(interact != null)
+            {
+                interact.ConquerEvent.AddListener(SetOwner);
+                Debug.Log("Connect interact");
+            }
         }
         Managers.Game.allPlaceZone.Add(this);
 

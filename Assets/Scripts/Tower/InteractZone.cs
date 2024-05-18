@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class InteractZone : UI_Base
@@ -18,6 +19,7 @@ public class InteractZone : UI_Base
     float _currentConquerTime = 0;
     public Controller _conquerUnit;
     public TowerController _ownerTower;
+    public UnityEvent<Define.WorldObject> ConquerEvent;
 
 
     Slider _conquerSlider;
@@ -139,6 +141,7 @@ public class InteractZone : UI_Base
         controller.GetComponent<IConquerAble>().EndConquer(_ownerTower);
         _ownerTower.EndConquer(controller);
         _isConquering = false;
+        ConquerEvent?.Invoke(_owner);
         if(_owner!=Define.WorldObject.Unknown||_owner!=Define.WorldObject.None) _isConquered = true;
         else { _isConquered = false; }
     }
@@ -148,7 +151,7 @@ public class InteractZone : UI_Base
         _currentConquerTime += Time.deltaTime;
         if(_currentConquerTime > _conquerTime)
         {
-            if(_owner==Define.WorldObject.Unknown)
+            if(_owner==Define.WorldObject.Unknown||_owner==Define.WorldObject.None)
             {
                 _owner = controller._owner;
                 _ownerTower.gameObject.tag = controller.tag;

@@ -11,6 +11,10 @@ public class Tower : BaseCombat, IDamageAble
     public Define.WorldObject _worldObject;
 
     public TowerController _controller;
+    public TakeDamagedDelegate damagedDelegate
+    {
+        get { return _damageDelegate; }
+    }
 
     public void SetData()
     {
@@ -43,6 +47,7 @@ public class Tower : BaseCombat, IDamageAble
             hpBar = Managers.UI.MakeWorldSpaceUI<UI_HPBar>(transform, "UI_HPBar");
             hpBar.Init();
         }
+        _damageDelegate += TakeDamage;
     }
 
 

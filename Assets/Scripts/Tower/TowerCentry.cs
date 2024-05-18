@@ -17,7 +17,14 @@ public class TowerCentry : MonoBehaviour
     private void Start()
     {
         GetComponent<Tower>().DeadAction.AddListener(OnDead);
-        GetComponent<TowerController>().ConquerEvent.AddListener(SetMat);
+        // GetComponent<TowerController>().ConquerEvent.AddListener(SetMat);
+        var interact = GetComponentInChildren<InteractZone>();
+        if (interact != null)
+        {
+            interact.ConquerEvent.AddListener(SetMat);
+            Debug.Log("Connect interact");
+
+        }
     }
     public void OnDead()
     {
