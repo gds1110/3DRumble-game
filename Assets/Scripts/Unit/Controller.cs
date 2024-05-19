@@ -72,6 +72,7 @@ public class Controller : MonoBehaviour
     {
         _isDelay = true;
         yield return new WaitForSeconds(delay);
+
         _isDelay = false;
     }
 }

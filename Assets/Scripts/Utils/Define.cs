@@ -32,7 +32,8 @@ public class Define
         Lobby,
         Game,
         Deck,
-        EndingScene
+        EndingScene,
+        
 
     }
     public enum UIEvent

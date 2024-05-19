@@ -132,7 +132,8 @@ public class UnitController : Controller, IConquerAble
         _otherConquerAble = null;
         Rigidbody rb = GetComponent<Rigidbody>();
         rb.isKinematic = true;
-        _nav.isStopped = true;
+        _nav.speed=0;
+        _nav.angularSpeed = 0;
         _isPlaced = false;
     }
     public void OnPlace()
@@ -183,12 +184,26 @@ public class UnitController : Controller, IConquerAble
     }
     void UpdateMoving()
     {
+        if(_nav.isStopped==true)
+        {
+            _nav.isStopped = false;
+        }
+
         if(_target|| CheckInScanArange())
         {
           
                 _nav.SetDestination(_target.transform.position);
+            if(CheckInArange())
                 State = Define.State.Attack;
             
+        }
+        else if(!_target)
+        {
+            _nav.SetDestination(_destPos.transform.position);
+        }
+        else
+        {
+            MustFindTarget();
         }
 
     }
@@ -220,14 +235,22 @@ public class UnitController : Controller, IConquerAble
                 {
                     _nav.SetDestination(transform.position);
                     SplitAnimAttack();
-                    _anim.SetTrigger(_attackTrigger);
+
+                    _isDelay = true;
+
                     StartCoroutine(CoAttackDelay(_unit._attackDelay));
+                    if (_target!=null)
+                    {
+                        Debug.Log($"Attack Trriger : {_target.name}");
+                        _anim.SetTrigger(_attackTrigger);
+                    }
                 }
             }
             else
             {
-                _nav.isStopped = false;
+             
                 _nav.SetDestination(_target.transform.position);
+                State = Define.State.Moving;
             }
         }
         else
@@ -326,10 +349,13 @@ public class UnitController : Controller, IConquerAble
 
     public void AttackToTarget()
     {
+       // _anim.ResetTrigger("_attackTrigger");
 
         if (_target == null)
 
         {
+            _anim.StopPlayback();
+            State = Define.State.Moving;
             return;
 
         }
@@ -373,6 +399,7 @@ public class UnitController : Controller, IConquerAble
     public void MustFindTarget()
     {
         if (State == Define.State.Attack) return;
+        if (_target!=null) return;
         float closestDistance = Mathf.Infinity;
         HashSet<Controller> tempH = Managers.Game.allUnits;
         GameObject tempTarget = null;
@@ -397,6 +424,8 @@ public class UnitController : Controller, IConquerAble
         State = Define.State.Moving;
 
     }
+   
+
    public bool CheckInArange()
     {
         return (transform.position-_target.transform.position).sqrMagnitude<=_unit._attackRange*_unit._attackRange;

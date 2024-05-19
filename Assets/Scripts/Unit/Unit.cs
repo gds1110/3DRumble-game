@@ -91,6 +91,13 @@ public class Unit : BaseCombat, IDamageAble
 
         if (_currentLife <= 0)
         {
+            if(fromUnit)
+            {
+                if(fromUnit._target==_controller)
+                {
+                    fromUnit._target = null;
+                }
+            }
             DeadAction?.Invoke();
             Invoke("OnDeath",0.5f);
         }

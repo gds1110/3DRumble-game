@@ -39,6 +39,11 @@ public class TowerAltar : MonoBehaviour
            
         }
       GetComponent<Tower>().DeadAction.AddListener(GameEnd);
+        if(!Managers.Game.allUnits.Contains(GetComponent<Controller>()) )
+        {
+            Managers.Game.allUnits.Add(GetComponent<Controller>());
+
+        }
     }
     public void GameEnd()
     {

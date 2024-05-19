@@ -129,6 +129,21 @@ public class InteractZone : UI_Base
            }
         
     }
+    private void OnTriggerStay(Collider other)
+    {
+        if (_conquerUnit) return;
+        Controller controller = other.GetComponent<Controller>();
+        if (!controller) return;
+        if (controller._unit._movementType == Define.MovemnetType.Aerial) return;
+        if (controller._owner == _owner) return;
+        if (other.GetComponentInParent<IConquerAble>() != null)
+        {
+
+            _conquerUnit = controller;
+            other.GetComponent<IConquerAble>().StartConquer(_ownerTower);
+            StartConquer(other.GetComponent<Controller>());
+        }
+    }
 
 
     public void StopConquer()
@@ -138,12 +153,26 @@ public class InteractZone : UI_Base
     }
     public void EndConquer(Controller controller)
     {
-        controller.GetComponent<IConquerAble>().EndConquer(_ownerTower);
-        _ownerTower.EndConquer(controller);
-        _isConquering = false;
-        ConquerEvent?.Invoke(_owner);
-        if(_owner!=Define.WorldObject.Unknown||_owner!=Define.WorldObject.None) _isConquered = true;
-        else { _isConquered = false; }
+        if (controller._owner == _owner)
+        {
+
+            controller.GetComponent<IConquerAble>().EndConquer(_ownerTower);
+            _ownerTower.EndConquer(controller);
+            //_conquerUnit.GetComponent<IConquerAble>().EndConquer(_ownerTower);
+            _isConquering = false;
+            ConquerEvent?.Invoke(_owner);
+            if (_owner != Define.WorldObject.Unknown || _owner != Define.WorldObject.None) _isConquered = true;
+            else { _isConquered = false; }
+        }
+        else
+        {
+            _conquerUnit = controller;
+            controller.GetComponent<IConquerAble>().StartConquer(_ownerTower);
+            ConquerEvent?.Invoke(_owner);
+
+            StartConquer(controller);
+
+        }
     }
     public void Conquering(Controller controller)
     {

@@ -195,4 +195,26 @@ public class GameManager
 
         return closeTransform;
     }
+    public TowerController MustGetTower(Controller go)
+    {
+        TowerController to = null;
+        float closDistance = 9999999999999f;
+        foreach (Controller co in allUnits)
+        {
+            if (!co.GetComponent<TowerController>()) { continue; }
+            if (!co.GetComponent<Tower>()._isUnbreakable) { continue; }
+            if (co.GetComponent<TowerController>()._owner == go._owner) { continue; }
+            float distance = Vector3.Distance(go.transform.position, co.transform.position);
+            if (distance < closDistance)
+            {
+                closDistance = distance;
+                to = co.GetComponent<TowerController>();
+            }
+
+        }
+
+
+        return to;
+
+    }
 }

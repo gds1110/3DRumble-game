@@ -95,6 +95,7 @@ public class UI_Collect : UI_Scene
         GetButton((int)Btns.LightTap)?.onClick.AddListener(delegate { ElementalTapButtonClick(Define.UnitElementalType.Light); });
         GetButton((int)Btns.NormalTap)?.onClick.AddListener(delegate { ElementalTapButtonClick(Define.UnitElementalType.Normal); });
         GetButton((int)Btns.Done)?.onClick.AddListener(SaveDeck);
+        GetButton((int)Btns.Exit)?.onClick.AddListener(Exit);
 
         for (int i=0;i<_slots.Count;i++)
         {
@@ -265,7 +266,14 @@ public class UI_Collect : UI_Scene
             deck.unitDatas.Add(_playerSlots[i].UnitData);
         }
         AssetDatabase.CreateAsset(deck, "Assets/Resources/DeckSo.asset");
+
+        Managers.Scene.LoadScene(Define.Scene.Login);
     }
+    public void Exit()
+    {
+        Managers.Scene.LoadScene(Define.Scene.Login);
+    }
+
     public void LoadDeck()
     {
 

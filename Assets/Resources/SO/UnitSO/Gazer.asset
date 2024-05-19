@@ -25,12 +25,13 @@ MonoBehaviour:
   _targetType: 2
   _UnitType: 0
   _elementalType: 4
-  _attackRatio: 1
-  _attackRange: 12
+  _attackRatio: 2
+  _attackRange: 25
   _speed: 5
-  _scanRange: 15
-  _damage: 40
+  _scanRange: 25
+  _damage: 5
   _life: 30
   _defense: 10
   _isSplitAttackAnim: 0
   _attackTiming: 0.2
+  _isUnbreakable: 0
